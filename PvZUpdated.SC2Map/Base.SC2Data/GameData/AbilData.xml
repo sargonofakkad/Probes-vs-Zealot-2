@@ -1,0 +1,4038 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CAbilMove default="1" id="CAbilMove2">
+        <OrderArray Color="255,35,125,255" Model="Assets\UI\Feedback\WayPointConfirm\WayPointConfirm.m3" LineTexture="Assets\Textures\WayPointLine.dds"/>
+    </CAbilMove>
+    <CAbilBehavior default="1" id="Salvage">
+        <BehaviorArray index="0" value="SalvageTechReactor"/>
+    </CAbilBehavior>
+    <CAbilBuild id="AutomatedMineLevel8">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <FlagArray index="Cancelable" value="0"/>
+        <FlagArray index="PeonMaintained" value="0"/>
+        <InfoArray index="Build1" Unit="AutomatedMine_15" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel8"/>
+        </InfoArray>
+        <RefundFraction>
+            <Resource index="Minerals" value="0"/>
+        </RefundFraction>
+        <EffectArray index="Start" value="Suicide"/>
+    </CAbilBuild>
+    <CAbilBuild id="Automatedmine">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <FlagArray index="Cancelable" value="0"/>
+        <FlagArray index="PeonMaintained" value="0"/>
+        <InfoArray index="Build1" Unit="AutomatedMine_00" Time="1">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel1"/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="AutomatedMine_03" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel2"/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="AutomatedMine_05" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel3"/>
+        </InfoArray>
+        <InfoArray index="Build4" Unit="AutomatedMine_07" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel4"/>
+        </InfoArray>
+        <InfoArray index="Build5" Unit="AutomatedMine_09" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel5"/>
+        </InfoArray>
+        <InfoArray index="Build6" Unit="AutomatedMine_11" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel6"/>
+        </InfoArray>
+        <InfoArray index="Build7" Unit="AutomatedMine_13" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel7"/>
+        </InfoArray>
+        <EffectArray index="Start" value="Suicide"/>
+    </CAbilBuild>
+    <CAbilTrain id="BarracksTrain">
+        <InfoArray index="Train4" Time="10">
+            <Button Requirements="MercenariesLimit"/>
+            <Unit index="0" value="DominionKillTeam"/>
+        </InfoArray>
+        <InfoArray index="Train5" Time="15">
+            <Button DefaultButtonFace="Goliath" Requirements="MercenariesLimit"/>
+            <Unit value="Goliath"/>
+        </InfoArray>
+        <InfoArray index="Train6">
+            <Button DefaultButtonFace="Archon" Requirements="MercenariesLimit"/>
+            <Unit value="Archon"/>
+        </InfoArray>
+        <InfoArray index="Train7" Time="35">
+            <Button DefaultButtonFace="Colossus" Requirements="MercenariesLimit"/>
+            <Unit value="Colossus"/>
+        </InfoArray>
+        <InfoArray index="Train8" Time="40">
+            <Button DefaultButtonFace="TrainStoneZealot" Requirements="MercenariesLimit"/>
+            <Unit value="StoneZealot"/>
+        </InfoArray>
+        <InfoArray index="Train9" Time="1">
+            <Button DefaultButtonFace="TrainTychusFindlay" Requirements="MercenariesLimit"/>
+            <Unit value="TychusChaingun"/>
+        </InfoArray>
+        <InfoArray index="Train10" Time="1">
+            <Button DefaultButtonFace="TrainGabrielTosh" Requirements="MercenariesLimit"/>
+            <Unit value="Tosh"/>
+        </InfoArray>
+        <InfoArray index="Train11" Time="1">
+            <Button DefaultButtonFace="TrainJimRaynor" Requirements="MercenariesLimit"/>
+            <Unit value="RaynorCommando"/>
+        </InfoArray>
+        <InfoArray index="Train12">
+            <Button DefaultButtonFace="Stalker" Requirements="MercenariesLimit"/>
+            <Unit value="Stalker"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilEffectTarget id="Blink"/>
+    <CAbilEffectTarget id="BlinkMercenaries">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Flags index="BestUnit" value="0"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Charge Link="Abil/Blink"/>
+            <Cooldown Link="Blink" TimeUse="30"/>
+        </Cost>
+        <Range value="500"/>
+        <Arc value="360"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Blink" Requirements="UseBlinkMercenaries">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="BuyMinerals">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <AutoCastFilters value="-;-"/>
+        <AINotifyEffect value=""/>
+        <EffectRange index="0" removed="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Buy10Minerals">
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+        <Cost>
+            <Resource index="Minerals" value="-10"/>
+            <Resource index="Vespene" value="155"/>
+            <Charge Location="Global"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="BuyMineralsBulk">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <AutoCastFilters value="-;-"/>
+        <AINotifyEffect value=""/>
+        <EffectRange index="0" removed="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Buy200Minerals">
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+        <Cost>
+            <Resource index="Minerals" value="-200"/>
+            <Resource index="Vespene" value="4050"/>
+            <Charge Location="Global"/>
+            <Cooldown Location="Player" TimeUse="1"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="BuyMineralsMegaBulk">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Resource index="Minerals" value="-4000"/>
+            <Resource index="Vespene" value="461000"/>
+            <Charge Location="Global"/>
+            <Cooldown Location="Player" TimeUse="1"/>
+        </Cost>
+        <AutoCastFilters value="-;-"/>
+        <AINotifyEffect value=""/>
+        <EffectRange index="0" removed="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Buy4000Minerals">
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="CalldownMULE">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="10"/>
+        </Cost>
+        <CmdButtonArray index="Execute" Requirements="UnderDevelopment"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="Cloak">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Cloak"/>
+        <Cost>
+            <Cooldown TimeUse="55"/>
+        </Cost>
+        <Flags index="Transient" value="1"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Cloakprobe">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Cloakprobe"/>
+        <Flags index="Transient" value="1"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="CloakProbe">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Charge Link="Abil/Cloakprobe"/>
+            <Cooldown Link="Abil/Cloakprobe" TimeUse="35"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Cloak2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="Corruption">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeStart="0" TimeUse="0"/>
+        </Cost>
+        <TargetFilters index="0" value="Heroic,Visible;Self,Ally,Neutral,Missile,Stasis,Dead,Invulnerable"/>
+        <UninterruptibleArray index="Channel" value="0"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="Destroy">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="SelfDestruct"/>
+        <RefundFraction Charge="0" Cooldown="0">
+            <Resource index="Minerals" value="1"/>
+            <Resource index="Vespene" value="1"/>
+        </RefundFraction>
+        <AutoCastFilters value="-;-"/>
+        <AINotifyEffect value=""/>
+        <EffectRange index="0" removed="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Salvage">
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="Disorient">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="DisorientEffect"/>
+        <Cost>
+            <Cooldown TimeUse="60"/>
+        </Cost>
+        <Range value="6"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Disorient"/>
+        <TargetFilters value="-;Player,Ally,Neutral"/>
+        <Flags index="AutoCast" value="1"/>
+        <AutoCastAcquireLevel value="Defensive"/>
+        <AutoCastFilters value="Heroic,Visible;Player,Ally,Neutral"/>
+        <AutoCastRange value="3"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="ElectricField">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ElectricField"/>
+        <Effect index="0" value="ElectricFieldSearch"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="FastLearn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="FastLearn"/>
+        <Flags index="Transient" value="1"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="ForceField">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="50"/>
+        </Cost>
+        <Range index="0" value="6"/>
+        <Arc value="360"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Frenzy">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+        </Cost>
+        <TargetFilters index="0" value="Visible;Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
+    <CAbilBehavior id="GhostCloak">
+        <TargetMessage value=""/>
+    </CAbilBehavior>
+    <CAbilEffectInstant id="CloseGate">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="5"/>
+        </Cost>
+        <TargetFilters value="-;Enemy"/>
+        <AutoCastFilters value="Visible;Enemy"/>
+        <AutoCastRange value="500"/>
+        <Marker Link="Abil/VampireSwapto9Model"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="GateClose"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="HunterSwaptoS20Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" Requirements="HunterRankS20"/>
+    </CAbilEffectInstant>
+    <CAbilInventory id="InventoryDummyForShop">
+        <OrderArray index="0" removed="1"/>
+        <TargetFilters value="Item;-"/>
+        <Range value="1"/>
+        <MaxDropRange value="1"/>
+        <InfoArray EmptyFace="FactoryButtonForShopInventory"/>
+    </CAbilInventory>
+    <CAbilMorph id="MorphToSpiritofVengence">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoSpiritofVengence" Requirements="HunterAllowed"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="CancelUpgradeMorph"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="IgnoreFacing" value="1"/>
+        <Flags index="IgnorePlacement" value="0"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <Flags index="SuppressMovement" value="1"/>
+        <InfoArray Score="1" Unit="ProbeSpiritofVengence">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="100"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Delay" value="100"/>
+            </SectionArray>
+            <SectionArray index="Mover">
+                <DurationArray index="Delay" value="100"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="100"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="MorphComplete"/>
+        <ProgressButton value="UpgradetoSpiritofVengence"/>
+        <Cost>
+            <Resource index="Terrazine" value="10"/>
+        </Cost>
+    </CAbilMorph>
+    <CAbilMorph id="MorphToSpiritofDeath">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoSpiritofDeath" Requirements="UnderDevelopment"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="CancelUpgradeMorph"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="IgnoreFacing" value="1"/>
+        <Flags index="IgnorePlacement" value="0"/>
+        <Flags index="IgnoreUnitCost" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <Flags index="SuppressMovement" value="1"/>
+        <InfoArray Score="1" Unit="ProbeSpiritofDeath">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="100"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Delay" value="100"/>
+            </SectionArray>
+            <SectionArray index="Mover">
+                <DurationArray index="Delay" value="100"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="100"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="MorphComplete"/>
+        <ProgressButton value="UpgradetoSpiritofVengence"/>
+        <Cost>
+            <Resource index="Terrazine" value="10"/>
+        </Cost>
+    </CAbilMorph>
+    <CAbilEffectTarget id="OracleRevelation">
+        <Cost index="0">
+            <Resource index="Terrazine" value="2"/>
+            <Vital index="Energy" value="50"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilBuild id="OracleStasisTrapBuild">
+        <InfoArray index="Build1">
+            <Resource index="Terrazine" value="3"/>
+            <Vital index="Energy" value="0"/>
+            <Button Requirements="StasisWardLimit"/>
+        </InfoArray>
+    </CAbilBuild>
+    <CAbilBehavior id="OracleWeapon">
+        <Cost index="0">
+            <Vital index="Energy" value="20"/>
+            <Cooldown TimeUse="10"/>
+        </Cost>
+    </CAbilBehavior>
+    <CAbilEffectInstant id="ProbeSwaptoS10Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS10Skin" Requirements="ProbeRankS10"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS50StructureSkin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" Requirements="ProbeRankS50"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS75Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS75SkinCarbot" Requirements="ProbeRankS75"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS25Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS25Skin" Requirements="ProbeRankS25"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS50Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS50SkinDragoon" Requirements="ProbeRankS50"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS1Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS1Skin" Requirements="ProbeRankS1"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS5Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS5Skin" Requirements="ProbeRankS5"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS20Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS20Skin" Requirements="ProbeRankS20"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS30Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS30Skin" Requirements="ProbeRankS30"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS40Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS40Skin" Requirements="ProbeRankS40"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS60Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS60Skin" Requirements="ProbeRankS60"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS70Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS70Skin" Requirements="ProbeRankS70"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS80Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS80Skin" Requirements="ProbeRankS80"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS90Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS90Skin" Requirements="ProbeRankS90"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSwaptoS100Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SwaptoRankS100Skin" Requirements="ProbeRankS100"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="PvZ2WeaponsFree">
+        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Effect index="0" value="GhostWeaponsFree"/>
+        <Flags index="Transient" value="1"/>
+        <AINotifyEffect value="GhostWeaponsFree"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="WeaponsFree" Requirements="PvZ2HoldingFire">
+            <Flags index="ShowInGlossary" value="0"/>
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilBehavior id="MercenaryCanDetect">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="On" DefaultButtonFace="Detector" Requirements="HaveDetector12"/>
+        <BehaviorArray value="Detector12"/>
+        <LearnButtonImage value="Assets\Textures\btn-status-detector.dds"/>
+    </CAbilBehavior>
+    <CAbilEffectInstant id="NinjaBonusOn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="5"/>
+        </Cost>
+        <TargetFilters value="-;Enemy"/>
+        <AutoCastFilters value="Visible;Enemy"/>
+        <AutoCastRange value="500"/>
+        <Marker Link="Abil/VampireSwapto9Model"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="NinjaBonusOn"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Sacrifice">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="5"/>
+        </Cost>
+        <TargetFilters value="-;Enemy"/>
+        <AutoCastFilters value="Visible;Enemy"/>
+        <AutoCastRange value="500"/>
+        <Marker Link="Abil/VampireSwapto9Model"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" Requirements="HaveWall17"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="HoldFire2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <AutoCastAcquireLevel value="None"/>
+        <AutoCastFilters value="Visible;-"/>
+        <AutoCastRange value="500"/>
+        <Marker Link="Abil/VampireSwapto9Model"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="MoveHoldPosition"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SelectShopAbility">
+        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Flags index="AllowMovement" value="1"/>
+        <TargetFilters value="-;Enemy"/>
+        <AutoCastFilters value="Visible;Enemy"/>
+        <AutoCastRange value="500"/>
+        <Marker Link="Abil/VampireSwapto1Model"/>
+        <AINotifyEffect value=""/>
+        <DefaultError value="CantBuildLocationInvalid"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SelectShop"/>
+    </CAbilEffectInstant>
+    <CAbilBehavior id="SalvageFinalTurret">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="On" DefaultButtonFace="Salvage"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <BehaviorArray value="SalvageTurretLevel132"/>
+    </CAbilBehavior>
+    <CAbilEffectInstant id="SellAllItems">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto1Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <Marker Link="Abil/VampireSwapto1Model"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SellAllItems"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SellMineralsMegaBulk">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Resource index="Minerals" value="4000"/>
+            <Resource index="Vespene" value="-5890"/>
+            <Charge Link="Abil/SellMineralsBulk" Location="Global"/>
+            <Cooldown Link="Abil/SellMineralsBulk" Location="Player" TimeUse="1"/>
+        </Cost>
+        <AutoCastFilters value="-;-"/>
+        <AINotifyEffect value=""/>
+        <EffectRange index="0" removed="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Sell4000Minerals">
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SpiritSwaptoS15Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SpiritSwaptoS15Skin" Requirements="SpiritRankS15"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SpiritSwaptoS25Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SpiritSwaptoS25Skin" Requirements="SpiritRankS25"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SpiritSwaptoS100Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SpiritSwaptoS100Skin" Requirements="SpiritRankS100"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SpiritSwaptoS50Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SpiritSwaptoS50Skin" Requirements="SpiritRankS50"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Swapto19Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <Marker Link="Abil/VampireSwapto14Model"/>
+        <AINotifyEffect value="VampireSwapto14Model"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="AlarakSkin"/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="SwaptoModel2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="SiegeTankSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research2" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="CarrionBirdSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research3" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="DogSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="SheepSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="KarakSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research6" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="CowSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="SoccerballSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research8" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="FootballSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research9" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="BasketballSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research10" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="BananaSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research11" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="AppleSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research12" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="PineappleSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research13" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="WatermelonSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research14" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="PenguinSkin" Requirements="ProbeSkinP"/>
+        </InfoArray>
+        <InfoArray index="Research15" Upgrade="SwaptoModel">
+            <Button DefaultButtonFace="SpiritSwaptoS1Skin" Requirements="SpiritRankS1"/>
+        </InfoArray>
+        <InfoArray index="Research16" Upgrade="SwaptoModel">
+            <Button DefaultButtonFace="SpiritSwaptoS15Skin" Requirements="SpiritRankS15"/>
+        </InfoArray>
+        <InfoArray index="Research17" Upgrade="SwaptoModel">
+            <Button DefaultButtonFace="SpiritSwaptoS25Skin" Requirements="SpiritRankS25"/>
+        </InfoArray>
+        <InfoArray index="Research18" Upgrade="SwaptoModel">
+            <Button DefaultButtonFace="SpiritSwaptoS50Skin" Requirements="SpiritRankS50"/>
+        </InfoArray>
+        <InfoArray index="Research19" Upgrade="SwaptoModel">
+            <Button DefaultButtonFace="SpiritSwaptoS100Skin" Requirements="SpiritRankS100"/>
+        </InfoArray>
+        <Flags index="Transient" value="1"/>
+    </CAbilResearch>
+    <CAbilEffectInstant id="StealthyStrikes">
+        <Name value="Stealthy Strikes"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Charge CountMax="3" CountStart="3" CountUse="1"/>
+            <Cooldown TimeUse="30"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="CloakOnGhost"/>
+        <TargetMessage value=""/>
+    </CAbilEffectInstant>
+    <CAbilBehavior id="HighSpeed">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="On" DefaultButtonFace="HighSpeed"/>
+        <BehaviorArray value="HighSpeed"/>
+    </CAbilBehavior>
+    <CAbilResearch id="MercenaryCenter">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Time="10" Upgrade="MovementSpeedLevel1">
+            <Resource index="Minerals" value="250000"/>
+            <Resource index="Vespene" value="1000000"/>
+            <Button DefaultButtonFace="UpgradeMovementSpeedLevel1" Requirements="LearnMovementSpeedLevel1"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="10" Upgrade="MovementSpeedLevel2">
+            <Resource index="Minerals" value="1000000"/>
+            <Resource index="Vespene" value="5000000"/>
+            <Button DefaultButtonFace="UpgradeMovementSpeedLevel2" Requirements="LearnMovementSpeedLevel2"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="10" Upgrade="Blink">
+            <Resource index="Minerals" value="100000"/>
+            <Resource index="Vespene" value="1000000"/>
+            <Button DefaultButtonFace="ResearchBlink" Requirements="LearnBlinkMercenaries"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="Blink2">
+            <Resource index="Vespene" value="20000000"/>
+            <Display index="Vespene" value="1"/>
+            <Button DefaultButtonFace="Detector"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectTarget id="MineralPalletLevel1">
+        <Effect index="0" value="PickupMineralsLevel1Set"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MineralPalletLevel2">
+        <Effect index="0" value="PickupMineralsLevel2Set"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MineralPalletLevel3">
+        <Effect index="0" value="PickupMineralsLevel2Set2"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MineralPalletLevel4">
+        <Effect index="0" value="PickupMineralsLevel2Set22"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MineralPalletLevel5">
+        <Effect index="0" value="PickupMineralsLevel2Set222"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MineralPalletLevel6">
+        <Effect index="0" value="PickupMineralsLevel2Set2222"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MineralPalletLevel7">
+        <Effect index="0" value="PickupMineralsLevel2Set22222"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MineralPalletLevel8">
+        <Effect index="0" value="PickupMineralsLevel2Set222222"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="MineralPalletLevel9">
+        <Effect index="0" value="PickupMineralsLevel2Set2222222"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="ReExecutable" value="1"/>
+        <Cost>
+            <Charge Link="Abil/PickupMinerals100"/>
+            <Cooldown Link="Abil/PickupMinerals100" TimeUse="0.5"/>
+        </Cost>
+        <Range value="1"/>
+        <Arc value="360"/>
+        <AutoCastFilters value="Ground,Heroic;Structure,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+        <AutoCastRange value="1"/>
+        <AutoCastValidatorArray value="PickupCheck"/>
+        <FinishTime value="3"/>
+        <AINotifyEffect value="PickupMineralsLevel1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PickupMinerals100"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PickupGas100">
+        <AutoCastFilters value="Ground;Structure,Heroic,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable,Benign"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PickupGas10" parent="PickupGas100">
+        <Name value="Abil/Name/PickupGas10"/>
+        <Effect index="0" value="VoidPickupGas10Set"/>
+        <AINotifyEffect value=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PickupTerrazine10" parent="PickupGas100">
+        <Name value="Abil/Name/PickupTerrazine10"/>
+        <Effect index="0" value="VoidPickupTerrazine10Set"/>
+        <AINotifyEffect value=""/>
+    </CAbilEffectTarget>
+    <CAbilLearn id="ProbeLearn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Learn1" Abil="ZeratulStun">
+            <Button DefaultButtonFace="ZeratulStun" Requirements="LearnVoidPrisonLevel"/>
+        </InfoArray>
+        <InfoArray index="Learn2" Abil="ZeratulBlink">
+            <Button DefaultButtonFace="ZeratulBlink" Requirements="LearnBlinkLevel"/>
+        </InfoArray>
+        <InfoArray index="Learn3" Abil="HighSpeed">
+            <Button DefaultButtonFace="HighSpeed" Requirements="LearnHighSpeedLevel"/>
+        </InfoArray>
+        <InfoArray index="Learn4" Abil="CloakProbe">
+            <Button DefaultButtonFace="Cloak2" Requirements="LearnCloakLevel"/>
+        </InfoArray>
+        <InfoArray index="Learn5" Abil="Teleport">
+            <Button DefaultButtonFace="Teleport" Requirements="LearnTeleport"/>
+        </InfoArray>
+        <InfoArray index="Learn6" Abil="TimeWarp">
+            <Button DefaultButtonFace="TimeWarp" Requirements="LearnChronoBoostLevel"/>
+        </InfoArray>
+        <InfoArray index="Learn7" Abil="ForceField">
+            <Button DefaultButtonFace="ForceField" Requirements="LearnForceFieldLevel"/>
+        </InfoArray>
+        <InfoArray index="Learn8" Abil="PsiShield2">
+            <Button DefaultButtonFace="VoodooShield" Requirements="LearnPsiShieldLevel"/>
+        </InfoArray>
+        <InfoArray index="Learn9" Abil="AdvancedBlink">
+            <Button DefaultButtonFace="AdvancedBlink" Requirements="LearnAdvancedBlinkLevel"/>
+        </InfoArray>
+        <Flags index="Transient" value="1"/>
+        <Points value="2"/>
+    </CAbilLearn>
+    <CAbilResearch id="ProbeSwaptoModel">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="ProbeSkin"/>
+        </InfoArray>
+        <InfoArray index="Research2" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="FusionWelderSkin" Requirements="ProbeSkin1"/>
+        </InfoArray>
+        <InfoArray index="Research3" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="MinerSkin" Requirements="ProbeSkin2"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="Automaton2000Skin" Requirements="ProbeSkin3"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="DarkProbeSkin" Requirements="ProbeSkin4"/>
+        </InfoArray>
+        <InfoArray index="Research6" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="MechanicSkin" Requirements="ProbeSkin5"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="ScientistSkin" Requirements="ProbeSkin6"/>
+        </InfoArray>
+        <InfoArray index="Research8" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="MULESkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research9" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="MedicSkin" Requirements="ProbeSkin8"/>
+        </InfoArray>
+        <InfoArray index="Research10" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="SentrySkin" Requirements="ProbeSkin9"/>
+        </InfoArray>
+        <InfoArray index="Research11" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="PrisonerSkin" Requirements="ProbeSkin10"/>
+        </InfoArray>
+        <InfoArray index="Research12" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="DevilDogSkin" Requirements="ProbeSkin11"/>
+        </InfoArray>
+        <InfoArray index="Research13" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="BanelingSkin" Requirements="ProbeSkin12"/>
+        </InfoArray>
+        <InfoArray index="Research14" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="HellionSkin" Requirements="ProbeSkin13"/>
+        </InfoArray>
+        <InfoArray index="Research15" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="CubeSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research16" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="DiabloSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research17" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="Cube2Skin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research18" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="Cube3Skin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research19" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="Cube4Skin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research20" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="LavaCritterSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research21" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="ZerglingWithWings" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research22" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="LarvaSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research23" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="LemonSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research24" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="VultureSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research25" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="SpiderMineSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research26" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="DiamondbackSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research27" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="TruckSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research28" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="DumpTruck" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research29" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="CubeSkin217" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research30" Upgrade="SwaptoModel">
+            <Cooldown TimeUse="1"/>
+            <Button DefaultButtonFace="ChangelingSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <Flags index="Transient" value="1"/>
+    </CAbilResearch>
+    <CAbilEffectTarget id="PsiShield2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="VoodooShieldApplyBehavior"/>
+        <Cost>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <TargetFilters value="-;Neutral,Enemy,Item,Stasis,Dead,Invulnerable"/>
+        <Range value="6"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="VoodooShield" State="Restricted"/>
+        <Arc value="360"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="Purchase1Vespene">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Resource index="Minerals" value="64000"/>
+            <Resource index="Vespene" value="-1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Purchase1Vespene"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Purchase10Vespene">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Resource index="Minerals" value="640000"/>
+            <Resource index="Vespene" value="-10"/>
+            <Charge Link="Abil/Purchase1Vespene"/>
+            <Cooldown Link="Abil/Purchase1Vespene"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Purchase10Vespene"/>
+    </CAbilEffectInstant>
+    <!--    <CAbilEffectTarget id="ScannerSweep">-->
+    <!--        <CmdButtonArray index="Execute" Requirements="UseScannerSweep"/>-->
+    <!--    </CAbilEffectTarget>-->
+    <!--    <CAbilEffectTarget id="CalldownMULE">-->
+    <!--        <CmdButtonArray index="Execute" Requirements="UseCalldownMULE"/>-->
+    <!--    </CAbilEffectTarget> -->
+    <CAbilEffectTarget id="ScannerSweep">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="25"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="BootsofSpeedLevel11" parent="ScannerSweep">
+        <Name value="Abil/Name/BootsofSpeedLevel11"/>
+        <Effect index="0" value="BootsofSpeedLevel11"/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Charge Link="Abil/BootsofSpeedLevel9"/>
+            <Cooldown Link="Boots of Speed" Location="Unit" TimeUse="30"/>
+        </Cost>
+        <CursorEffect index="0" value="BootsofSpeedLevel11"/>
+        <AINotifyEffect value="BootsofSpeedLevel11"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="BootsofSpeedLevel12" parent="ScannerSweep">
+        <Name value="Abil/Name/BootsofSpeedLevel12"/>
+        <Effect index="0" value="BootsofSpeedLevel12"/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Charge Link="Abil/BootsofSpeedLevel9"/>
+            <Cooldown Link="Boots of Speed" Location="Unit" TimeUse="25"/>
+        </Cost>
+        <CursorEffect index="0" value="BootsofSpeedLevel12"/>
+        <AINotifyEffect value="BootsofSpeedLevel12"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="BootsofSpeedLevel13" parent="ScannerSweep">
+        <Name value="Abil/Name/BootsofSpeedLevel13"/>
+        <Effect index="0" value="BootsofSpeedLevel13"/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Charge Link="Abil/BootsofSpeedLevel9"/>
+            <Cooldown Link="Boots of Speed" Location="Unit" TimeUse="20"/>
+        </Cost>
+        <CursorEffect index="0" value="BootsofSpeedLevel13"/>
+        <AINotifyEffect value="BootsofSpeedLevel13"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="BootsofSpeedLevel14" parent="ScannerSweep">
+        <Name value="Abil/Name/BootsofSpeedLevel14"/>
+        <Effect index="0" value="BootsofSpeedLevel14"/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Charge Link="Abil/BootsofSpeedLevel9"/>
+            <Cooldown Link="Boots of Speed" Location="Unit" TimeUse="15"/>
+        </Cost>
+        <CursorEffect index="0" value="BootsofSpeedLevel13"/>
+        <AINotifyEffect value="BootsofSpeedLevel13"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="BootsofSpeedLevel8" parent="ScannerSweep">
+        <Name value="Abil/Name/BootsofSpeedLevel8"/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Charge Link="Abil/BootsofSpeedLevel9"/>
+            <Cooldown Link="Boots of Speed" Location="Unit" TimeUse="30"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="BootsofSpeedLevel10" parent="ScannerSweep">
+        <Name value="Abil/Name/BootsofSpeedLevel10"/>
+        <Effect index="0" value="BootsofSpeedLevel10"/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Charge Link="Abil/BootsofSpeedLevel9"/>
+            <Cooldown Link="Boots of Speed" Location="Unit" TimeUse="30"/>
+        </Cost>
+        <CursorEffect index="0" value="BootsofSpeedLevel10"/>
+        <AINotifyEffect value="BootsofSpeedLevel10"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="ShowHideRanks">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ShowRanks"/>
+        <Cost>
+            <Cooldown TimeUse="1"/>
+        </Cost>
+        <Flags index="Transient" value="1"/>
+    </CAbilEffectInstant>
+    <CAbilTrain id="SummonMercenaries">
+        <InfoArray index="Train1" Time="1">
+            <Button DefaultButtonFace="TrainTychusFindlay" Requirements="ClusterWarheadsResearched"/>
+            <Unit index="0" value="TychusChaingun"/>
+            <Unit index="1" removed="1"/>
+            <Unit index="2" removed="1"/>
+            <Unit index="3" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train2">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Train3">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Train4">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Train5" Time="25">
+            <Button DefaultButtonFace="" Requirements="MercenariesLimit"/>
+            <Unit index="1" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train6" Time="20">
+            <Button DefaultButtonFace="" Requirements="MercenariesLimit"/>
+            <Unit index="0" value="HelsAngelAssault"/>
+            <Unit index="1" removed="1"/>
+            <Unit index="2" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train7">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Train8">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilEffectInstant id="Swapto16Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <Marker Link="Abil/VampireSwapto14Model"/>
+        <AINotifyEffect value="VampireSwapto14Model"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZerglingSkin"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Swapto17Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <Marker Link="Abil/VampireSwapto14Model"/>
+        <AINotifyEffect value="VampireSwapto14Model"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="BroodlingSkin"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Swapto18Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <Marker Link="Abil/VampireSwapto14Model"/>
+        <AINotifyEffect value="VampireSwapto14Model"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulSkin"/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="SwaptoModel3">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="TerranStructureSkins" Requirements="ProbeSkin4"/>
+        </InfoArray>
+        <InfoArray index="Research2" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZergStructureSkins" Requirements="ProbeSkin4"/>
+        </InfoArray>
+        <InfoArray index="Research3" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ProtossStructureSkins" Requirements="ProbeSkin4"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="SheepSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="KarakSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research6" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="CowSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="SoccerballSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research8" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="FootballSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research9" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="BasketballSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research10" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="BananaSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research11" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="AppleSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research12" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="PineappleSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research13" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="WatermelonSkin" Requirements="ProbeSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research14" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="PenguinSkin" Requirements="ProbeSkinP"/>
+        </InfoArray>
+        <InfoArray index="Research15" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS1Skin" Requirements="ProbeRankS1"/>
+        </InfoArray>
+        <InfoArray index="Research16" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS5Skin" Requirements="ProbeRankS5"/>
+        </InfoArray>
+        <InfoArray index="Research17" Time="1" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="LandsharkSkin" Requirements="ProbeSkin5"/>
+        </InfoArray>
+        <InfoArray index="Research18" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS10Skin" Requirements="ProbeRankS10"/>
+        </InfoArray>
+        <InfoArray index="Research19" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="DarkProtossStructureSkins" Requirements="ProbeRankS50"/>
+        </InfoArray>
+        <InfoArray index="Research20" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS20Skin" Requirements="ProbeRankS20"/>
+        </InfoArray>
+        <InfoArray index="Research21" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS25Skin" Requirements="ProbeRankS25"/>
+        </InfoArray>
+        <InfoArray index="Research22" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS50SkinDragoon" Requirements="ProbeRankS50"/>
+        </InfoArray>
+        <InfoArray index="Research23" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS75SkinCarbot" Requirements="ProbeRankS75"/>
+        </InfoArray>
+        <InfoArray index="Research24" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS30Skin" Requirements="VampireSkinS30"/>
+        </InfoArray>
+        <InfoArray index="Research25" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS40Skin" Requirements="ProbeRankS40"/>
+        </InfoArray>
+        <InfoArray index="Research26" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS60Skin" Requirements="ProbeRankS60"/>
+        </InfoArray>
+        <InfoArray index="Research27" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS70Skin" Requirements="ProbeRankS70"/>
+        </InfoArray>
+        <InfoArray index="Research28" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS80Skin" Requirements="ProbeRankS80"/>
+        </InfoArray>
+        <InfoArray index="Research29" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS90Skin" Requirements="ProbeRankS90"/>
+        </InfoArray>
+        <InfoArray index="Research30" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="SwaptoRankS100Skin" Requirements="ProbeRankS100"/>
+        </InfoArray>
+        <Flags index="Transient" value="1"/>
+    </CAbilResearch>
+    <CAbilEffectInstant id="TakeResources">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto1Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <Marker Link="Abil/VampireSwapto1Model"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TakeResources"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SellHunterItems">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto1Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <Marker Link="Abil/VampireSwapto1Model"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SellHunterItems"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS1Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS1" Requirements="VampireSkinS1"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS15Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS15" Requirements="VampireSkinS15"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS25Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS25" Requirements="VampireSkinS25"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS30Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS30" Requirements="VampireSkinS30"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS35Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS35" Requirements="VampireSkinS35"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS45Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS45" Requirements="VampireSkinS45"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS50Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS50" Requirements="VampireSkinS50"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS20Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS20" Requirements="VampireSkinS20"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS40Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS40" Requirements="VampireSkinS40"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SpiritSwaptoS1Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SpiritSwaptoS1Skin" Requirements="SpiritRankS1"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS5Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS5" Requirements="VampireSkinS5"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwaptoS10Skin">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZealotSkinS10" Requirements="VampireSkinS10"/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="Zealot">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="AberrationSkin" Requirements="VampireSkin13"/>
+        </InfoArray>
+        <InfoArray index="Research2" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="BroodlingSkin" Requirements="VampireSkin4"/>
+        </InfoArray>
+        <InfoArray index="Research3" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="BrutaliskSkin" Requirements="VampireSkin6"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="DarkTemplarSkin" Requirements="VampireSkin10"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="DarkZealotSkin" Requirements="VampireSkin9"/>
+        </InfoArray>
+        <InfoArray index="Research6" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="HammerSecuritiesSkin" Requirements="VampireSkin6"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="HybridSkin" Requirements="VampireSkin11"/>
+        </InfoArray>
+        <InfoArray index="Research8" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="HydraliskSkin" Requirements="VampireSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research9" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="InfestedColonistSkin" Requirements="VampireSkin2"/>
+        </InfoArray>
+        <InfoArray index="Research10" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="InfestedMarineSkin" Requirements="VampireSkin1"/>
+        </InfoArray>
+        <InfoArray index="Research11" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="KerriganSkin" Requirements="VampireSkin3"/>
+        </InfoArray>
+        <InfoArray index="Research12" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="UltraliskSkin" Requirements="VampireSkin1"/>
+        </InfoArray>
+        <InfoArray index="Research13" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="PredatorSkin" Requirements="VampireSkin8"/>
+        </InfoArray>
+        <InfoArray index="Research14" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="PrisonZealotSkin"/>
+        </InfoArray>
+        <InfoArray index="Research15" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="QueenSkin" Requirements="VampireSkin5"/>
+        </InfoArray>
+        <InfoArray index="Research16" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button DefaultButtonFace="RoachSkin" Requirements="VampireSkin4"/>
+        </InfoArray>
+        <InfoArray index="Research17" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="StandardZealotSkin" Requirements="VampireSkin12"/>
+        </InfoArray>
+        <InfoArray index="Research18" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZeratulSkin" Requirements="VampireSkin5"/>
+        </InfoArray>
+        <InfoArray index="Research19" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZerglingSkin" Requirements="VampireSkin2"/>
+        </InfoArray>
+        <InfoArray index="Research20" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="DeathSkin" Requirements="VampireSkin15"/>
+        </InfoArray>
+        <InfoArray index="Research21" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="LifeBinderSkin" Requirements="VampireSkin14"/>
+        </InfoArray>
+        <InfoArray index="Research22" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="TimelessOneSkin" Requirements="VampireSkin13"/>
+        </InfoArray>
+        <InfoArray index="Research23" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="SpellWeaverSkin" Requirements="VampireSkin12"/>
+        </InfoArray>
+        <InfoArray index="Research24" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="DreamerSkin" Requirements="VampireSkin11"/>
+        </InfoArray>
+        <InfoArray index="Research25" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="DarkFireSkin" Requirements="VampireSkin10"/>
+        </InfoArray>
+        <InfoArray index="Research26" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="GreenTurtleSkin"/>
+        </InfoArray>
+        <InfoArray index="Research27" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="GreenRaptorSkin"/>
+        </InfoArray>
+        <InfoArray index="Research28" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="GreenRexSkin"/>
+        </InfoArray>
+        <InfoArray index="Research29" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="DietmatradonSkin"/>
+        </InfoArray>
+        <InfoArray index="Research30" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ThunderLizard1Skin"/>
+        </InfoArray>
+        <Flags index="Transient" value="1"/>
+    </CAbilResearch>
+    <CAbilEffectTarget id="Teleport">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="StaffofTeleportation"/>
+        <Cost>
+            <Cooldown TimeUse="20"/>
+        </Cost>
+        <TargetFilters value="-;Neutral,Enemy"/>
+        <Range value="80"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Teleport" Requirements="HaveTeleport"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="AllyTeleport">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="StaffofTeleportation2"/>
+        <Cost>
+            <Charge Link="Abil/Teleport"/>
+            <Cooldown Link="Abil/Teleport" TimeUse="60"/>
+        </Cost>
+        <TargetFilters value="Robotic;Neutral,Enemy"/>
+        <Range value="500"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Teleport2" Requirements="HaveTeleport"/>
+        <RangeSlop value="100"/>
+        <FollowRange value="500"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="TimeWarp">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="50"/>
+        </Cost>
+        <TargetFilters index="0" value="-;Neutral,Enemy,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range index="0" value="10"/>
+        <Flags index="AutoCast" value="1"/>
+        <AutoCastAcquireLevel value="Defensive"/>
+        <AutoCastFilters value="Massive,Visible;Neutral,Enemy"/>
+        <AutoCastRange value="10"/>
+        <AINotifyEffect value="TimeWarp"/>
+        <Effect index="0" value="ChronoBoost"/>
+        <AutoCastValidatorArray value="UnitisnotDominionTrain"/>
+    </CAbilEffectTarget>
+    <CAbilTransport id="PassengerCar">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Load" DefaultButtonFace="TransportTruckLoad"/>
+        <CmdButtonArray index="UnloadAll" DefaultButtonFace="TransportTruckUnloadAll">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="IgnoreBlockers" value="1"/>
+        <Range value="0"/>
+        <MaxCargoCount value="5"/>
+        <MaxCargoSize value="2"/>
+        <TotalCargoSpace value="5"/>
+        <UnloadPeriod value="0.5"/>
+    </CAbilTransport>
+    <CAbilTransport id="DominionTrain">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Load" DefaultButtonFace="TransportTruckLoad"/>
+        <CmdButtonArray index="UnloadAll" DefaultButtonFace="TransportTruckUnloadAll">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="IgnoreBlockers" value="1"/>
+        <Range value="0"/>
+        <MaxCargoCount value="15"/>
+        <MaxCargoSize value="2"/>
+        <TotalCargoSpace value="15"/>
+        <UnloadPeriod value="0.5"/>
+    </CAbilTransport>
+    <CAbilTransport id="TransportTruckTransport">
+        <AbilSetId value=""/>
+        <MaxCargoCount value="10"/>
+        <MaxCargoSize value="2"/>
+        <TotalCargoSpace value="10"/>
+        <LoadValidatorArray index="0" removed="1"/>
+        <UnloadPeriod value="0.5"/>
+    </CAbilTransport>
+    <CAbilEffectInstant id="VampireSetColor">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SetColorofZealot" Requirements="VampireSkin14"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSetName">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/WoWBuilderSwapto2Model"/>
+            <Cooldown Link="Builder Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SetNameofProbe" Requirements="ProbeSkin16"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="ProbeSetColor">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/WoWBuilderSwapto2Model"/>
+            <Cooldown Link="Builder Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SetColorofProbe" Requirements="ProbeSkin15"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSetName">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SetNameofZealot" Requirements="VampireSkin15"/>
+    </CAbilEffectInstant>
+    <CAbilTrain id="PurchaseDiamondAmulet">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Train1">
+            <Button DefaultButtonFace="PurchaseDiamondAmulet"/>
+            <Unit value="Amulet11"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilTrain id="PurchaseNanocrystallineDiamondArmor">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Train1">
+            <Button DefaultButtonFace="PurchaseNanocrystallineDiamondArmor"/>
+            <Unit value="Armor12"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilTrain id="PurchaseSuperGloves">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Train1">
+            <Button DefaultButtonFace="PurchaseSuperGloves"/>
+            <Unit value="Gloves8"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilTrain id="PurchaseUltimateBlade">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Train1">
+            <Button DefaultButtonFace="UltimateBlade"/>
+            <Unit value="Sword13"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilTrain id="PurchaseUltimateRegenerationPotion">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Train1">
+            <Button DefaultButtonFace="PurchaseUltimateRegenerationPotion"/>
+            <Unit value="Regen11"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilBehavior id="SalvageTurretLevel13">
+        <Name value="Abil/Name/Salvage"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
+        <CmdButtonArray index="On" DefaultButtonFace="Salvage">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <BehaviorArray value="SalvageTurretLevel13"/>
+        <ValidatorArray value="HasNoCargo"/>
+    </CAbilBehavior>
+    <CAbilBehavior id="SalvageFinalWall">
+        <Name value="Abil/Name/Salvage"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
+        <CmdButtonArray index="On" DefaultButtonFace="Salvage">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <BehaviorArray value="SalvageFinalWall"/>
+        <ValidatorArray value="HasNoCargo"/>
+    </CAbilBehavior>
+    <CAbilBehavior id="SalvageGenerator">
+        <Name value="Abil/Name/Salvage"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
+        <CmdButtonArray index="On" DefaultButtonFace="Destruction">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <BehaviorArray value="SalvageGenerator"/>
+        <ValidatorArray value="HasNoCargo"/>
+    </CAbilBehavior>
+    <CAbilEffectTarget id="BootsofSpeedLevel9" parent="ScannerSweep">
+        <Name value="Abil/Name/BootsofSpeedLevel9"/>
+        <Effect index="0" value="BootsofSpeedLevel9"/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Charge Link="Abil/BootsofSpeedLevel9"/>
+            <Cooldown Link="Boots of Speed" Location="Unit" TimeUse="30"/>
+        </Cost>
+        <CursorEffect index="0" value="BootsofSpeedLevel9"/>
+        <AINotifyEffect value="BootsofSpeedLevel9"/>
+    </CAbilEffectTarget>
+    <CAbilBehavior id="SelfDestruct">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+        <CmdButtonArray index="On" DefaultButtonFace="SelfDestruct">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <BehaviorArray value="SelfDestruct"/>
+    </CAbilBehavior>
+    <CAbilEffectInstant id="SellMinerals">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <AutoCastFilters value="-;-"/>
+        <AINotifyEffect value=""/>
+        <EffectRange index="0" removed="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Sell10Minerals">
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+        <Cost>
+            <Resource index="Minerals" value="10"/>
+            <Resource index="Vespene" value="-145"/>
+            <Charge Location="Global"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilTrain id="GatewayTrain">
+        <InfoArray index="Train1" Time="2">
+            <Button DefaultButtonFace="TrainSimpleMiner"/>
+            <Unit index="0" value="SCV1"/>
+        </InfoArray>
+        <InfoArray index="Train2" Time="4">
+            <Button DefaultButtonFace="TrainAverageMiner" Requirements=""/>
+            <Unit index="0" value="SCV2"/>
+        </InfoArray>
+        <InfoArray index="Train3" Time="4">
+            <Button DefaultButtonFace="TrainAdvancedMiner" State="Available" Requirements="LearnExtendedThermalLance"/>
+            <Unit index="0" value="SCV3"/>
+        </InfoArray>
+        <InfoArray index="Train4" Time="4">
+            <Button DefaultButtonFace="TrainProfessionalMiner" Requirements=""/>
+            <Unit index="0" value="SCV4"/>
+        </InfoArray>
+        <InfoArray index="Train5" Time="5">
+            <Button DefaultButtonFace="TrainSimpleMiner2" Requirements=""/>
+            <Unit index="0" value="SCV5"/>
+        </InfoArray>
+        <InfoArray index="Train6" Time="6">
+            <Button DefaultButtonFace="TrainUltraMiner" Requirements=""/>
+            <Unit index="0" value="SCV6"/>
+        </InfoArray>
+        <InfoArray index="Train7" Time="7">
+            <Button DefaultButtonFace="TrainLegendaryMiner" Requirements=""/>
+            <Unit index="0" value="LegendaryMiner"/>
+        </InfoArray>
+        <InfoArray index="Train8" Time="10">
+            <Button DefaultButtonFace="TrainPerfectMiner" Requirements=""/>
+            <Unit index="0" value="PerfectMiner"/>
+        </InfoArray>
+        <InfoArray index="Train9" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineConstructor" Requirements="AutomatedMineConstructorRequirements"/>
+            <Unit value="AutomatedMineConstructor"/>
+        </InfoArray>
+        <InfoArray index="Train10" Time="3">
+            <Button DefaultButtonFace="BuyPassengerCar" Requirements="DoesnothavePassengerCar"/>
+            <Unit value="CargoTruckUnitTrailer"/>
+        </InfoArray>
+        <InfoArray index="Train11" Time="6">
+            <Button DefaultButtonFace="BuyTransportTruck" Requirements="DoesnothaveTransportTruck"/>
+            <Unit value="TransportTruck"/>
+        </InfoArray>
+        <InfoArray index="Train12" Time="10">
+            <Button DefaultButtonFace="BuyDominionTrain" Requirements="DoesnothaveDominionTrain"/>
+            <Unit value="FreightCar"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilTrain id="PerfectMiner" parent="GatewayTrain">
+        <Name value="Abil/Name/PerfectMiner"/>
+        <InfoArray index="Train1" Time="4"/>
+        <InfoArray index="Train3">
+            <Button State="Restricted" Requirements="HaveVoidSentryReplicant"/>
+            <Unit index="0" value="Replicant"/>
+            <Unit value="SCV3"/>
+        </InfoArray>
+        <InfoArray index="Train7">
+            <Display index="Vespene" value="1"/>
+        </InfoArray>
+        <InfoArray index="Train9">
+            <Button Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Train10" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train11" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train12" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+        <RefundFraction>
+            <Resource index="Vespene" value="0"/>
+        </RefundFraction>
+    </CAbilTrain>
+    <CAbilInventory id="Inventory">
+        <TargetFilters value="Item;-"/>
+        <Range value="1"/>
+        <MaxDropRange value="1"/>
+        <InfoArray EmptyFace="Boots">
+            <Classes value="Feet"/>
+        </InfoArray>
+        <InfoArray/>
+        <InfoArray/>
+        <InfoArray/>
+        <InfoArray/>
+        <InfoArray/>
+    </CAbilInventory>
+    <CAbilTrain id="LudicrousMiner" parent="GatewayTrain">
+        <Name value="Abil/Name/LudicrousMiner"/>
+        <RefundFraction>
+            <Resource index="Vespene" value="0"/>
+        </RefundFraction>
+        <InfoArray index="Train1" Time="4"/>
+        <InfoArray index="Train3">
+            <Button State="Restricted" Requirements="HaveVoidSentryReplicant"/>
+            <Unit index="0" value="Replicant"/>
+            <Unit value="SCV3"/>
+        </InfoArray>
+        <InfoArray index="Train7">
+            <Display index="Vespene" value="1"/>
+            <Button Requirements="HaveCyberneticsCore"/>
+            <Unit index="0" value="Adept"/>
+            <Unit value="LegendaryMiner"/>
+        </InfoArray>
+        <InfoArray index="Train8">
+            <Button Requirements="HaveVoidHighTemplarArchonAdvanced"/>
+            <Unit index="0" value="ArchonAdvanced"/>
+            <Unit value="PerfectMiner"/>
+        </InfoArray>
+        <InfoArray index="Train9">
+            <Button Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Train10" Time="10">
+            <Button DefaultButtonFace="TrainLudicrousMiner" Requirements="Have1Ludicrous"/>
+            <Unit index="0" value="LudicrousMiner"/>
+        </InfoArray>
+        <InfoArray index="Train11" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train12" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilEffectInstant id="ProbeSetScale">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/WoWBuilderSwapto2Model"/>
+            <Cooldown Link="Builder Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SetBigScaleofProbe" Requirements="ProbeSkin14"/>
+    </CAbilEffectInstant>
+    <CAbilTrain id="UltraMiner" parent="GatewayTrain">
+        <Name value="Abil/Name/UltraMiner"/>
+        <InfoArray index="Train1" Time="4"/>
+        <InfoArray index="Train3">
+            <Button State="Restricted" Requirements="HaveVoidSentryReplicant"/>
+            <Unit index="0" value="Replicant"/>
+            <Unit value="SCV3"/>
+        </InfoArray>
+        <InfoArray index="Train7">
+            <Display index="Vespene" value="1"/>
+            <Button Requirements="HaveCyberneticsCore"/>
+            <Unit index="0" value="Adept"/>
+            <Unit value="LegendaryMiner"/>
+        </InfoArray>
+        <InfoArray index="Train8">
+            <Button Requirements="HaveVoidHighTemplarArchonAdvanced"/>
+            <Unit index="0" value="ArchonAdvanced"/>
+            <Unit value="PerfectMiner"/>
+        </InfoArray>
+        <InfoArray index="Train9">
+            <Button Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Train10" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train11" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train12" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilBuild id="ProtossBuild">
+        <InfoArray index="Build1" Unit="GeneratorLevel00" Time="5">
+            <Cooldown Link="Abil/PhasingMode"/>
+            <Button Requirements="HaveNoHouse"/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="wall1" Time="5">
+            <Display index="Minerals" value="1"/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="DestructibleSignsDirectional">
+            <Button DefaultButtonFace="AutomatedRefinery" Requirements="CrossSpectrumDampenersResearched"/>
+        </InfoArray>
+        <InfoArray index="Build4" Time="5">
+            <Button DefaultButtonFace="WarpinCollectionDepo" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build5" Unit="Market" Time="5">
+            <Button DefaultButtonFace="WarpinMarket" Requirements="DoesnothaveMarket"/>
+        </InfoArray>
+        <InfoArray index="Build6" Unit="Turret1" Time="4">
+            <Button DefaultButtonFace="WarpinTurret" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build7" Unit="Forge" Time="5">
+            <Button DefaultButtonFace="Forge" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build9" Unit="FleetBeacon" Time="5">
+            <Button DefaultButtonFace="WarpinMercenaryCenter" Requirements="NotHaveMercCenter"/>
+        </InfoArray>
+        <InfoArray index="Build12" Time="10">
+            <Button Requirements="ZealotDetector"/>
+        </InfoArray>
+        <InfoArray index="Build13" Time="10">
+            <Button Requirements="RepositoryLimit"/>
+        </InfoArray>
+        <InfoArray index="Build16" Unit="GeneratorLevel09" Time="5">
+            <Button DefaultButtonFace="BuildGeneratorMax" Requirements="HaveNoHouseMax"/>
+        </InfoArray>
+        <InfoArray index="Build17" Unit="Wall14" Time="5">
+            <Button DefaultButtonFace="BuildMegaWall4"/>
+        </InfoArray>
+        <InfoArray index="Build18" Unit="Wall15" Time="5">
+            <Button DefaultButtonFace="BuildMegaWall5"/>
+        </InfoArray>
+        <InfoArray index="Build19" Unit="Wall16" Time="5">
+            <Button DefaultButtonFace="BuildPowerWall1" Requirements="HaveMinerLegendaryPerfectLudicrous"/>
+        </InfoArray>
+        <InfoArray index="Build20" Unit="Wall17" Time="5">
+            <Button DefaultButtonFace="BuildPowerWall2" Requirements="HaveMinerPerfectLudicrous"/>
+        </InfoArray>
+        <InfoArray index="Build21" Unit="wall18" Time="5">
+            <Button DefaultButtonFace="BuildFinalWall" Requirements="HaveMinerPerfectLudicrous"/>
+        </InfoArray>
+        <InfoArray index="Build22" Unit="Turret11" Time="5">
+            <Resource index="Minerals" value="4520"/>
+            <Button DefaultButtonFace="BuildTurret11" Requirements="HaveAncientLibrary"/>
+        </InfoArray>
+        <InfoArray index="Build23" Unit="Turret12" Time="5">
+            <Resource index="Minerals" value="5040"/>
+            <Button DefaultButtonFace="BuildTurret12" Requirements="HaveAncientLibrary"/>
+        </InfoArray>
+        <InfoArray index="Build24" Unit="Turret13" Time="5">
+            <Resource index="Minerals" value="220000"/>
+            <Button DefaultButtonFace="BuildTurret13" Requirements="HaveAncientLibrary"/>
+        </InfoArray>
+        <InfoArray index="Build25" Unit="FinalTurret" Time="5">
+            <Button DefaultButtonFace="BuildFinalTurret" Requirements="HaveAncientLibrary"/>
+        </InfoArray>
+        <InfoArray index="Build26" Unit="GeneratorLevel05" Time="5">
+            <Button DefaultButtonFace="BuildGeneratorLevel6" Requirements="HaveNoHouse6"/>
+        </InfoArray>
+        <InfoArray index="Build27" Unit="Wall11" Time="5">
+            <Button DefaultButtonFace="BuildMegaWall1" State="Restricted" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build28" Unit="Wall6" Time="5">
+            <Button DefaultButtonFace="BuildUltraWall1" State="Restricted" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build29" Unit="Turret6" Time="20">
+            <Resource index="Vespene" value="13"/>
+            <Button DefaultButtonFace="BuildTurret6" Requirements="HaveMarket"/>
+        </InfoArray>
+        <InfoArray index="Build30" Unit="DestructibleKorhalFlag">
+            <Cooldown TimeUse="300"/>
+            <Button DefaultButtonFace="PlaceFlag" Requirements="DoesnothaveFlag"/>
+        </InfoArray>
+    </CAbilBuild>
+    <CAbilBuild id="ProtossBuild2" parent="ProtossBuild">
+        <Name value="Abil/Name/ProtossBuild2"/>
+        <InfoArray index="Build1" Unit="SpiritAssimilator" Time="3">
+            <Button DefaultButtonFace="WarpInSpiritAssimilator" Requirements="NoAssimilator"/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="AncestorsCouncil" Time="3">
+            <Button DefaultButtonFace="WarpInAncestorsCouncil" Requirements="TwlightCouncil"/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="Gate" Time="3">
+            <Button DefaultButtonFace="WarpInGate" Requirements="Stargate"/>
+        </InfoArray>
+        <InfoArray index="Build4" Unit="AncientTower">
+            <Button DefaultButtonFace="WarpInEyeoftheAncients" Requirements="MaxXelNagaTowers"/>
+        </InfoArray>
+    </CAbilBuild>
+    <CAbilEffectTarget id="Repair">
+        <TargetFilters index="0" value="Visible;Self,Massive,Heroic,Worker,RawResource,HarvestableResource,Missile,Item,UnderConstruction,Dead,Hidden"/>
+        <Flags index="AllowMovement" value="1"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="RepairAutoCastOff" parent="Repair">
+        <Name value="Abil/Name/RepairAutoCastOff"/>
+        <Flags index="AutoCast" value="0"/>
+        <Flags index="AutoCastOn" value="0"/>
+        <TargetFilters index="0" value="Visible;Self,Hover,Heroic,Worker,RawResource,HarvestableResource,Missile,Item,UnderConstruction,Dead,Hidden"/>
+    </CAbilEffectTarget>
+    <CAbilHarvest id="SCVHarvest">
+        <ResourceAcquire index="Vespene" value="1"/>
+        <UninterruptibleArray index="WaitAtResource" value="1"/>
+        <UninterruptibleArray index="DropOff" value="1"/>
+    </CAbilHarvest>
+    <CAbilTrain id="Train1">
+        <Range value="3.5"/>
+        <InfoArray index="Train1">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="CommonRegenerationPotion"/>
+            <Unit value="Regen3"/>
+        </InfoArray>
+        <InfoArray index="Train2">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="EternalRegenerationPotion"/>
+            <Unit value="Regen10"/>
+        </InfoArray>
+        <InfoArray index="Train3">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="ExtremeRegenerationPotion"/>
+            <Unit value="Regen8"/>
+        </InfoArray>
+        <InfoArray index="Train4">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="GreaterRegenerationPotion"/>
+            <Unit value="Regen4"/>
+        </InfoArray>
+        <InfoArray index="Train5">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="LesserRegenerationPotion"/>
+            <Unit value="Regen2"/>
+        </InfoArray>
+        <InfoArray index="Train6">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="MajorRegenerationPotion"/>
+            <Unit value="Regen6"/>
+        </InfoArray>
+        <InfoArray index="Train7">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="MegaRegenerationPotion"/>
+            <Unit value="Regen9"/>
+        </InfoArray>
+        <InfoArray index="Train8">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="MinorRegenerationPotion"/>
+            <Unit value="Regen1"/>
+        </InfoArray>
+        <InfoArray index="Train9">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="SuperiorRegenerationPotion"/>
+            <Unit value="Regen5"/>
+        </InfoArray>
+        <InfoArray index="Train10">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="UltimateRegenerationPotion"/>
+            <Unit value="Regen11"/>
+        </InfoArray>
+        <InfoArray index="Train11">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="UltraRegenerationPotion"/>
+            <Unit value="Regen7"/>
+        </InfoArray>
+        <InfoArray index="Train13">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="ZirconAmulet"/>
+            <Unit value="Amulet1"/>
+        </InfoArray>
+        <InfoArray index="Train14">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="AmethystAmulet"/>
+            <Unit value="Amulet2"/>
+        </InfoArray>
+        <InfoArray index="Train15">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="TopazAmulet"/>
+            <Unit value="Amulet3"/>
+        </InfoArray>
+        <InfoArray index="Train16">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="SpinelAmulet"/>
+            <Unit value="Amulet4"/>
+        </InfoArray>
+        <InfoArray index="Train17">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="SapphireAmulet"/>
+            <Unit value="Amulet5"/>
+        </InfoArray>
+        <InfoArray index="Train18">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="EmeraldAmulet"/>
+            <Unit value="Amulet6"/>
+        </InfoArray>
+        <InfoArray index="Train19">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="RubyAmulet"/>
+            <Unit value="Amulet7"/>
+        </InfoArray>
+        <InfoArray index="Train20">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="CorundumAmulet"/>
+            <Unit value="Amulet8"/>
+        </InfoArray>
+        <InfoArray index="Train21">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseTitaniumAmulet"/>
+            <Unit value="Amulet9"/>
+        </InfoArray>
+        <InfoArray index="Train22">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="ObsidianAmulet"/>
+            <Unit value="Amulet10"/>
+        </InfoArray>
+        <InfoArray index="Train23">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="DiamondAmulet"/>
+            <Unit value="Amulet11"/>
+        </InfoArray>
+        <InfoArray index="Train24">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="XAmulet"/>
+            <Unit value="Amulet13"/>
+        </InfoArray>
+        <InfoArray index="Train25">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+        </InfoArray>
+        <InfoArray index="Train26">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+        </InfoArray>
+        <InfoArray index="Train27">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseProBlade"/>
+            <Unit value="ProBlade"/>
+        </InfoArray>
+        <InfoArray index="Train28">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+        </InfoArray>
+        <InfoArray index="Train29">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+        </InfoArray>
+        <InfoArray index="Train30">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+        </InfoArray>
+        <Alert value=""/>
+    </CAbilTrain>
+    <CAbilTrain id="Train2">
+        <Range value="3.5"/>
+        <InfoArray index="Train1">
+            <Button DefaultButtonFace="PurchaseWoodenArmor"/>
+            <Unit value="Armor1"/>
+        </InfoArray>
+        <InfoArray index="Train2">
+            <Button DefaultButtonFace="PurchaseReinforcedWoodenArmor"/>
+            <Unit value="Armor2"/>
+        </InfoArray>
+        <InfoArray index="Train3">
+            <Button DefaultButtonFace="PurchaseIronArmor"/>
+            <Unit value="Armor3"/>
+        </InfoArray>
+        <InfoArray index="Train4">
+            <Button DefaultButtonFace="PurchaseSteelArmor"/>
+            <Unit value="Armor4"/>
+        </InfoArray>
+        <InfoArray index="Train5">
+            <Button DefaultButtonFace="PurchaseSilverArmor"/>
+            <Unit value="Armor5"/>
+        </InfoArray>
+        <InfoArray index="Train6">
+            <Button DefaultButtonFace="PurchaseGoldArmor"/>
+            <Unit value="Armor6"/>
+        </InfoArray>
+        <InfoArray index="Train7">
+            <Button DefaultButtonFace="PurchasePlatinumArmor"/>
+            <Unit value="Armor7"/>
+        </InfoArray>
+        <InfoArray index="Train8">
+            <Button DefaultButtonFace="PurchaseTitaniumArmor"/>
+            <Unit value="Armor8"/>
+        </InfoArray>
+        <InfoArray index="Train9">
+            <Button DefaultButtonFace="PurchaseChromiteArmor"/>
+            <Unit value="Armor9"/>
+        </InfoArray>
+        <InfoArray index="Train10">
+            <Button DefaultButtonFace="PurchasePyriteArmor"/>
+            <Unit value="Armor10"/>
+        </InfoArray>
+        <InfoArray index="Train11">
+            <Button DefaultButtonFace="PurchaseTungstenArmor"/>
+            <Unit value="Armor11"/>
+        </InfoArray>
+        <InfoArray index="Train12">
+            <Button DefaultButtonFace="PurchaseNanocrystallineDiamondArmor"/>
+            <Unit value="Armor12"/>
+        </InfoArray>
+        <InfoArray index="Train13">
+            <Button DefaultButtonFace="PurchaseUraniumArmor"/>
+            <Unit value="Armor13"/>
+        </InfoArray>
+        <InfoArray index="Train14">
+            <Button DefaultButtonFace="PurchaseRubidiumArmor"/>
+            <Unit value="Armor14"/>
+        </InfoArray>
+        <InfoArray index="Train15">
+            <Button DefaultButtonFace="AdvancedBootsofSpeedLevel3"/>
+            <Unit value="AdvancedBootsofSpeedLevel3"/>
+        </InfoArray>
+        <InfoArray index="Train16">
+            <Button DefaultButtonFace="MagicBootsofSpeedLevel1"/>
+            <Unit value="MagicBootsofSpeedLevel1"/>
+        </InfoArray>
+        <InfoArray index="Train17">
+            <Button DefaultButtonFace="MagicBootsofSpeedLevel2"/>
+            <Unit value="MagicBootsofSpeedLevel2"/>
+        </InfoArray>
+        <InfoArray index="Train18">
+            <Button DefaultButtonFace="MagicBootsofSpeedLevel3"/>
+            <Unit value="MagicBootsofSpeedLevel3"/>
+        </InfoArray>
+        <InfoArray index="Train19">
+            <Button DefaultButtonFace="MagicBootsofSpeedLevel4"/>
+            <Unit value="MagicBootsofSpeedLevel4"/>
+        </InfoArray>
+        <InfoArray index="Train20">
+            <Button DefaultButtonFace="LegendaryBootsofSpeedLevel1" Requirements="HasFinalBlade"/>
+            <Unit value="LegendaryBootsofSpeedLevel1"/>
+        </InfoArray>
+        <InfoArray index="Train21">
+            <Button DefaultButtonFace="LegendaryBootsofSpeedLevel2" Requirements="HasFinalBlade"/>
+            <Unit value="LegendaryBootsofSpeedLevel2"/>
+        </InfoArray>
+        <InfoArray index="Train22">
+            <Button DefaultButtonFace="LegendaryBootsofSpeedLevel3" Requirements="HasFinalBlade"/>
+            <Unit value="LegendaryBootsofSpeedLevel3"/>
+        </InfoArray>
+        <InfoArray index="Train23">
+            <Button DefaultButtonFace="PurchaseRingofSight2"/>
+            <Unit value="RingofSight2"/>
+        </InfoArray>
+        <InfoArray index="Train24">
+            <Button DefaultButtonFace="PurchaseRingofSight3"/>
+            <Unit value="RingofSight3"/>
+        </InfoArray>
+        <InfoArray index="Train25">
+            <Button DefaultButtonFace="PurchaseRingofSight4"/>
+            <Unit value="RingofSight4"/>
+        </InfoArray>
+        <InfoArray index="Train26">
+            <Button DefaultButtonFace="PurchaseRingofSight5"/>
+            <Unit value="RingofSight5"/>
+        </InfoArray>
+        <InfoArray index="Train27">
+            <Button DefaultButtonFace="PurchaseRingofSight6"/>
+            <Unit value="RingofSight6"/>
+        </InfoArray>
+        <InfoArray index="Train28">
+            <Button DefaultButtonFace="PurchaseRingofSight7"/>
+            <Unit value="RingofSight7"/>
+        </InfoArray>
+        <InfoArray index="Train29">
+            <Button DefaultButtonFace="PurchaseFinalRegenerationPotion"/>
+            <Unit value="Regen12"/>
+        </InfoArray>
+        <InfoArray index="Train30">
+            <Button DefaultButtonFace="PurchaseRingofSight1"/>
+            <Unit value="RingofSight1"/>
+        </InfoArray>
+        <Alert value=""/>
+    </CAbilTrain>
+    <CAbilTrain id="Train3">
+        <Range value="3.5"/>
+        <InfoArray index="Train1">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="CopperBlade"/>
+            <Unit value="Sword1"/>
+        </InfoArray>
+        <InfoArray index="Train2">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="IronBlade"/>
+            <Unit value="Sword2"/>
+        </InfoArray>
+        <InfoArray index="Train3">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseSteelBlade"/>
+            <Unit value="Sword3"/>
+        </InfoArray>
+        <InfoArray index="Train4">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseSilverBlade"/>
+            <Unit value="Sword4"/>
+        </InfoArray>
+        <InfoArray index="Train5">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseGoldenBlade"/>
+            <Unit value="Sword5"/>
+        </InfoArray>
+        <InfoArray index="Train6">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchasePlatinumBlade"/>
+            <Unit value="Sword6"/>
+        </InfoArray>
+        <InfoArray index="Train7">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseMithrilBlade"/>
+            <Unit value="Sword7"/>
+        </InfoArray>
+        <InfoArray index="Train8">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseDiamondBlade"/>
+            <Unit value="Sword8"/>
+        </InfoArray>
+        <InfoArray index="Train9">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="EnergizerBlade"/>
+            <Unit value="Sword9"/>
+        </InfoArray>
+        <InfoArray index="Train10">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PulverizerBlade"/>
+            <Unit value="Sword10"/>
+        </InfoArray>
+        <InfoArray index="Train11">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="AtomizerBlade"/>
+            <Unit value="Sword11"/>
+        </InfoArray>
+        <InfoArray index="Train12">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="UltimateBlade"/>
+            <Unit value="Sword13"/>
+        </InfoArray>
+        <InfoArray index="Train13">
+            <Button DefaultButtonFace="PlutoniumBlade"/>
+            <Unit value="PlutoniumBlade"/>
+        </InfoArray>
+        <InfoArray index="Train14">
+            <Button DefaultButtonFace="BasicBootsofSpeedLevel1"/>
+            <Unit value="BasicBootsofSpeedLevel1"/>
+        </InfoArray>
+        <InfoArray index="Train15">
+            <Button DefaultButtonFace="RadiantBlade"/>
+            <Unit value="RadiantBlade"/>
+        </InfoArray>
+        <InfoArray index="Train16">
+            <Button DefaultButtonFace="BoneGloves"/>
+            <Unit value="Gloves5"/>
+        </InfoArray>
+        <InfoArray index="Train17">
+            <Button DefaultButtonFace="ClothGloves"/>
+            <Unit value="Gloves1"/>
+        </InfoArray>
+        <InfoArray index="Train18">
+            <Button DefaultButtonFace="ElectronicGloves"/>
+            <Unit value="Gloves6"/>
+        </InfoArray>
+        <InfoArray index="Train19">
+            <Button DefaultButtonFace="LeatherGloves"/>
+            <Unit value="Gloves2"/>
+        </InfoArray>
+        <InfoArray index="Train20">
+            <Button DefaultButtonFace="ReinforcedHideGlove"/>
+            <Unit value="Gloves3"/>
+        </InfoArray>
+        <InfoArray index="Train21">
+            <Button DefaultButtonFace="ScaleGloves"/>
+            <Unit value="Gloves4"/>
+        </InfoArray>
+        <InfoArray index="Train22">
+            <Button DefaultButtonFace="PurchaseMegaGloves"/>
+            <Unit value="Gloves7"/>
+        </InfoArray>
+        <InfoArray index="Train23">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseElucidatorBlade"/>
+            <Unit value="ElucidatorBlade"/>
+        </InfoArray>
+        <InfoArray index="Train24">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseSuperGloves"/>
+            <Unit value="Gloves8"/>
+        </InfoArray>
+        <InfoArray index="Train25">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="PurchaseFinalBlade"/>
+            <Unit value="FinalBlade"/>
+        </InfoArray>
+        <InfoArray index="Train26">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="CloakofImmunity"/>
+            <Unit value="CloakofImmunity"/>
+        </InfoArray>
+        <InfoArray index="Train27">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="RingofSight1"/>
+            <Unit value="RingofSight1"/>
+        </InfoArray>
+        <InfoArray index="Train28">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="BasicBootsofSpeedLevel4"/>
+            <Unit value="BasicBootsofSpeedLevel4"/>
+        </InfoArray>
+        <InfoArray index="Train29">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="AdvancedBootsofSpeedLevel1"/>
+            <Unit value="AdvancedBootsofSpeedLevel1"/>
+        </InfoArray>
+        <InfoArray index="Train30">
+            <Charge Link="Abil/TestSell"/>
+            <Cooldown Link="Abil/TestSell"/>
+            <Button DefaultButtonFace="AdvancedBootsofSpeedLevel2"/>
+            <Unit value="AdvancedBootsofSpeedLevel2"/>
+        </InfoArray>
+        <Alert value=""/>
+    </CAbilTrain>
+    <CAbilEffectInstant id="TeleporttoBase">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Cooldown TimeUse="180"/>
+        </Cost>
+        <AutoCastFilters value="-;-"/>
+        <AINotifyEffect value=""/>
+        <EffectRange index="0" removed="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TeleporttoBase">
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SellMineralsBulk">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <AutoCastFilters value="-;-"/>
+        <AINotifyEffect value=""/>
+        <EffectRange index="0" removed="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Sell200Minerals">
+            <Flags index="ShowInGlossary" value="0"/>
+        </CmdButtonArray>
+        <Cost>
+            <Resource index="Minerals" value="200"/>
+            <Resource index="Vespene" value="-1950"/>
+            <Charge Location="Global"/>
+            <Cooldown Location="Player" TimeUse="1"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilBuild id="TerranBuild">
+        <InfoArray index="Build1" Unit="AutomatedMine_00" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel1"/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="AutomatedMine_03" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel2"/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="AutomatedMine_05" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel3"/>
+        </InfoArray>
+        <InfoArray index="Build4" Unit="AutomatedMine_07" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel4" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build5" Unit="AutomatedMine_09" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel5" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build6" Unit="AutomatedMine_11" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel6" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build7" Unit="AutomatedMine_13" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel7" Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Build8" Unit="AutomatedMine_15" Time="5">
+            <Button DefaultButtonFace="BuildAutomatedMineLevel8"/>
+        </InfoArray>
+        <InfoArray index="Build13" Unit="Turret1" Time="4">
+            <Button DefaultButtonFace="WarpinTurret" Requirements=""/>
+        </InfoArray>
+        <FlagArray index="PeonMaintained" value="0"/>
+    </CAbilBuild>
+    <CAbilInteract id="TestInteract">
+        <Flags index="ShareControl" value="1"/>
+        <Range value="3.5"/>
+        <TargetFilters value="Heroic;Self,Structure,Worker,Missile,Uncommandable,Buried,UnderConstruction,Dead,Hidden"/>
+        <AutoCastRange value="3.5"/>
+        <CmdButtonArray index="Designate" Requirements="AdvancedHealingAINotPurchased"/>
+    </CAbilInteract>
+    <CAbilPawn id="TestPawn">
+        <Range value="3.5"/>
+        <InfoArray index="Pawn1">
+            <RefundFraction index="Minerals" value="0"/>
+            <RefundFraction index="Vespene" value="0"/>
+        </InfoArray>
+    </CAbilPawn>
+    <CAbilEffectInstant id="TimeWarpprobe">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TimeWarp2"/>
+        <Flags index="Transient" value="1"/>
+    </CAbilEffectInstant>
+    <CAbilTrain id="LegendaryMiner" parent="GatewayTrain">
+        <Name value="Abil/Name/LegendaryMiner"/>
+        <InfoArray index="Train1" Time="4"/>
+        <InfoArray index="Train3">
+            <Button State="Restricted" Requirements="HaveVoidSentryReplicant"/>
+            <Unit index="0" value="Replicant"/>
+            <Unit value="SCV3"/>
+        </InfoArray>
+        <InfoArray index="Train9">
+            <Button Requirements=""/>
+        </InfoArray>
+        <InfoArray index="Train10" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train11" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+        <InfoArray index="Train12" Time="0">
+            <Button DefaultButtonFace="" Requirements=""/>
+            <Unit index="0" removed="1"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilMorph id="UpgradetoGeneratorLevel2">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorLevel2" State="Restricted" Requirements="HaveWall1"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel01">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel13">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel13" State="Restricted" Requirements="HaveAncientLibrary"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret13">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel4">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel4" State="Restricted" Requirements="HaveMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret4">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel5">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel5" State="Restricted" Requirements="HaveUndergroundMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret5">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel3">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel3" State="Restricted" Requirements="HaveMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret3">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel6">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel6" State="Restricted" Requirements="HaveUndergroundMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret6">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel7">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel7" State="Restricted" Requirements="HaveGlobalMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret7">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel8">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel8" State="Restricted" Requirements="HaveGlobalMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret8">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel9">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel9" State="Restricted" Requirements="HaveGlobalMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret9">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel10">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel10" State="Restricted" Requirements="HaveGlobalMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret10">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel11">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel11" State="Restricted" Requirements="HaveAncientLibrary"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret11">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel12">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel12" State="Restricted" Requirements="HaveAncientLibrary"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret12">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoUndergroundMarket">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoUndergroundMarket" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel" State="Restricted"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="UndergroundMarket">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="3"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoUndergroundGlobalMarket">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGlobalMarket" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel" State="Restricted"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GlobalMarket">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="3"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel15">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall15">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel17">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted" Requirements="HaveMinerPerfectLudicrous"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall17">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="8"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="8"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="8"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoTurretlevel2">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoTurretLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Turret2">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallMax">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted" Requirements="HaveMinerPerfectLudicrous"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="wall18">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="10"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="10"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="10"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel14">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall14">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel11">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall11">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel12">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall12">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel7">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall7">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel6">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall6">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel8">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall8">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel2">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall2">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="3"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel4">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall4">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="3"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel3">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall3">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="3"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel10">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall10">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel5">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall5">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="3"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="3"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel13">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall13">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel9">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoWallLevel2" State="Restricted"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall9">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="4"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="4"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoWallLevel16">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoPowerWallLevel1" State="Restricted" Requirements="HaveMinerLegendaryPerfectLudicrous"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="Wall16">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="6"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="6"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="6"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoGeneratorLevel7">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorLevel7" State="Restricted" Requirements="HaveWall9"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel06">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoGeneratorLevel3">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorLevel3" State="Restricted" Requirements="HaveWall4"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel02">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoGeneratorLevel4">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorLevel4" State="Restricted" Requirements="HaveMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel03">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoGeneratorLevel6">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorLevel6" State="Restricted" Requirements="HaveUndergroundMarket"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel05">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoGeneratorLevel5">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorLevel5" State="Restricted" Requirements="HaveWall6"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel04">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoGeneratorLevel8">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorLevel8" State="Restricted" Requirements="HaveWall11"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel07">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoGeneratorLevel9">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorLevel9" State="Restricted" Requirements="HaveWall12"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel08">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilMorph id="UpgradetoGeneratorMax">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:MorphsandBurrows"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UpgradetoGeneratorMax" State="Restricted" Requirements="HaveWall13"/>
+        <CmdButtonArray index="Cancel" DefaultButtonFace="Cancel"/>
+        <Flags index="BestUnit" value="1"/>
+        <Flags index="Birth" value="1"/>
+        <Flags index="DisableAbils" value="1"/>
+        <Flags index="FastBuild" value="1"/>
+        <Flags index="Interruptible" value="1"/>
+        <Flags index="Produce" value="1"/>
+        <Flags index="ShowProgress" value="1"/>
+        <InfoArray Score="1" Unit="GeneratorLevel09">
+            <SectionArray index="Abils">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="5"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="5"/>
+            </SectionArray>
+        </InfoArray>
+        <Alert value="UpgradeComplete"/>
+    </CAbilMorph>
+    <CAbilEffectInstant id="VampireSwapto13Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="StandardZealotSkin" Requirements="VampireSkin12"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto14Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="AberrationSkin" Requirements="VampireSkin13"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Swapto15Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <Marker Link="Abil/VampireSwapto14Model"/>
+        <AINotifyEffect value="VampireSwapto14Model"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UltraliskSkin"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="SalvageAll">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto1Model"/>
+            <Cooldown Link="DukesRevenge" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SalvageAll"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto9Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PredatorSkin" Requirements="VampireSkin8"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto10Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DarkZealotSkin" Requirements="VampireSkin9"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto11Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DarkTemplarSkin" Requirements="VampireSkin10"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto12Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="HybridSkin" Requirements="VampireSkin11"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto1Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PrisonZealotSkin"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto2Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="InfestedMarineSkin" Requirements="VampireSkin1"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto3Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="InfestedColonistSkin" Requirements="VampireSkin2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto4Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="KerriganSkin" Requirements="VampireSkin3"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto5Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="RoachSkin" Requirements="VampireSkin4"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto6Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="QueenSkin" Requirements="VampireSkin5"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto7Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="BrutaliskSkin" Requirements="VampireSkin6"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VampireSwapto8Model">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="1"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="HydraliskSkin" Requirements="VampireSkin7"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="GiveResources">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" removed="1"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="AutoCast" value="1"/>
+        <Cost>
+            <Charge Link="Abil/VampireSwapto3Model"/>
+            <Cooldown Link="Vampire Swap Model" Location="Unit" TimeUse="5"/>
+        </Cost>
+        <AutoCastRange value="500"/>
+        <Marker Link="Abil/VampireSwapto9Model"/>
+        <AINotifyEffect value=""/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="GiveResources"/>
+        <TargetFilters value="-;Enemy"/>
+        <AutoCastFilters value="Visible;Enemy"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="VoodooShield">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilWarpTrain id="WarpGateTrain">
+        <InfoArray index="Train2">
+            <Button State="Available" Requirements="MercenariesLimit"/>
+        </InfoArray>
+    </CAbilWarpTrain>
+    <CAbilWarpable id="Warpable">
+        <PowerUserBehavior value=""/>
+    </CAbilWarpable>
+    <CAbilResearch id="Zealot2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="AlarakSkin" Requirements="VampireSkin5"/>
+        </InfoArray>
+        <InfoArray index="Research2" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS5" Requirements="VampireSkinS5"/>
+        </InfoArray>
+        <InfoArray index="Research3" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS10" Requirements="VampireSkinS10"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS20" Requirements="VampireSkinS20"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS40" Requirements="VampireSkinS40"/>
+        </InfoArray>
+        <InfoArray index="Research6" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin6"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin11"/>
+        </InfoArray>
+        <InfoArray index="Research8" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin7"/>
+        </InfoArray>
+        <InfoArray index="Research9" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin2"/>
+        </InfoArray>
+        <InfoArray index="Research10" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS45" Requirements="VampireSkinS45"/>
+        </InfoArray>
+        <InfoArray index="Research11" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin3"/>
+        </InfoArray>
+        <InfoArray index="Research12" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin1"/>
+        </InfoArray>
+        <InfoArray index="Research13" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin8"/>
+        </InfoArray>
+        <InfoArray index="Research14" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS50" Requirements="VampireSkinS50"/>
+        </InfoArray>
+        <InfoArray index="Research15" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button Requirements="VampireSkin5"/>
+        </InfoArray>
+        <InfoArray index="Research16" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2"/>
+            <Button Requirements="VampireSkin4"/>
+        </InfoArray>
+        <InfoArray index="Research17" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin12"/>
+        </InfoArray>
+        <InfoArray index="Research18" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin5"/>
+        </InfoArray>
+        <InfoArray index="Research19" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin2"/>
+        </InfoArray>
+        <InfoArray index="Research20" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin15"/>
+        </InfoArray>
+        <InfoArray index="Research21" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin14"/>
+        </InfoArray>
+        <InfoArray index="Research22" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin13"/>
+        </InfoArray>
+        <InfoArray index="Research23" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin12"/>
+        </InfoArray>
+        <InfoArray index="Research24" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin11"/>
+        </InfoArray>
+        <InfoArray index="Research25" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button Requirements="VampireSkin10"/>
+        </InfoArray>
+        <InfoArray index="Research26" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS1" Requirements="VampireSkinS1"/>
+        </InfoArray>
+        <InfoArray index="Research27" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS15" Requirements="VampireSkinS15"/>
+        </InfoArray>
+        <InfoArray index="Research28" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS25" Requirements="VampireSkinS25"/>
+        </InfoArray>
+        <InfoArray index="Research29" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS30" Requirements="VampireSkinS30"/>
+        </InfoArray>
+        <InfoArray index="Research30" Upgrade="SwaptoModel">
+            <Charge Link="Abil/SwaptoModel2"/>
+            <Cooldown Link="Abil/SwaptoModel2" TimeUse="1"/>
+            <Button DefaultButtonFace="ZealotSkinS35" Requirements="VampireSkinS35"/>
+        </InfoArray>
+        <Flags index="Transient" value="1"/>
+    </CAbilResearch>
+    <CAbilLearn id="ZealotLearn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Learn1" Abil="Cloak">
+            <Button DefaultButtonFace="Cloak"/>
+        </InfoArray>
+        <InfoArray index="Learn2" Abil="ElectricField">
+            <Button DefaultButtonFace="ElectricField"/>
+        </InfoArray>
+        <InfoArray index="Learn3" Abil="TeleporttoBase">
+            <Button DefaultButtonFace="TeleporttoBase"/>
+        </InfoArray>
+        <InfoArray index="Learn4" Abil="ScannerSweep">
+            <Button DefaultButtonFace="Scan"/>
+        </InfoArray>
+        <Points value="1"/>
+        <PointsPerLevel value="1"/>
+    </CAbilLearn>
+    <CAbilEffectTarget id="ZeratulBlink">
+        <Cost index="0">
+            <Cooldown TimeUse="20"/>
+        </Cost>
+        <AbilSetId value=""/>
+    </CAbilEffectTarget>
+    <CAbilRedirectTarget id="attack2">
+        <Abil value="attack3"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Attack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilRedirectTarget>
+    <CAbilEffectTarget id="AdvancedBlink">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Flags index="BestUnit" value="0"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Charge Link="Abil/ZeratulBlink"/>
+            <Cooldown Link="Abil/ZeratulBlink" TimeUse="60"/>
+        </Cost>
+        <Range value="500"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="AdvancedBlink">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="ZeratulStun">
+        <Cost index="0">
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <SmartValidatorArray value="MagicImmunity"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <AutoCastAcquireLevel value="Defensive"/>
+        <AutoCastFilters value="Heroic,Visible;Player,Ally,Neutral"/>
+        <AutoCastRange value="3"/>
+        <Arc value="360"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="VoidPrisonAutoCastOff" parent="ZeratulStun">
+        <Name value="Abil/Name/VoidPrisonAutoCastOff"/>
+        <Flags index="AutoCastOn" value="0"/>
+    </CAbilEffectTarget>
+    <CAbilAttack id="attack22">
+        <TargetMessage value="Abil/TargetMessage/attack22"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack3">
+        <TargetMessage value="Abil/TargetMessage/attack3"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack4">
+        <TargetMessage value="Abil/TargetMessage/attack4"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack5">
+        <TargetMessage value="Abil/TargetMessage/attack5"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack6">
+        <TargetMessage value="Abil/TargetMessage/attack6"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack7">
+        <TargetMessage value="Abil/TargetMessage/attack7"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilAttack id="attack8">
+        <TargetMessage value="Abil/TargetMessage/attack8"/>
+        <MinAttackSpeedMultiplier value="0.25"/>
+        <MaxAttackSpeedMultiplier value="128"/>
+    </CAbilAttack>
+    <CAbilMove id="move2">
+        <CmdButtonArray index="HoldPos" DefaultButtonFace="MoveHoldPosition2"/>
+        <FleeRange value="5"/>
+        <FleeTime value="5"/>
+        <FollowRangeSlop value="1"/>
+        <FollowAcquireRange value="6"/>
+        <MinPatrolDistance value="1"/>
+    </CAbilMove>
+</Catalog>

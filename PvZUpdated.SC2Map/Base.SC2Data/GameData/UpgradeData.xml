@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CUpgrade id="Blink"/>
+    <CUpgrade id="Blink2">
+        <Name value="Upgrade/Name/DetectUpgrade"/>
+        <Flags index="TechTreeCheat" value="1"/>
+        <EffectArray Reference="Unit,Stalker,EffectArray[Birth]" Value="MercenaryEffectDetect12"/>
+        <AffectedUnitArray value="Stalker"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin1"/>
+    <CUpgrade id="BuilderSkin10">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="EnableBoots">
+        <EffectArray Operation="Set" Reference="Abil,Train2,InfoArray[Train20].Button.Requirements"/>
+        <EffectArray Operation="Set" Reference="Abil,Train2,InfoArray[Train21].Button.Requirements"/>
+        <EffectArray Operation="Set" Reference="Abil,Train2,InfoArray[Train22].Button.Requirements"/>
+    </CUpgrade>
+    <CUpgrade id="DisableBoots">
+        <EffectArray Operation="Set" Reference="Abil,Train2,InfoArray[Train20].Button.Requirements" Value="HasFinalBlade"/>
+        <EffectArray Operation="Set" Reference="Abil,Train2,InfoArray[Train21].Button.Requirements" Value="HasFinalBlade"/>
+        <EffectArray Operation="Set" Reference="Abil,Train2,InfoArray[Train22].Button.Requirements" Value="HasFinalBlade"/>
+    </CUpgrade>
+    <CUpgrade id="HunterRankS20"/>
+    <CUpgrade id="HuntersAllowed"/>
+    <CUpgrade id="ProbeRankS10"/>
+    <CUpgrade id="ProbeRankS1"/>
+    <CUpgrade id="ProbeRankS5"/>
+    <CUpgrade id="ProbeRankS20"/>
+    <CUpgrade id="ProbeRankS30"/>
+    <CUpgrade id="ProbeRankS40"/>
+    <CUpgrade id="ProbeRankS60"/>
+    <CUpgrade id="ProbeRankS70"/>
+    <CUpgrade id="ProbeRankS25"/>
+    <CUpgrade id="ProbeRankS50"/>
+    <CUpgrade id="ProbeRankS80"/>
+    <CUpgrade id="ProbeRankS90"/>
+    <CUpgrade id="ProbeRankS100"/>
+    <CUpgrade id="ProbeRankS75"/>
+    <CUpgrade id="SpiritRankS50"/>
+    <CUpgrade id="SpiritRankS1"/>
+    <CUpgrade id="SpiritRankS25"/>
+    <CUpgrade id="SpiritRankS15"/>
+    <CUpgrade id="SpiritRankS100"/>
+    <CUpgrade id="VampireSkinRankS1"/>
+    <CUpgrade id="VampireSkinRankS15"/>
+    <CUpgrade id="VampireSkinRankS25"/>
+    <CUpgrade id="VampireSkinRankS35"/>
+    <CUpgrade id="VampireSkinRankS30"/>
+    <CUpgrade id="VampireSkinRankS45"/>
+    <CUpgrade id="VampireSkinRankS50"/>
+    <CUpgrade id="VampireSkinRankS5">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin11">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin12">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin13">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin14">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin15">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin16">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin17">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="MovementSpeedLevel1">
+        <EffectArray Reference="Unit,DominionKillTeam,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Goliath,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,HelsAngelAssault,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,SiegeBreaker,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Archon,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Colossus,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,StoneZealot,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,TychusChaingun,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Tosh,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,RaynorCommando,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Stalker,Speed" Value="1.000000"/>
+    </CUpgrade>
+    <CUpgrade id="MovementSpeedLevel2">
+        <EffectArray Reference="Unit,DominionKillTeam,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Goliath,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,HelsAngelAssault,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,SiegeBreaker,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Archon,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Colossus,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,StoneZealot,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,TychusChaingun,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Tosh,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,RaynorCommando,Speed" Value="1.000000"/>
+        <EffectArray Reference="Unit,Stalker,Speed" Value="1.000000"/>
+        <LeaderAlias value="MovementSpeedLevel1"/>
+    </CUpgrade>
+    <CUpgrade id="UnderDevelopment">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin2"/>
+    <CUpgrade id="BuilderSkin3"/>
+    <CUpgrade id="BuilderSkin4"/>
+    <CUpgrade id="BuilderSkin5">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin6">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin7">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin8">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="BuilderSkin9">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="SwaptoModel">
+        <Alert value=""/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin1"/>
+    <CUpgrade id="VampireSkin10">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin11">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin12">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin13">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin14">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin15">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin2"/>
+    <CUpgrade id="VampireSkin3"/>
+    <CUpgrade id="VampireSkin4"/>
+    <CUpgrade id="VampireSkin5">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin6">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin7">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin8">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkin9">
+        <LeaderAlias value="VampireSkin1"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkinRankS10">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkinRankS20">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+    <CUpgrade id="VampireSkinRankS40">
+        <LeaderAlias value="BuilderSkin3"/>
+    </CUpgrade>
+</Catalog>

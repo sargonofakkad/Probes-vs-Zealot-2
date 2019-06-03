@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CWeaponLegacy id="Claws">
+        <TargetFilters value="-;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Period value="1"/>
+        <AllowedMovement value="Moving"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="Claws2">
+        <EditorCategories value="Race:Zerg"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level0.dds"/>
+        <TargetFilters value="-;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="0.5"/>
+        <Period value="0.3"/>
+        <AllowedMovement value="Moving"/>
+        <Effect value="ZealotSet2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="CommandoRifle">
+        <Range value="13"/>
+        <Period value="0.2"/>
+        <Level value="10"/>
+        <Effect value="CommandoRifleLaunchMissile"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DominionKillTeam">
+        <Period value="1"/>
+        <Level value="1"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="GoliathG">
+        <Period value="1"/>
+        <Level value="2"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="LongboltMissile">
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="Oracle">
+        <TargetFilters value="Ground,Light,Heroic,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="8"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ParticleDisruptors">
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Period value="0.2"/>
+        <DisplayAttackCount value="3"/>
+        <Level value="11"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ParticleDisruptors2">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel0.dds"/>
+        <DisplayEffect value="ParticleDisruptorsU2"/>
+        <DisplayAttackCount value="10"/>
+        <Level value="14"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Period value="0.1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="LavaCritterStatueDefenderWeapon">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel0.dds"/>
+        <DisplayEffect value="LavaCritterStatueDefenderEntropyLanceDamage"/>
+        <DisplayAttackCount value="3"/>
+        <Level value="11"/>
+        <TargetFilters value="Visible;Player,Ally,Neutral,Missile,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Period value="0.2"/>
+        <Effect value="LavaCritterStatueDefenderEntropyLanceSet"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="LavaCritterStatueDefenderWeapon2">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel0.dds"/>
+        <DisplayEffect value="LavaCritterStatueDefenderEntropyLanceDamage2"/>
+        <DisplayAttackCount value="3"/>
+        <Level value="11"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Period value="0.2"/>
+        <Effect value="LavaCritterStatueDefenderEntropyLanceSet"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="LavaCritterStatueDefenderParticleDisrupters">
+        <EditorCategories value="Race:Protoss"/>
+        <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel0.dds"/>
+        <DisplayEffect value="LavaCritterStatueDefenderEntropyLanceDamage"/>
+        <DisplayAttackCount value="3"/>
+        <Level value="11"/>
+        <TargetFilters value="-;Player,Ally,Neutral,Missile,Dead"/>
+        <Range value="6"/>
+        <Period value="0.2"/>
+        <Effect value="LavaCritterStatueDefenderEntropyLanceSet"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="Predator">
+        <Period value="1.5"/>
+        <DisplayEffect value="PsiBlades"/>
+        <PeriodDisplayFlags index="CollapseBuffed" value="1"/>
+        <Effect value="ZealotSet"/>
+        <TargetFilters value="Ground,Visible;Robotic,Heroic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PsionicShockwave">
+        <Range value="7"/>
+        <Period value="1"/>
+        <Level value="5"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="SiegeBreaker">
+        <Period value="1"/>
+        <Level value="4"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="StoneZealot">
+        <DisplayAttackCount value="1"/>
+        <Range value="8"/>
+        <Period value="1"/>
+        <Level value="7"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="ThermalLances">
+        <DisplayAttackCount value="1"/>
+        <Range value="7"/>
+        <Period value="1"/>
+        <Level value="6"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="Tosh">
+        <Range value="10"/>
+        <Level value="9"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel1"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="1"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissile1"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack11">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel11"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="11"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="9"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM11"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack12">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel12"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="12"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="10"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM12"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack13">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel13"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="13"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="11"/>
+        <RangeSlop value="0"/>
+        <Period value="0.2"/>
+        <Effect value="LongboltMissileLM13"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="FinalTurretAttack">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel13"/>
+        <DisplayAttackCount value="5"/>
+        <Level value="13"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <RangeSlop value="0"/>
+        <Marker Link="Weapon/TurretAttack13"/>
+        <Cost>
+            <Cooldown Link="Weapon/TurretAttack13"/>
+        </Cost>
+        <Period value="0.1"/>
+        <Effect value="LongboltMissileLM13"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack2">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel2"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="2"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack3">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel3"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="3"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM3"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack4">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel4"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="4"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM4"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack5">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel5"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="5"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM5"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack6">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel6"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="6"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM6"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack7">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel7"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="7"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM7"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack8">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel8"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="8"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM8"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack9">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel92"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="9"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="7"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissile9"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TurretAttack10">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-hisecautotracking.dds"/>
+        <DisplayEffect value="TurretDamageLevel10"/>
+        <DisplayAttackCount value="1"/>
+        <Level value="10"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="8"/>
+        <RangeSlop value="0"/>
+        <Period value="1"/>
+        <Effect value="LongboltMissileLM10"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="PsiBlades">
+        <DisplayAttackCount value="0"/>
+        <Period value="1.5"/>
+        <PeriodDisplayFlags index="CollapseBuffed" value="1"/>
+        <Effect value="ZealotSet"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="TychusChaingun">
+        <Range value="9"/>
+        <Period value="1"/>
+        <Level value="8"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="WreckingCrewAssault">
+        <Range value="7"/>
+        <Level value="3"/>
+        <TargetFilters value="Visible;Ally,Robotic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CWeaponLegacy>
+</Catalog>

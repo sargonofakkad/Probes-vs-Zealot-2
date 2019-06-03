@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Preload>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="ActorLightOmni"/>
+<Actor id="ActorLightSpot"/>
+<Actor id="Aiur_Temple_Inlay" Variations="1"/>
+<Actor id="KorhalMengskSymbolSplat"/>
+<Actor id="Shakuras_Temple_PlatesGiant" Variations="3"/>
+<Actor id="UmojanLabCrates" Variations="4"/>
+<Actor id="XelNaga_Caverns_Cave_Light" Variations="2"/>
+<Actor id="XelNaga_Temple_Small" Variations="3,5"/>
+<Actor id="ShakurasArchway" Variations="1"/>
+<Actor id="AgriaTree" Variations="2,5"/>
+<Actor id="BelShirTree" Variations="0,1,2,4,5,6,7"/>
+<Actor id="CastanarFloodlight" Variations="0,1"/>
+<Actor id="CastanarHoloProjector"/>
+<Actor id="CastanarLightboard" Variations="1,2"/>
+<Actor id="CastanarWindowLarge"/>
+<Actor id="Decal" Variations="3,4,5,6,8,10,11,13,22,23"/>
+<Actor id="HavenTree" Variations="0,1,2,4,5,6,7"/>
+<Actor id="ShakurasTempleWall" Variations="2"/>
+<Actor id="FlashingLights"/>
+<Actor id="TarsonisArrow"/>
+<Actor id="BillboardPropaganda" Variations="0,7"/>
+<Actor id="SplatAliveInside"/>
+<Actor id="StoneZealotBase"/>
+<Actor id="ZhakulDasTemple"/>
+<Terrain id="KorhalCity"/>
+<Unit id="RedstoneLavaCritter"/>
+<Unit id="RichMineralField" Variations="0,1,2,3,4,5,6,7,8,9"/>
+<Unit id="MineralField" Variations="0,1,2,3,4,5,6,7,8,9"/>
+<Unit id="DestructibleBillboardScrollingText" Variations="0"/>
+<Unit id="MengskStatueAlone"/>
+<Unit id="ShapeRoundedCube"/>
+<Unit id="CheckStationVertical"/>
+<Unit id="CheckStationVerticalOpened"/>
+<Unit id="Raynor01"/>
+<Unit id="MurlocMarine"/>
+<Unit id="DestructibleUmojanLabFloodLights" Variations="2"/>
+</Preload>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CRace id="Prot">
+        <FoodCeiling value="10000"/>
+        <ShowResource index="Terrazine" value="1"/>
+    </CRace>
+    <CRace id="Terr">
+        <FoodCeiling value="10000"/>
+        <ShowResource index="Terrazine" value="1"/>
+    </CRace>
+    <CRace id="Zerg">
+        <FoodCeiling value="10000"/>
+        <ShowResource index="Terrazine" value="1"/>
+    </CRace>
+</Catalog>

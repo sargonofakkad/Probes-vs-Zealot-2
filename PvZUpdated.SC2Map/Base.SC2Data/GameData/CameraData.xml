@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CCamera id="Dflt">
+        <ZoomTable index="0">
+            <Param index="Distance" Value="100.000000"/>
+        </ZoomTable>
+        <ZoomTable index="1">
+            <Param index="Distance" Value="90.000000"/>
+            <Param index="Pitch" Value="56.000000"/>
+        </ZoomTable>
+        <ZoomTable index="2">
+            <Param index="Distance" Value="80.000000"/>
+            <Param index="Pitch" Value="56.000000"/>
+        </ZoomTable>
+        <ZoomTable index="3">
+            <Param index="Distance" Value="70.000000"/>
+            <Param index="Pitch" Value="56.000000"/>
+        </ZoomTable>
+        <ZoomTable index="4">
+            <Param index="Distance" Value="60.000000"/>
+            <Param index="Pitch" Value="56.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="50.000000"/>
+            <Param index="Pitch" Modify="1" Value="56.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="40.000000"/>
+            <Param index="Pitch" Modify="1" Value="56.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="34.000000"/>
+            <Param index="Pitch" Modify="1" Value="56.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="30.000000"/>
+            <Param index="Pitch" Modify="1" Value="52.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="26.000000"/>
+            <Param index="Pitch" Modify="1" Value="48.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="22.000000"/>
+            <Param index="Pitch" Modify="1" Value="44.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="18.000000"/>
+            <Param index="Pitch" Modify="1" Value="40.000000"/>
+        </ZoomTable>
+        <ZoomDefault value="7"/>
+    </CCamera>
+</Catalog>

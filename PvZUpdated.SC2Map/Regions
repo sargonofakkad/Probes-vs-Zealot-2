@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="Map 4"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.1828,54.6694,247.5,144.1733"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="Map 1"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.5,160.5,79.5261,247.5"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="Map 2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="88,160.5,160,247.5"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="Map 3"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="168.181,160.5,247.5,247.5"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="Map 6"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="155.1901,6.4797,247.9216,144.2651"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="Center Region"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="71.5214,156.0158"/>
+            <radius value="5.5"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="Map 5"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="7.979,6.6437,247.3886,58.378"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="Map 7"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.0678,6.6364,158.0051,144.0041"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="Map 8"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.0678,53.778,117.6542,143.7431"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="Twisted DOWN Gold Mins (Map 5)"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="164.4304,51.0363,199.2512,55.0231"/>
+        </shape>
+        <shape type="rect">
+            <quad value="151.5361,29.5717,156.487,48.6574"/>
+        </shape>
+        <shape type="rect">
+            <quad value="112.6892,33.085,119.1313,48.9782"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="Twisted RIGHT Gold Mins (Map 6)"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="212.1386,63.4465,234.226,69.2011"/>
+        </shape>
+        <shape type="rect">
+            <quad value="203.5251,33.4113,224.933,37.679"/>
+        </shape>
+        <shape type="rect">
+            <quad value="181.5251,82.3742,208.4584,87.7243"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="Twisted Narrows Gold Mins (Map 10)"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="148.9638,91.5832,154.6955,109.9743"/>
+        </shape>
+        <shape type="rect">
+            <quad value="141.8134,77.5654,156.565,82.2463"/>
+        </shape>
+        <shape type="rect">
+            <quad value="104.588,94.1765,118.378,101.0007"/>
+        </shape>
+        <shape type="rect">
+            <quad value="82.9936,107.0698,88.8513,126.2314"/>
+        </shape>
+        <shape type="rect">
+            <quad value="134.3955,58.8723,141.31,72.8837"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="Map 1 and 2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.5,160.5,160,247.5"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="Twisted LEFT Gold Mins (Map 7)"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="102.766,96.0422,120.0871,100.8732"/>
+        </shape>
+        <shape type="rect">
+            <quad value="84.3286,107.2673,88.565,125.8161"/>
+        </shape>
+        <shape type="rect">
+            <quad value="107.3464,56.987,113.3847,71.0068"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="Map 9"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.5,160.5,247.5,247.5"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="Camping Trip Rich Mineral Field"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="33.5,202,52,222.5"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="Close Quarters Rich Mineral Field"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="216.9965,188.0407,246.0261,193.647"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="Temple Ruins Mineral Field 1"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="119.5,192,134,226.269"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="Temple Ruins Mineral Field 2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="115.6625,161.5966,148.3374,175.4033"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="Speed Region 1"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="79.6176,193.4553,88.2036,202.9372"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="Speed Region 2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="80.2402,216.763,88.8261,226.2448"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="Speed Region 3"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="160.2543,214.2734,168.8403,223.7553"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="Speed Region 4"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="160.1076,184.6806,168.6936,194.1625"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="Probe AI Base 1"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="106.5632,102.6423,151.7783,115.617"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="Probe AI Base 2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="92.3981,75.0368,109.3981,93.0366"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="Probe AI Base 3"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="110.1647,231.0227,135.1782,246.6655"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="Probe AI Base 4"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="44.3398,121.0944,57.8078,150.8144"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="Probe AI Base 5"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="62.1887,64.9611,75.4333,81.455"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="Probe AI Base 6"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="69.0236,48.8835,82.0363,63.948"/>
+        </shape>
+    </region>
+    <region id="30">
+        <name value="Probe AI Base 7"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="133.0761,72.96,159.0695,93.6115"/>
+        </shape>
+    </region>
+    <region id="31">
+        <name value="Probe AI Base 8"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.8454,202.8413,29.0693,219.1547"/>
+        </shape>
+    </region>
+    <region id="32">
+        <name value="Probe AI Base 9"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="168.5556,223.477,197.096,244.7736"/>
+        </shape>
+    </region>
+    <region id="33">
+        <name value="Probe AI Base 10"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="216.1684,188.8452,246.3344,211.0244"/>
+        </shape>
+    </region>
+    <region id="34">
+        <name value="Probe AI Base 11"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="120.877,186.8054,133.392,197.24"/>
+        </shape>
+    </region>
+    <region id="35">
+        <name value="Probe AI Base 12"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="116.7463,213.0786,131.1,223.4328"/>
+        </shape>
+    </region>
+    <region id="36">
+        <name value="Probe AI Base 13"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="89.0158,200.5126,109.0158,215.7214"/>
+        </shape>
+    </region>
+    <region id="37">
+        <name value="Probe AI Base 14"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="37.0405,162.5573,53.0402,180.3417"/>
+        </shape>
+    </region>
+    <region id="38">
+        <name value="Probe AI Base 15"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.945,161.8796,18.0583,178.6457"/>
+        </shape>
+    </region>
+    <region id="39">
+        <name value="Probe AI Base 16"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="10.7087,187.0737,26.7092,196.7038"/>
+        </shape>
+    </region>
+    <region id="40">
+        <name value="Probe AI Base 17"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="35.5036,193.3188,50.9436,204.2875"/>
+        </shape>
+    </region>
+    <region id="41">
+        <name value="Probe AI Base 18"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="37.103,219.4472,49.154,233.4501"/>
+        </shape>
+    </region>
+    <region id="42">
+        <name value="Probe AI Base 19"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.9941,238.2766,30.7597,246.2763"/>
+        </shape>
+    </region>
+    <region id="43">
+        <name value="Probe AI Base 20"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="52.165,231.4792,60.6315,246.0673"/>
+        </shape>
+    </region>
+    <region id="44">
+        <name value="Probe AI Base 21"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="61.2817,210.3464,76.3984,220.195"/>
+        </shape>
+    </region>
+    <region id="45">
+        <name value="Probe AI Base 22"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="61.8513,190.8444,78.6796,199.3002"/>
+        </shape>
+    </region>
+    <region id="46">
+        <name value="Probe AI Base 23"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="59.018,161.8618,76.9155,175.468"/>
+        </shape>
+    </region>
+    <region id="47">
+        <name value="Probe AI Base 24"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="90.627,161.7067,110.6267,173.7065"/>
+        </shape>
+    </region>
+    <region id="48">
+        <name value="Probe AI Base 25"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="88.5078,174.5473,98.0395,195.038"/>
+        </shape>
+    </region>
+    <region id="49">
+        <name value="Probe AI Base 26"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="141.16,215.2133,158.824,225.2736"/>
+        </shape>
+    </region>
+    <region id="50">
+        <name value="Probe AI Base 27"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="141.1577,179.6247,158.5344,200.535"/>
+        </shape>
+    </region>
+    <region id="51">
+        <name value="Probe AI Base 28"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="117.0395,161.5314,146.9328,168.443"/>
+        </shape>
+    </region>
+    <region id="52">
+        <name value="Probe AI Base 29"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="89.6184,227.1682,102.5036,246.063"/>
+        </shape>
+    </region>
+    <region id="53">
+        <name value="Probe AI Base 30"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="169.2946,193.1142,181.2038,213.9687"/>
+        </shape>
+    </region>
+    <region id="54">
+        <name value="Probe AI Base 31"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="169.2192,163.5261,192.8432,183.9003"/>
+        </shape>
+    </region>
+    <region id="55">
+        <name value="Probe AI Base 32"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="204.5017,161.8422,220.681,182.4113"/>
+        </shape>
+    </region>
+    <region id="56">
+        <name value="Probe AI Base 33"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="213.1052,223.6047,245.6337,234.7797"/>
+        </shape>
+    </region>
+    <region id="57">
+        <name value="Probe AI Base 34"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="12.207,14.9035,45.102,33.8681"/>
+        </shape>
+    </region>
+    <region id="58">
+        <name value="Probe AI Base 35"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="21.936,40.5324,55.9357,51.5322"/>
+        </shape>
+    </region>
+    <region id="59">
+        <name value="Probe AI Base 36"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.131,58.8793,43.1606,77.3586"/>
+        </shape>
+    </region>
+    <region id="60">
+        <name value="Probe AI Base 37"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.7131,115.0957,29.1215,150.3854"/>
+        </shape>
+    </region>
+    <region id="61">
+        <name value="Probe AI Base 38"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="65.661,98.401,78.893,130.6157"/>
+        </shape>
+    </region>
+    <region id="62">
+        <name value="Probe AI Base 39"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="90.5837,121.581,109.0893,149.9736"/>
+        </shape>
+    </region>
+    <region id="63">
+        <name value="Probe AI Base 40"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="111.5895,135.1762,130.8271,148.443"/>
+        </shape>
+    </region>
+    <region id="64">
+        <name value="Probe AI Base 41"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="132.7153,140.8967,157.903,150.4277"/>
+        </shape>
+    </region>
+    <region id="65">
+        <name value="Probe AI Base 42"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="96.4133,47.17,107.897,62.987"/>
+        </shape>
+    </region>
+    <region id="66">
+        <name value="Probe AI Base 43"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="88.6782,9.7033,115.307,23.489"/>
+        </shape>
+    </region>
+    <region id="67">
+        <name value="Probe AI Base 44"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="124.6342,9.9277,157.7414,25.5588"/>
+        </shape>
+    </region>
+    <region id="68">
+        <name value="Probe AI Base 45"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="142.3874,34.7736,158.9306,62.9575"/>
+        </shape>
+    </region>
+    <region id="69">
+        <name value="Probe AI Base 46"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="98.187,31.09,135.0725,38.502"/>
+        </shape>
+    </region>
+    <region id="70">
+        <name value="Probe AI Base 47"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="169.6875,9.728,184.199,25.969"/>
+        </shape>
+    </region>
+    <region id="71">
+        <name value="Probe AI Base 48"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="197.0803,28.4743,209.1787,45.2687"/>
+        </shape>
+    </region>
+    <region id="72">
+        <name value="Probe AI Base 49"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="197.5483,49.9501,212.0476,66.6181"/>
+        </shape>
+    </region>
+    <region id="73">
+        <name value="Probe AI Base 50"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="174.6137,45.1315,188.9882,54.4"/>
+        </shape>
+    </region>
+    <region id="74">
+        <name value="Probe AI Base 51"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="169.3935,61.1467,178.0976,80.0502"/>
+        </shape>
+    </region>
+    <region id="75">
+        <name value="Probe AI Base 52"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="175.0368,89.2077,190.9335,104.062"/>
+        </shape>
+    </region>
+    <region id="76">
+        <name value="Probe AI Base 53"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="169.4621,110.5517,194.2253,125.7485"/>
+        </shape>
+    </region>
+    <region id="77">
+        <name value="Probe AI Base 54"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="169.764,135.0583,184.1191,150.1262"/>
+        </shape>
+    </region>
+    <region id="78">
+        <name value="Probe AI Base 55"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="199.0178,131.4768,216.9916,144.2436"/>
+        </shape>
+    </region>
+    <region id="79">
+        <name value="Probe AI Base 56"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="198.6606,113.4538,217.0605,121.9648"/>
+        </shape>
+    </region>
+    <region id="80">
+        <name value="Probe AI Base 57"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="198.5964,93.4555,215.135,104.2211"/>
+        </shape>
+    </region>
+    <region id="81">
+        <name value="Probe AI Base 58"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="236.3093,11.6367,246.1723,20.4843"/>
+        </shape>
+    </region>
+    <region id="82">
+        <name value="Probe AI Base 59"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="218.8352,25.0097,239.9865,32.1057"/>
+        </shape>
+    </region>
+    <region id="83">
+        <name value="Probe AI Base 60"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="221.0874,36.5073,228.3342,49.9465"/>
+        </shape>
+    </region>
+    <region id="84">
+        <name value="Probe AI Base 61"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="224.155,72.7214,246.0808,94.2192"/>
+        </shape>
+    </region>
+    <region id="85">
+        <name value="Probe AI Base 62"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="221.5026,110.8503,246.289,126.075"/>
+        </shape>
+    </region>
+    <region id="86">
+        <name value="Probe AI Base 63"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="221.8044,134.682,246.1711,142.3847"/>
+        </shape>
+    </region>
+    <region id="87">
+        <name value="Probe AI Base 64"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="62.9025,10.9997,80.8405,24.275"/>
+        </shape>
+    </region>
+    <region id="88">
+        <name value="Probe AI Base 65"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="54.3942,15.6152,61.0502,35.8923"/>
+        </shape>
+    </region>
+    <region id="89">
+        <name value="Probe AI Base 66"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="39.4855,85.4162,46.8002,102.5292"/>
+        </shape>
+    </region>
+    <region id="90">
+        <name value="Probe AI Base 67"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="222.1076,163.6445,245.7443,188.2502"/>
+        </shape>
+    </region>
+    <region id="91">
+        <name value="Probe AI Base 68"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="141.2067,236.369,151.163,246.3613"/>
+        </shape>
+    </region>
+    <region id="92">
+        <name value="Probe AI Base 69"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="66.6513,140.3151,80.7932,149.9033"/>
+        </shape>
+    </region>
+    <region id="93">
+        <name value="Map 10"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="8.4802,6.5942,247.5722,144.1032"/>
+        </shape>
+    </region>
+    <region id="94">
+        <name value="Twisted UP Gold Mins (Map 4)"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="147.4555,91.405,154.789,110.1423"/>
+        </shape>
+        <shape type="rect">
+            <quad value="103.9697,95.0197,118.7124,100.8466"/>
+        </shape>
+        <shape type="rect">
+            <quad value="83.7631,107.7436,88.2082,126.093"/>
+        </shape>
+    </region>
+    <region id="95">
+        <name value="Twisted POOL Gold Mins - Not Used - Use LEFT (Map 8)"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="54.841,81.3044,81.3273,89.7292"/>
+        </shape>
+        <shape type="rect">
+            <quad value="26.7702,83.4665,30.6845,102.143"/>
+        </shape>
+        <shape type="rect">
+            <quad value="46.5346,131.4638,50.754,144.5397"/>
+        </shape>
+    </region>
+    <region id="96">
+        <name value="Region 001"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="239.1694,198.9768"/>
+            <radius value="4.5"/>
+        </shape>
+    </region>
+    <region id="97">
+        <name value="Region 002"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="231.699,202.1997"/>
+            <radius value="7.5"/>
+        </shape>
+    </region>
+    <region id="98">
+        <name value="4-2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.5004,160.5,54.5,186.5002"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="49.5,185.5"/>
+            <width value="1.9455"/>
+            <height value="3.5327"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="49.3752,179.5,54.5,186.5"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="30,185.25,48.375,186.5"/>
+        </shape>
+    </region>
+    <region id="99">
+        <name value="1"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.0922,186.5,27.5,197.5"/>
+        </shape>
+    </region>
+    <region id="100">
+        <name value="12"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.7114,203.5,29.5,219.5"/>
+        </shape>
+    </region>
+    <region id="101">
+        <name value="16"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.4975,227,31.5,246.8012"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="17.9995,226.0498,24.5,236"/>
+        </shape>
+    </region>
+    <region id="102">
+        <name value="17"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="36.5065,218.7568,50.5065,245.7568"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="49.75,227.375,51.25,230.625"/>
+        </shape>
+        <shape type="rect">
+            <quad value="31.5065,226.7568,39.0065,246.0068"/>
+        </shape>
+        <shape type="rect">
+            <quad value="50.5034,220.5034,51.4968,226.4965"/>
+        </shape>
+    </region>
+    <region id="103">
+        <name value="18"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="51.864,230.7805,69.1364,246.2202"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="63.682,239,69.5,246.3598"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="67.8591,232.034"/>
+            <width value="7.627"/>
+            <height value="3.7827"/>
+        </shape>
+    </region>
+    <region id="104">
+        <name value="19"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="34.5021,192.5905,51.4985,204.4101"/>
+        </shape>
+    </region>
+    <region id="105">
+        <name value="20"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="56.4477,161.5002,79.5527,185.5002"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="65.2238,182.5,70.5,185.5"/>
+        </shape>
+    </region>
+    <region id="106">
+        <name value="21"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="60.5,190.5,78.5,199.5"/>
+        </shape>
+    </region>
+    <region id="107">
+        <name value="22"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="56.5,204.5,77,225.5"/>
+        </shape>
+    </region>
+    <region id="108">
+        <name value="23"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="88.5,226.5,103.5,246.6701"/>
+        </shape>
+    </region>
+    <region id="109">
+        <name value="2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="110.378,230.425,135.6225,248.5756"/>
+        </shape>
+    </region>
+    <region id="110">
+        <name value="3"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="88.5808,200.6008,109.5,215.5"/>
+        </shape>
+    </region>
+    <region id="111">
+        <name value="4"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="89.5,174.575,113.1474,195.5"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="100.0881,181.5,113.5,188.2312"/>
+        </shape>
+    </region>
+    <region id="112">
+        <name value="5"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="91.2377,161.1457,111,174.5"/>
+        </shape>
+    </region>
+    <region id="113">
+        <name value="6"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="117,161.479,147,173.5217"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="117,171.4895,133,174"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="125.5,167.4895,132.5,172.5"/>
+        </shape>
+    </region>
+    <region id="114">
+        <name value="7"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="120.699,179,133.2973,196.7292"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="120.5,178.5,124.5976,186.4321"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="129.4414,178.9013,133.317,186.5947"/>
+        </shape>
+    </region>
+    <region id="115">
+        <name value="8"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="116.5153,212.5,130,223.5"/>
+        </shape>
+    </region>
+    <region id="116">
+        <name value="9"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="140.5688,179.6503,159.5,201.5"/>
+        </shape>
+    </region>
+    <region id="117">
+        <name value="10"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="140.7077,208.476,159.2927,225.5246"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="145.677,208.3691,159.3232,214.631"/>
+        </shape>
+    </region>
+    <region id="118">
+        <name value="11"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="140.5886,232.5,159.5,246.4206"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="151.7722,232,159.5,242.48"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="151.5,232.5"/>
+            <width value="6.6853"/>
+            <height value="4.921"/>
+        </shape>
+    </region>
+    <region id="119">
+        <name value="25"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="169.5,222.4436,203.5,246.5563"/>
+        </shape>
+        <shape type="rect">
+            <quad value="190.5,220.5,203.5,222.528"/>
+        </shape>
+    </region>
+    <region id="120">
+        <name value="26"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="168.3447,163,201.5,185.5"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="193.3557,175.4375,201.6445,185.5625"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="199.2766,173.5468,201.7236,175.4531"/>
+        </shape>
+    </region>
+    <region id="121">
+        <name value="13"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="168.4367,192.5,187.5,215.7204"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="182.2343,201.5,187.5,208.305"/>
+        </shape>
+    </region>
+    <region id="122">
+        <name value="14"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="216.0952,188.5886,246.9052,211.4118"/>
+        </shape>
+    </region>
+    <region id="123">
+        <name value="15"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="212.6647,222.87,247.336,246.1306"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="212.6662,235.5,220,246.1574"/>
+        </shape>
+    </region>
+    <region id="124">
+        <name value="3-1"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="203.5,161.3078,246.5,185.6923"/>
+        </shape>
+        <shape type="rect">
+            <quad value="219,185,246.25,188.5"/>
+        </shape>
+    </region>
+    <region id="128">
+        <name value="MBN-2-031"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="212.5092,7.9858,237.0617,26.837"/>
+        </shape>
+    </region>
+    <region id="129">
+        <name value="MBN-2-029"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="204.9733,34.4428,223.6728,52.8918"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="211.6442,45.5178,223.7705,53.1237"/>
+        </shape>
+    </region>
+    <region id="130">
+        <name value="MBN-2-028"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="235.158,59.191,246.153,87.21"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="235.1567,64.1643,238.8823,87.6013"/>
+        </shape>
+    </region>
+    <region id="131">
+        <name value="MBN-2-027-Gold"/>
+        <shape type="rect">
+            <quad value="226.9326,94.4096,246.2763,105.6245"/>
+        </shape>
+    </region>
+    <region id="132">
+        <name value="MBN-2-026-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="188.879,128.683,209.704,142.7631"/>
+        </shape>
+    </region>
+    <region id="133">
+        <name value="MBN-2-025"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="214.8242,112.3935,242.969,137.228"/>
+        </shape>
+    </region>
+    <region id="134">
+        <name value="MBN-2-020-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="85.0087,108.4543,113.2907,124.5842"/>
+        </shape>
+    </region>
+    <region id="135">
+        <name value="MBN-2-024"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="194.8227,96.5656,215.446,108.9616"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="196.0502,106.6518"/>
+            <width value="8.616"/>
+            <height value="3.9895"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="198.6252,107.8132,202.6071,109.3371"/>
+        </shape>
+    </region>
+    <region id="136">
+        <name value="MBN-2-022"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="162.847,124.7048,181.436,143.109"/>
+        </shape>
+    </region>
+    <region id="137">
+        <name value="MBN-2-018-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="132.651,110.2053,153.4987,123.3312"/>
+        </shape>
+        <shape type="rect">
+            <quad value="144.957,120.6633,152.6586,127.2033"/>
+        </shape>
+    </region>
+    <region id="138">
+        <name value="MBN-2-023"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="185.0957,96.6806,200.8635,121.162"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="191.0368,96.2607,201.0305,104.1372"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="198.0488,105.0976"/>
+            <width value="9.3847"/>
+            <height value="6.976"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="197.6318,104.1535,201.071,110.7463"/>
+        </shape>
+    </region>
+    <region id="139">
+        <name value="MBN-2-034-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <negative/>
+            <quad value="142.1318,65.9084,144.9201,71.0461"/>
+        </shape>
+        <shape type="rect">
+            <quad value="143.1445,66.302,155.6662,81.123"/>
+        </shape>
+    </region>
+    <region id="140">
+        <name value="MBN-2-030"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="162.7587,7.7275,200.9616,31.0244"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="185.525,17.2563,201.8261,22.4477"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="171.5146,21.751,188.5205,26.5197"/>
+        </shape>
+    </region>
+    <region id="141">
+        <name value="MBN-2-032"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="212.7907,64.798,233.3195,89.0522"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="219.5541,64.6745,226.7316,76.8486"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="218.3186,75.2856,228.2001,78.6362"/>
+        </shape>
+    </region>
+    <region id="142">
+        <name value="MBN-2-033"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="163.1157,58.9621,177.4841,81.244"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="159.397,73.374,166.3857,81.5737"/>
+        </shape>
+    </region>
+    <region id="143">
+        <name value="MBN-2-017"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="164.9384,40.5446,197.4216,52.9438"/>
+        </shape>
+    </region>
+    <region id="144">
+        <name value="MBN-2-005"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="10.8127,30.4902,25.7714,53.059"/>
+        </shape>
+        <shape type="rect">
+            <quad value="25.201,46.4301,31.12,53.3325"/>
+        </shape>
+    </region>
+    <region id="145">
+        <name value="MBN-2-015-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="122.995,60.9401,138.9414,73.1843"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="139.1018,72.846"/>
+            <width value="3.5266"/>
+            <height value="4.2792"/>
+        </shape>
+    </region>
+    <region id="146">
+        <name value="MBN-2-008"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="50.5095,60.7963,78.9433,75.2148"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="49.4887,60.251,62.5817,68.6301"/>
+        </shape>
+    </region>
+    <region id="147">
+        <name value="MBN-2-004"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="14.7473,60.58,43.0971,75.3662"/>
+        </shape>
+    </region>
+    <region id="148">
+        <name value="MBN-2-001"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="12.2033,112.5761,41.6625,137.1848"/>
+        </shape>
+    </region>
+    <region id="149">
+        <name value="MBN-2-010"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="46.77,116.2065,77.4084,143.8076"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="61.37,116.0634,77.6042,120.3837"/>
+        </shape>
+    </region>
+    <region id="150">
+        <name value="MBN-2-011"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="57.193,82.364,79.0932,108.92"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="56.55,95.531,59.846,102.464"/>
+        </shape>
+    </region>
+    <region id="151">
+        <name value="MBN-2-012"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="117.1437,132.5576,153.3986,142.7475"/>
+        </shape>
+    </region>
+    <region id="152">
+        <name value="MBN-2-013"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="138.1994,7.2272"/>
+            <radius value="8.3208"/>
+        </shape>
+    </region>
+    <region id="153">
+        <name value="MBN-3-001-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="122.811,30.6416,155.4636,47.5151"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="142.8691,31.3708"/>
+            <width value="8.5903"/>
+            <height value="11.4045"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="121.976,30.059,141.9643,38.393"/>
+        </shape>
+    </region>
+    <region id="154">
+        <name value="MBN-2-019-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="158.5407,86.573,178.939,115.2663"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="177.3193,88.9467"/>
+            <width value="13.6906"/>
+            <height value="6.6293"/>
+        </shape>
+    </region>
+    <region id="156">
+        <name value="MBN-2-016-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="87.3937,8.4123,115.401,29.0544"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="87.225,8.0754,105.623,18.4301"/>
+        </shape>
+    </region>
+    <region id="157">
+        <name value="MBN-2-014-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="104.9052,80.718,117.481,99.1203"/>
+        </shape>
+    </region>
+    <region id="158">
+        <name value="MBN-2-021-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="133.2414,92.544,153.5954,109.1655"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="144.8254,92.9228"/>
+            <width value="0.914"/>
+            <height value="4.0515"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="132.9758,91.943,144.6345,96.6577"/>
+        </shape>
+    </region>
+    <region id="159">
+        <name value="MBN-2-002"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="10.85,84.2382,43.1696,101.0214"/>
+        </shape>
+    </region>
+    <region id="160">
+        <name value="MBN-2-009-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="84.804,68.7822,97.9226,83.071"/>
+        </shape>
+        <shape type="rect">
+            <quad value="84.9492,58.5117,110.9868,68.9167"/>
+        </shape>
+    </region>
+    <region id="162">
+        <name value="MBN-2-007"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.8061,7.605,41.3242,25.218"/>
+        </shape>
+    </region>
+    <region id="166">
+        <name value="rocks2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="122.6535,227.7951,127.5346,231.8437"/>
+        </shape>
+    </region>
+    <region id="167">
+        <name value="rocks3"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="125.1823,175.8178,128.8298,179.6035"/>
+        </shape>
+    </region>
+    <region id="168">
+        <name value="rocks4"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="127.379,166.0954,130.9201,170.131"/>
+        </shape>
+    </region>
+    <region id="169">
+        <name value="rockschaos1"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="99.093,91.5327,103.175,96.094"/>
+        </shape>
+    </region>
+    <region id="170">
+        <name value="rockschaos2"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="126.859,99.7607,131.0627,103.5168"/>
+        </shape>
+    </region>
+    <region id="171">
+        <name value="rocks5"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="151.1447,236.8122,154.532,240.955"/>
+        </shape>
+    </region>
+    <region id="172">
+        <name value="Penguin"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="109.4387,154.086,116.4387,159.0856"/>
+        </shape>
+    </region>
+    <region id="173">
+        <name value="Region 003"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="44.711,178.662"/>
+            <radius value="7"/>
+        </shape>
+    </region>
+    <region id="174">
+        <name value="nobuild1"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5073,153.1455"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="175">
+        <name value="nobuild2"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="176">
+        <name value="nobuild3"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="177">
+        <name value="nobuild4"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="178">
+        <name value="nobuild5"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="179">
+        <name value="nobuild6"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="180">
+        <name value="nobuild7"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="181">
+        <name value="nobuild8"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="182">
+        <name value="nobuild9"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="183">
+        <name value="nobuild10"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="184">
+        <name value="nobuild11"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="185">
+        <name value="nobuild12"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="186">
+        <name value="nobuild13"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="187">
+        <name value="nobuild14"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5085,153.323"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="188">
+        <name value="nobuild15"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="39.5812,153.233"/>
+            <radius value="7.4123"/>
+        </shape>
+    </region>
+    <region id="189">
+        <name value="Whole Map"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="9.5,9.5002,246.5,246.5"/>
+        </shape>
+    </region>
+    <region id="190">
+        <name value="Speed Region 5"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="56.215,109.79,61.391,116.6813"/>
+        </shape>
+    </region>
+    <region id="191">
+        <name value="Speed Region 6"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="56.6523,75.6247,78.2868,82.7556"/>
+        </shape>
+    </region>
+    <region id="192">
+        <name value="Speed Region 7"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="57.905,30.7785,64.0546,47.941"/>
+        </shape>
+    </region>
+    <region id="193">
+        <name value="Speed Region 8"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="156.0861,39.632,164.3837,47.22"/>
+        </shape>
+    </region>
+    <region id="194">
+        <name value="Speed Region 9"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="164.5244,53.912,186.75,58.4335"/>
+        </shape>
+    </region>
+    <region id="195">
+        <name value="Speed Region 10"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="185.155,88.1853,206.4858,96.0407"/>
+        </shape>
+    </region>
+    <region id="196">
+        <name value="Speed Region 11"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="162.9965,115.819,180.14,124.226"/>
+        </shape>
+    </region>
+    <region id="165">
+        <name value="rocks1"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="117.3901,222.5993"/>
+            <width value="3.4567"/>
+            <height value="5.8981"/>
+        </shape>
+    </region>
+    <region id="125">
+        <name value="MBN-2-006"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="32.799,30.8447,56.9367,47.0544"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="32.261,43.699,42.5815,47.5097"/>
+        </shape>
+    </region>
+    <region id="163">
+        <name value="MBN-2-003"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="182.7683,62.5781,207.9194,87.3703"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="206.6486,64.3022"/>
+            <width value="8.2941"/>
+            <height value="4.1123"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="183.272,63.3808"/>
+            <width value="5.1323"/>
+            <height value="8.8945"/>
+        </shape>
+    </region>
+    <region id="126">
+        <name value="MBN-2-035"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="228.79,32.5051,246.7785,53.3894"/>
+        </shape>
+        <shape type="rect">
+            <negative/>
+            <quad value="228.8325,32.3127,232.2,44.6437"/>
+        </shape>
+        <shape type="diamond">
+            <negative/>
+            <center value="229.2424,42.5573"/>
+            <width value="2.1784"/>
+            <height value="4.0512"/>
+        </shape>
+    </region>
+    <region id="127">
+        <name value="Startup Camera View"/>
+        <shape type="circle">
+            <center value="16.8027,152.0541"/>
+            <radius value="8.8266"/>
+        </shape>
+    </region>
+    <region id="155">
+        <name value="Map 2 and 3"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="88,160.5,247.5,247.5"/>
+        </shape>
+    </region>
+    <region id="161">
+        <name value="Map 1 and 2 Gold Bases"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="87.4167,200.0002,100.5832,206"/>
+        </shape>
+        <shape type="rect">
+            <quad value="75,190,80,200.625"/>
+        </shape>
+        <shape type="rect">
+            <quad value="74.5,203.875,80,226"/>
+        </shape>
+    </region>
+    <region id="164">
+        <name value="Map 2 and 3 Gold Bases"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="167.75,191.5,173.25,216.5"/>
+        </shape>
+        <shape type="rect">
+            <quad value="140,178,160,181.75"/>
+        </shape>
+        <shape type="rect">
+            <quad value="139.125,222.5,160.5,226.75"/>
+        </shape>
+    </region>
+    <region id="197">
+        <name value="Map 11"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="155.1811,53.4455,247.617,144.0041"/>
+        </shape>
+    </region>
+    <region id="198">
+        <name value="Twisted LITTLE Right Gold Mins (Map 11)"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="241.9494,93.5366,247.1132,107.4775"/>
+        </shape>
+        <shape type="rect">
+            <quad value="184.0812,95.3691,192.298,106.3344"/>
+        </shape>
+        <shape type="rect">
+            <quad value="193.7517,95.366,202.1003,109.0822"/>
+        </shape>
+    </region>
+    <region id="199">
+        <name value="Temple Ruins Mineral Field 3"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="109.5,232.5,145,247"/>
+        </shape>
+    </region>
+    <region id="200">
+        <name value="Moderators Bar Region"/>
+        <shape type="rect">
+            <quad value="237.2954,7.8007,246.417,32.6601"/>
+        </shape>
+        <shape type="rect">
+            <quad value="233.8395,27.0412,237.3251,32.8435"/>
+        </shape>
+    </region>
+    <region id="201">
+        <name value="Moderators Bar Entrance"/>
+        <shape type="rect">
+            <quad value="229.8913,27.1437,233.8308,33.0227"/>
+        </shape>
+    </region>
+    <region id="202">
+        <name value="MBN-2-036"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="64.8371,30.5578,81.208,53.0895"/>
+        </shape>
+    </region>
+    <region id="203">
+        <name value="MBN-2-037"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="92.9045,34.4213,116.8952,47.061"/>
+        </shape>
+    </region>
+    <region id="204">
+        <name value="MBN-2-038"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="52.9111,9.5883,79.1501,21.2177"/>
+        </shape>
+    </region>
+    <region id="205">
+        <name value="CodeRegion01"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="126,192,127,195"/>
+        </shape>
+    </region>
+    <region id="206">
+        <name value="CodeRegion02"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="127,192,128,195"/>
+        </shape>
+    </region>
+    <region id="207">
+        <name value="CodeRegion03"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="126,189,127,192"/>
+        </shape>
+    </region>
+    <region id="208">
+        <name value="CodeRegion04"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="127,190,128,192"/>
+        </shape>
+    </region>
+    <region id="209">
+        <name value="CodeRegion05"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="126,187,127,189"/>
+        </shape>
+    </region>
+    <region id="210">
+        <name value="CodeRegion06"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="127,186,128,190"/>
+        </shape>
+    </region>
+    <region id="211">
+        <name value="CodeRegion07"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="126,185,127,187"/>
+        </shape>
+    </region>
+    <region id="212">
+        <name value="CodeRegion08"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="127,184,128,186"/>
+        </shape>
+    </region>
+    <region id="213">
+        <name value="CodeRegion09"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="127,181,128,184"/>
+        </shape>
+    </region>
+    <region id="214">
+        <name value="CodeRegion10"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="126,181,127,185"/>
+        </shape>
+    </region>
+    <region id="215">
+        <name value="MBN-3-002-Gold"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="84.7446,108.8742,113.6364,137.2412"/>
+        </shape>
+    </region>
+    <region id="216">
+        <name value="Speed Region 12"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="117.8041,36.6157,122.6933,47.6254"/>
+        </shape>
+    </region>
+    <region id="217">
+        <name value="Speed Region 13"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="86.833,53.8686,109.0585,58.3901"/>
+        </shape>
+    </region>
+</Regions>

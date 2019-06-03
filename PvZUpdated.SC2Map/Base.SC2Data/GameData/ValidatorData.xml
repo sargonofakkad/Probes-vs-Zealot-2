@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CValidatorUnitInventoryContainsItem id="HasFinalBlade">
+        <Item value="FinalBlade"/>
+    </CValidatorUnitInventoryContainsItem>
+    <CValidatorUnitType id="IsFinalTurret">
+        <Value value="FinalTurret"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel3">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel02"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel4">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel03"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel5">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel04"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel6">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel05"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel7">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel06"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel8">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel07"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel9">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel08"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel10">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel09"/>
+    </CValidatorUnitType>
+    <CValidatorUnitAbil id="IsNotAttacking">
+        <AbilLink value="Cloak"/>
+    </CValidatorUnitAbil>
+    <CValidatorUnitType id="IsNotTurretLevel13">
+        <Value value="Turret13"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGeneratorLevel2">
+        <WhichUnit Value="Caster"/>
+        <Value value="GeneratorLevel01"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareBehaviorCount id="MagicImmunity">
+        <Behavior value="MagicImmune"/>
+        <ResultFailed value="Error,Unit is magic immune"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitType id="UnitisnotDominionTrain">
+        <ResultFailed value="CantTargetThatUnit"/>
+        <Value value="FreightCar"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+</Catalog>

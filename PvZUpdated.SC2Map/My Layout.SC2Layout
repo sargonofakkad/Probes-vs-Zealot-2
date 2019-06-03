@@ -1,0 +1,74 @@
+<Desc>
+  <Frame type="InventoryPanel" name="GameUI/UIContainer/ConsoleUIContainer/InventoryPanel" file="GameUI">
+    <Frame type="CommandTooltip" name="InventoryTooltip">                   
+    </Frame>               
+
+    <Frame type="InventoryContainer" name="InventoryButtons">                  
+
+      <Frame type="CommandButton" name="Button05">                           
+        <Width val="76"/>                
+        <Height val="76"/>            
+      </Frame>            
+
+      <Frame type="CommandButton" name="Button04">               
+        <Width val="76"/>                
+        <Height val="76"/>            
+      </Frame>            
+
+      <Frame type="CommandButton" name="Button03">
+        <Width val="76"/>
+        <Height val="76"/>            
+      </Frame>            
+
+      <Frame type="CommandButton" name="Button02">  
+        <Width val="76"/>            
+        <Height val="76"/>     
+      </Frame>
+   
+      <Frame type="CommandButton" name="Button01">
+        <Width val="76"/>
+        <Height val="76"/>
+      </Frame>  
+
+      <Frame type="CommandButton" name="Button00">                
+        <Width val="76"/>               
+        <Height val="76"/>
+      </Frame>          
+    </Frame>    
+  </Frame>
+  <Frame type='Image' name='GameUI/UIContainer/FullscreenUpperContainer/ResourcePanel/ResourceFrame/ResourceIcon0' file='GameUI'>
+     <Anchor side="Left" relative="$parent" pos="Min" offset="305"/>
+	 <Anchor side="Top" relative="$parent" pos="Min" offset="-8"/>
+  </Frame> 
+  <Frame type='CountdownLabel' name='GameUI/UIContainer/FullscreenUpperContainer/ResourcePanel/ResourceFrame/ResourceLabel0' file='GameUI'>
+     <Anchor side="Left" relative="$parent" pos="Min" offset="342"/>
+	 <Anchor side="Top" relative="$parent" pos="Min" offset="-4"/>
+	 <Width val="200"/>
+  </Frame>
+  <Frame type='Image' name='GameUI/UIContainer/FullscreenUpperContainer/ResourcePanel/ResourceFrame/ResourceIcon1' file='GameUI'>
+     <Anchor side="Left" relative="$parent" pos="Min" offset="465"/>
+	 <Anchor side="Top" relative="$parent" pos="Min" offset="-8"/>
+  </Frame> 
+  <Frame type='CountdownLabel' name='GameUI/UIContainer/FullscreenUpperContainer/ResourcePanel/ResourceFrame/ResourceLabel1' file='GameUI'>
+     <Anchor side="Left" relative="$parent" pos="Min" offset="502"/>
+	 <Anchor side="Top" relative="$parent" pos="Min" offset="-4"/>
+	 <Width val="395"/>
+  </Frame>  
+  <Frame type='Image' name='GameUI/UIContainer/FullscreenUpperContainer/ResourcePanel/ResourceFrame/ResourceIcon2' file='GameUI'>
+     <Anchor side="Left" relative="$parent" pos="Min" offset="305"/>
+	 <Anchor side="Top" relative="$parent" pos="Min" offset="14"/>
+  </Frame> 
+  <Frame type='CountdownLabel' name='GameUI/UIContainer/FullscreenUpperContainer/ResourcePanel/ResourceFrame/ResourceLabel2' file='GameUI'>
+     <Anchor side="Left" relative="$parent" pos="Min" offset="342"/>
+	 <Anchor side="Top" relative="$parent" pos="Min" offset="16"/>
+	 <Width val="200"/>
+  </Frame>  
+  <Frame type='Image' name='GameUI/UIContainer/FullscreenUpperContainer/ResourcePanel/ResourceFrame/SupplyIcon' file='GameUI'>
+	 <Anchor side="Left" relative="$parent" pos="Min" offset="635"/>
+	 <Anchor side="Top" relative="$parent" pos="Min" offset="-6"/>
+  </Frame> 
+  <Frame type='CountdownLabel' name='GameUI/UIContainer/FullscreenUpperContainer/ResourcePanel/ResourceFrame/SupplyLabel' file='GameUI'>
+     <Anchor side="Left" relative="$parent" pos="Min" offset="672"/>
+	 <Anchor side="Top" relative="$parent" pos="Min" offset="-4"/>
+  </Frame>    
+</Desc>

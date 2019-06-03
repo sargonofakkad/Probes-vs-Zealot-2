@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CModel id="ATSLaserBatteryLMWeapon">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="AdeptLargeModel" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Purifier_Adept\Purifier_Adept.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="Archon">
+        <SelectionRadius value="0.750000"/>
+    </CModel>
+    <CModel id="ArchonPortrait2" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Units\NightElf\War3_IllidanEvil_Portrait\War3_IllidanEvil_Portrait.m3"/>
+        <Image value="Assets\Textures\war3_illidan.dds"/>
+        <Lighting value="ArchonPortrait"/>
+    </CModel>
+    <CModel id="Archon_Purifier_Collection">
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+    </CModel>
+    <CModel id="ArtanisVoid">
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+    </CModel>
+    <CModel id="AutoTurret">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="AutomatedMineConstructor" parent="Unit">
+        <Model value="WoW Builder\WoW Builder.m3"/>
+        <EditorCategories value=""/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="Baneling">
+        <ScaleMin value="0.880000,0.880000,0.880000"/>
+    </CModel>
+    <CModel id="Battlecruiser_Umojan">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="BeamExample">
+        <Model value="Assets\Effects\Terran\DiamondbackBeam\DiamondbackBeam.m3"/>
+    </CModel>
+    <CModel id="BlinkOriginModel">
+        <Model value="Assets\Units\Critters\RedstoneLavaCritter\RedstoneLavaCritter.m3"/>
+    </CModel>
+    <CModel id="BlinkStopModel">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Brakk">
+        <Radius value="1.000000"/>
+        <ScaleMax value="2.100000,2.100000,2.100000"/>
+        <ScaleMin value="2.100000,2.100000,2.100000"/>
+    </CModel>
+    <CModel id="Broodling">
+        <ScaleMax value="3.000000,3.000000,3.000000"/>
+        <ScaleMin value="3.000000,3.000000,3.000000"/>
+    </CModel>
+    <CModel id="Brutalisk">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="CarrionBird">
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+    </CModel>
+    <CModel id="Colossus">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <SelectionRadius value="1.500000"/>
+    </CModel>
+    <CModel id="CyberneticsCorePlacement">
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="CyberneticsCorePlacementSmall" parent="CyberneticsCorePlacement">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="CyberneticsCorePlacementBig" parent="CyberneticsCorePlacement">
+        <ScaleMax value="1.330000,1.330000,1.330000"/>
+        <ScaleMin value="1.330000,1.330000,1.330000"/>
+    </CModel>
+    <CModel id="CyberneticsCoreSplat">
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="CyberneticsCoreSplatSmall" parent="CyberneticsCoreSplat">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="CyberneticsCoreSplatBig" parent="CyberneticsCoreSplat">
+        <ScaleMax value="1.330000,1.330000,1.330000"/>
+        <ScaleMin value="1.330000,1.330000,1.330000"/>
+    </CModel>
+    <CModel id="DarkArchonChampion">
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+    </CModel>
+    <CModel id="DarkElfillidian" parent="Archon">
+        <Model value="Assets\Units\NightElf\War3_IllidanEvil\War3_IllidanEvil.m3"/>
+        <LowQualityModel value="DarkElfillidian"/>
+        <RequiredAnims index="0" removed="1"/>
+        <EditorCategories value=""/>
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+        <SelectionRadius value="1.093700"/>
+    </CModel>
+    <CModel id="DarkTemplarChampion">
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="DarkTemplarTaldarim">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="Disruptor">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="FenixChampion">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="FenixChampionSmallModel" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Fenix\Fenix.m3"/>
+        <Events>
+            <Anim value="Stand,Work,Start"/>
+            <Name value="FenixBirthImpact"/>
+            <Type value="Custom"/>
+            <Time value="0.667000"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,B,00"/>
+            <Name value="Fenix_Whirlwind_OneShot_A"/>
+            <Type value="Sound"/>
+            <Time value="0.001000"/>
+            <Payload value="Fenix_Whirlwind_OneShot_A"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,B,00"/>
+            <Name value="Fenix_Whirlwind_OneShot_B"/>
+            <Type value="Sound"/>
+            <Time value="0.404000"/>
+            <Payload value="Fenix_Whirlwind_OneShot_B"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,B,00"/>
+            <Name value="Fenix_Whirlwind_OneShot_A"/>
+            <Type value="Sound"/>
+            <Time value="0.598000"/>
+            <Payload value="Fenix_Whirlwind_OneShot_A"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,B,00"/>
+            <Name value="Fenix_Whirlwind_OneShot_B"/>
+            <Type value="Sound"/>
+            <Time value="0.995000"/>
+            <Payload value="Fenix_Whirlwind_OneShot_B"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,B,00"/>
+            <Name value="Fenix_Whirlwind_OneShot_A"/>
+            <Type value="Sound"/>
+            <Time value="1.096000"/>
+            <Payload value="Fenix_Whirlwind_OneShot_A"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,B,00"/>
+            <Name value="Fenix_Whirlwind_OneShot_B"/>
+            <Type value="Sound"/>
+            <Time value="1.489000"/>
+            <Payload value="Fenix_Whirlwind_OneShot_B"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,End,00"/>
+            <Name value="Fenix_StandWorkEnd_A"/>
+            <Type value="Sound"/>
+            <Time value="0.001000"/>
+            <Payload value="Fenix_StandWorkEnd_A"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,End,00"/>
+            <Name value="Fenix_StandWorkEnd_B"/>
+            <Type value="Sound"/>
+            <Time value="0.448000"/>
+            <Payload value="Fenix_StandWorkEnd_B"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,A,End,00"/>
+            <Name value="Fenix_ThunderousCharge_SpellAEnd_A"/>
+            <Type value="Sound"/>
+            <Time value="0.016000"/>
+            <Payload value="Fenix_ThunderousCharge_SpellAEnd_A"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,A,End,00"/>
+            <Name value="Fenix_ThunderousCharge_SpellAEnd_B"/>
+            <Type value="Sound"/>
+            <Time value="4.441000"/>
+            <Payload value="Fenix_ThunderousCharge_SpellAEnd_B"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,A,End,00"/>
+            <Name value="Fenix_ThunderousCharge_SpellAEnd_C"/>
+            <Type value="Sound"/>
+            <Time value="4.949000"/>
+            <Payload value="Fenix_ThunderousCharge_SpellAEnd_C"/>
+        </Events>
+        <Events>
+            <Anim value="Spell,A,End,00"/>
+            <Name value="Fenix_ThunderousCharge_SpellAEnd_D"/>
+            <Type value="Sound"/>
+            <Time value="5.825000"/>
+            <Payload value="Fenix_ThunderousCharge_SpellAEnd_D"/>
+        </Events>
+        <Events>
+            <Anim value="Walk,00"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="0.503000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Walk,00"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="0.015000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Walk,00"/>
+            <Name value="Fenix_MoveGrowl"/>
+            <Type value="Sound"/>
+            <Time value="0.713000"/>
+            <Payload value="Fenix_MoveGrowl"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Ready,End,00"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="4.389000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Ready,End,00"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="5.210000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Ready,End,00"/>
+            <Name value="Fenix_StandWorkEnd_A"/>
+            <Type value="Sound"/>
+            <Time value="4.297000"/>
+            <Payload value="Fenix_StandWorkEnd_A"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Ready,End,00"/>
+            <Name value="Fenix_StandWorkEnd_B"/>
+            <Type value="Sound"/>
+            <Time value="4.923000"/>
+            <Payload value="Fenix_StandWorkEnd_B"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Ready,End,00"/>
+            <Name value="Fenix_MoveStart"/>
+            <Type value="Sound"/>
+            <Time value="3.532000"/>
+            <Payload value="Fenix_MoveStart"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="FenixChampionJumpImpact"/>
+            <Type value="Sound"/>
+            <Time value="0.547000"/>
+            <Payload value="FenixChampionJumpImpact"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="1.570000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Fenix_StandWorkEnd_A"/>
+            <Type value="Sound"/>
+            <Time value="1.598000"/>
+            <Payload value="Fenix_StandWorkEnd_A"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Fenix_StandWorkEnd_B"/>
+            <Type value="Sound"/>
+            <Time value="7.009000"/>
+            <Payload value="Fenix_StandWorkEnd_B"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="6.170000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Fenix_MoveGrowl"/>
+            <Type value="Sound"/>
+            <Time value="3.610000"/>
+            <Payload value="Fenix_MoveGrowl"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Fenix_MoveStart"/>
+            <Type value="Sound"/>
+            <Time value="5.873000"/>
+            <Payload value="Fenix_MoveStart"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Fenix_ThunderousCharge_SpellAEnd_C"/>
+            <Type value="Sound"/>
+            <Payload value="Fenix_ThunderousCharge_SpellAEnd_C"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Work,Start,00"/>
+            <Name value="Fenix_Death_A"/>
+            <Type value="Sound"/>
+            <Payload value="Fenix_Death_A"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="Fenix_MoveStart"/>
+            <Type value="Sound"/>
+            <Time value="4.431000"/>
+            <Payload value="Fenix_MoveStart"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="Fenix_StandWorkEnd_A"/>
+            <Type value="Sound"/>
+            <Time value="5.168000"/>
+            <Payload value="Fenix_StandWorkEnd_A"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="Fenix_StandWorkEnd_B"/>
+            <Type value="Sound"/>
+            <Time value="5.926000"/>
+            <Payload value="Fenix_StandWorkEnd_B"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="6.055000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,01"/>
+            <Name value="Fenix_MoveGrowl"/>
+            <Type value="Sound"/>
+            <Time value="4.517000"/>
+            <Payload value="Fenix_MoveGrowl"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,01"/>
+            <Name value="Fenix_StandWorkEnd_A"/>
+            <Type value="Sound"/>
+            <Time value="5.243000"/>
+            <Payload value="Fenix_StandWorkEnd_A"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,01"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="5.125000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,01"/>
+            <Name value="Fenix_Footsteps"/>
+            <Type value="Sound"/>
+            <Time value="5.948000"/>
+            <Payload value="Fenix_Footsteps"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,01"/>
+            <Name value="Fenix_StandWorkEnd_B"/>
+            <Type value="Sound"/>
+            <Time value="6.023000"/>
+            <Payload value="Fenix_StandWorkEnd_B"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <Radius value="0.750000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="1.500000"/>
+        <TipabilityWidth value="1.500000"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="HighTemplarTaldarimLargeModel" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\HighTemplar_Taldarim\HighTemplar_Taldarim.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\HighTemplar_SwarmAnims\HighTemplar_SwarmAnims.m3a"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh05"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+        <SquibTypeDefault value="LightArmor"/>
+        <TechPurchaseCamera value="Star2CameraHigh05"/>
+        <UnitGlossaryCamera value="Star2CameraHigh05"/>
+    </CModel>
+    <!--CModel id="HybridBehemothPortraitAddition" parent="FXAPortrait" Race="Zerg">-->
+    <!--        <Model value="Assets\Units\Zerg\Hybrid_Zerg_Advanced\Hybrid_Zerg_Advanced.m3"/>-->
+    <!--    </CModel-->
+    <CModel id="HybridBehemoth">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="HybridDominatorVoidSmall" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Hybrid_ProtossAdvanced\Hybrid_ProtossAdvanced.m3"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher08"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <ShadowRadius value="0.375000"/>
+        <TechPurchaseCamera value="Star2CameraHigher08"/>
+        <UnitGlossaryCamera value="Star2CameraHigher08"/>
+    </CModel>
+    <CModel id="HybridNemesis">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <!--AttachProps Id="Ref_Center" RadiusShield="1.500000"/-->
+    </CModel>
+    <CModel id="ImmortalShakuras">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="InfestedStukov">
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+    </CModel>
+    <CModel id="KerriganEpilogue03">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="KerriganGhost00">
+        <Radius value="0.500000"/>
+        <ScaleMax value="1.600000,1.600000,1.600000"/>
+        <ScaleMin value="1.600000,1.600000,1.600000"/>
+        <SelectionRadius value="0.500000"/>
+        <ShadowRadius value="0.500000"/>
+    </CModel>
+    <CModel id="KerriganVoid">
+        <ScaleMax value="1.800000,1.800000,1.800000"/>
+        <ScaleMin value="1.800000,1.800000,1.800000"/>
+    </CModel>
+    <CModel id="Kraith">
+        <ScaleMax value="0.300000,0.300000,0.300000"/>
+        <ScaleMin value="0.300000,0.300000,0.300000"/>
+    </CModel>
+    <CModel id="LaserDrillTripodDeath">
+        <Flags index="AutoUnload" value="1"/>
+    </CModel>
+    <CModel id="BootsOfSpeedScannerSweepModel" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\ComSatScanner\ComSatScanner.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="MegalithCutter">
+        <ScaleMax value="0.250000,0.250000,0.250000"/>
+        <ScaleMin value="0.200000,0.250000,0.250000"/>
+    </CModel>
+    <CModel id="MegalithCutterDeath">
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="TeenSafe" value="0"/>
+    </CModel>
+    <CModel id="MilitarizedColonistTransport">
+        <ScaleMax value="0.300000,0.300000,0.300000"/>
+        <ScaleMin value="0.300000,0.300000,0.300000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="MurlocMarine">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="MurlocMarineLargeModel" parent="MurlocMarine">
+        <ScaleMax value="2.200000,2.200000,2.200000"/>
+        <ScaleMin value="2.200000,2.200000,2.200000"/>
+    </CModel>
+    <CModel id="Odin">
+        <ScaleMax value="0.300000,0.300000,0.300000"/>
+        <ScaleMin value="0.300000,0.300000,0.300000"/>
+    </CModel>
+    <CModel id="PitMalashSmall" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Malash\Malash.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="RubberDuck" parent="Unit">
+        <Model value="RubberDuck\NanaKey_TO_RubberDuck.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <ScaleMax value="4.000000,4.000000,4.000000"/>
+        <ScaleMin value="4.000000,4.000000,4.000000"/>
+        <ShadowRadius value="0.375000"/>
+    </CModel>
+    <CModel id="RavagerSmall" parent="Unit" Race="Zerg">
+        <Model value="Assets\Units\Zerg\Ravager\Ravager.m3"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <UnitGlossaryCamera value="Star2CameraMid08"/>
+    </CModel>
+    <CModel id="RangerW2PvZ2SkinPortrait" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Units\Undead\War3HD_UndeadDarkRanger_Portrait\War3HD_UndeadDarkRanger_Portrait.m3"/>
+        <Image value="Assets\Textures\monitor_static.dds"/>
+        <Lighting value="ZealotPortrait"/>
+    </CModel>
+    <CModel id="RubberDuckLarge" parent="Unit">
+        <Model value="RubberDuck\NanaKey_TO_RubberDuck.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <ScaleMax value="8.000000,8.000000,8.000000"/>
+        <ScaleMin value="8.000000,8.000000,8.000000"/>
+        <ShadowRadius value="0.375000"/>
+    </CModel>
+    <CModel id="SOAPurifierBeam">
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.300000,0.300000,0.300000"/>
+        <ScaleMin value="0.300000,0.300000,0.300000"/>
+        <!--Events>
+            <Anim value="Death,00"/>
+            <Name value="SOA_PurifierBeam_Death"/>
+            <Type value="Sound"/>
+            <Time value="0.001000"/>
+            <Payload value="SOA_PurifierBeam_Death"/>
+        </Events-->
+    </CModel>
+    <CModel id="Selendis">
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="SelendisSmall" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\CarrierHero\CarrierHero.m3"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Lighting value="Carrier"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow11"/>
+        <Radius value="1.375000"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.800000"/>
+        <SelectionRadius value="1.375000"/>
+        <ShadowRadius value="1.375000"/>
+        <TechPurchaseCamera value="Star2CameraLow11"/>
+        <UnitGlossaryCamera value="Star2CameraLow11"/>
+    </CModel>
+    <CModel id="ShipGeneratorSmall">
+        <ScaleMax value="1.000000,1.000000,1.200000"/>
+        <ScaleMin value="1.000000,1.000000,1.200000"/>
+    </CModel>
+    <CModel id="SlaynElemental">
+        <Radius value="0.300000"/>
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+        <SelectionRadius value="1.500000"/>
+    </CModel>
+    <CModel id="SlaynElementalSmall" parent="Unit" Race="Zerg">
+        <Model value="Assets\Units\Neutral\Slayn_Elemental\Slayn_Elemental.m3"/>
+        <Lighting value="PortraitSlaynElemental"/>
+        <Radius value="0.200000"/>
+        <ScaleMax value="0.200000,0.200000,0.200000"/>
+        <ScaleMin value="0.200000,0.200000,0.200000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="TerrorzorSmall" parent="Unit" Race="Zerg">
+        <Model value="Assets\Units\Zerg\Terrorzor\Terrorzor.m3"/>
+        <RequiredAnims value="Assets\Units\Zerg\PrimalZerg_RequiredAnims\PrimalZerg_RequiredAnims.m3a"/>
+        <Events>
+            <Anim value="Stand,00"/>
+            <Name value="Terrorzor_Stand"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Terrorzor_Stand"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,02"/>
+            <Name value="Terrorzor_Stand_02Pt1"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Terrorzor_Stand_02Pt1"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,02"/>
+            <Name value="Terrorzor_Stand_02Pt2"/>
+            <Type value="Sound"/>
+            <Time value="1.365000"/>
+            <Payload value="Terrorzor_Stand_02Pt2"/>
+        </Events>
+        <Events>
+            <Anim value="Walk,00"/>
+            <Name value="Terrorzor_Walk"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Terrorzor_Walk"/>
+        </Events>
+        <Events>
+            <Anim value="Cover,Walk,00"/>
+            <Name value="Terrorzor_Walk_Cover"/>
+            <Type value="Sound"/>
+            <Time value="0.620000"/>
+            <Payload value="Terrorzor_Walk_Cover"/>
+        </Events>
+        <Events>
+            <Anim value="Cover,Walk,00"/>
+            <Name value="Terrorzor_Walk_Cover"/>
+            <Type value="Sound"/>
+            <Time value="0.028000"/>
+            <Payload value="Terrorzor_Walk_Cover"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="Terrorzor_Attack"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Terrorzor_Attack"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,03"/>
+            <Name value="Terrorzor_Attack_03"/>
+            <Type value="Sound"/>
+            <Time value="0.021000"/>
+            <Payload value="Terrorzor_Attack_03"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,04"/>
+            <Name value="Terrorzor_Attack_04"/>
+            <Type value="Sound"/>
+            <Time value="0.021000"/>
+            <Payload value="Terrorzor_Attack_04"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerrorzorDeath_Death_Full"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="TerrorzorDeath_Death_Full"/>
+        </Events>
+        <Events>
+            <Anim value="Death,Fire,00"/>
+            <Name value="TerrorzorDeath_Death_Fire"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="TerrorzorDeath_Death_Fire"/>
+        </Events>
+        <Events>
+            <Anim value="Burrow,00"/>
+            <Name value="Terrorzor_Burrow"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Terrorzor_Burrow"/>
+        </Events>
+        <Events>
+            <Anim value="Unburrow,00"/>
+            <Name value="Terrorzor_UnBurrow"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="Terrorzor_UnBurrow"/>
+        </Events>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh03"/>
+        <Radius value="0.750000"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="Star2CameraHigh03"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="1.000000"/>
+        <TipabilityWidth value="1.000000"/>
+        <UnitGlossaryCamera value="Star2CameraHigh03"/>
+    </CModel>
+    <CModel id="TitanMechAssault">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ValerianLab">
+        <ScaleMax value="1.600000,1.600000,1.600000"/>
+        <ScaleMin value="1.600000,1.600000,1.600000"/>
+    </CModel>
+    <CModel id="Warbot">
+        <ScaleMax value="0.300000,0.300000,0.300000"/>
+        <ScaleMin value="0.300000,0.300000,0.300000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="XelNagaConstruct">
+        <Radius value="0.375000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+    </CModel>
+    <CModel id="ZealotPurifier">
+        <ScaleMax value="1.700000,1.700000,1.700000"/>
+        <ScaleMin value="1.700000,1.700000,1.700000"/>
+    </CModel>
+    <CModel id="ZerglingCarbot">
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+    </CModel>
+    <CModel id="ZerglingCarbotLarge" parent="Unit" Race="Zerg">
+        <Model value="Assets\Units\Zerg\Carbot_Zergling\Carbot_Zergling.m3"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <Radius value="0.300000"/>
+        <ScaleMax value="3.000000,3.000000,3.000000"/>
+        <ScaleMin value="3.000000,3.000000,3.000000"/>
+        <SelectionRadius value="0.441400"/>
+        <ShadowRadius value="0.441400"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.400000"/>
+        <TipabilityWidth value="0.400000"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="dasnoob" parent="Archon">
+        <Model value="Assets\Units\NightElf\War3HD_HeroDemonHunter\War3HD_HeroDemonHunter.m3"/>
+        <LowQualityModel value="dasnoob"/>
+        <RequiredAnims index="0" removed="1"/>
+        <EditorCategories value=""/>
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="DarkTemplar">
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="DarkZealot">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="dasnoob2" parent="Archon">
+        <Model value="Assets\Units\NightElf\War3HD_AvatarOfVengeance\War3HD_AvatarOfVengeance.m3"/>
+        <LowQualityModel value="dasnoob"/>
+        <RequiredAnims index="0" removed="1"/>
+        <EditorCategories value=""/>
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="Lyote">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="MengskMedic">
+        <ScaleMax value="2.500000,2.500000,2.500000"/>
+        <ScaleMin value="2.500000,2.500000,2.500000"/>
+    </CModel>
+    <CModel id="HatFromW3number1">
+        <Model value="Assets\Doodads\Ruins\Rocks\War3_Ruins_Rock\War3_Ruins_Rock_01.m3"/>
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="Nova">
+        <ScaleMax value="1.000000,1.000000,1.600000"/>
+        <ScaleMin value="1.600000,1.600000,1.600000"/>
+    </CModel>
+    <CModel id="Phoenix2" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\DarkPhoenix\DarkPhoenix.m3"/>
+        <AttachProps Id="Ref_Weapon 01">
+            <Keys index="Air" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon 03">
+            <Keys index="Air" value="0"/>
+        </AttachProps>
+        <Lighting value="Phoenix"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraLow05"/>
+        <Radius value="0.750000"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionOffset value="0.000000,0.000000,-0.400000"/>
+        <SelectionRadius value="0.882000"/>
+        <ShadowRadius value="0.882000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraLow05"/>
+        <UnitGlossaryCamera value="Star2CameraLow05"/>
+    </CModel>
+    <CModel id="CrabBeetle" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Critters\Crabeetle\Crabeetle.m3"/>
+        <AttachProps Id="Ref_Weapon">
+            <Keys index="Work" value="0"/>
+        </AttachProps>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid04"/>
+        <Radius value="0.375000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.416500"/>
+        <ShadowRadius value="0.416500"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid04"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.400000"/>
+        <TipabilityWidth value="0.400000"/>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="RedstoneLavaCritter">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="ShapeCube">
+        <Model value="Assets\Doodads\ScrapCube\ScrapCube_00.m3"/>
+    </CModel>
+    <CModel id="Shark1" parent="Unit">
+        <Model value="hammerhead.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Overmind">
+        <ScaleMax value="0.250000,0.250000,0.250000"/>
+        <ScaleMin value="0.250000,0.250000,0.250000"/>
+    </CModel>
+    <CModel id="RaptorRed" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Raptor\Adult\raptorred.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="RaptorViolet" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Raptor\Adult\raptorviolet.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="RaptorYellow" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Raptor\Adult\raptoryellow.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="RaptorGrey" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Raptor\Adult\raptorgrey.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="SpiderMine">
+        <ScaleMax value="3.000000,3.000000,3.000000"/>
+        <ScaleMin value="3.000000,3.000000,3.000000"/>
+    </CModel>
+    <CModel id="Stalker2" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Stalker\Stalker.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Stalker_SwarmAnims\Stalker_SwarmAnims.m3a"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh10"/>
+        <Radius value="0.850000"/>
+        <ScaleMax value="0.690000,0.690000,0.690000"/>
+        <ScaleMin value="0.690000,0.690000,0.690000"/>
+        <SelectionRadius value="1.087000"/>
+        <ShadowRadius value="1.087000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraHigh10"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.800000"/>
+        <TipabilityWidth value="0.800000"/>
+        <UnitGlossaryCamera value="Star2CameraHigh10"/>
+    </CModel>
+    <CModel id="Stalker3" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Stalker\Stalker.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Stalker_SwarmAnims\Stalker_SwarmAnims.m3a"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigh10"/>
+        <Radius value="0.850000"/>
+        <ScaleMax value="0.690000,0.690000,0.690000"/>
+        <ScaleMin value="0.690000,0.690000,0.690000"/>
+        <SelectionRadius value="1.087000"/>
+        <ShadowRadius value="1.087000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraHigh10"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.800000"/>
+        <TipabilityWidth value="0.800000"/>
+        <UnitGlossaryCamera value="Star2CameraHigh10"/>
+    </CModel>
+    <CModel id="StalkerDeath2" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Units\Protoss\StalkerDeathEx1\StalkerDeathEx1.m3"/>
+        <LowQualityModel value="ProtossMediumUnitDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="Uni_DeathFXincidentallFire"/>
+            <Type value="Sound"/>
+            <Time value="0.250000"/>
+            <Payload value="Uni_DeathFXincidentallFire"/>
+        </Events>
+        <Events>
+            <Anim value="Death,01"/>
+            <Name value="Uni_DeathFXincidentallFire"/>
+            <Type value="Sound"/>
+            <Time value="0.250000"/>
+            <Payload value="Uni_DeathFXincidentallFire"/>
+        </Events>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="Uni_DeathFXincidentallFire"/>
+            <Type value="Sound"/>
+            <Time value="0.250000"/>
+            <Payload value="Uni_DeathFXincidentallFire"/>
+        </Events>
+        <Events>
+            <Anim value="Death,03"/>
+            <Name value="Uni_DeathFXincidentallFire"/>
+            <Type value="Sound"/>
+            <Time value="0.250000"/>
+            <Payload value="Uni_DeathFXincidentallFire"/>
+        </Events>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="StalkerWeapon2" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\StalkerMissile\StalkerMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+        <SelectionRadius value="0.714000"/>
+        <ShadowRadius value="0.714000"/>
+    </CModel>
+    <CModel id="StalkerWeapon3" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\StalkerMissile\StalkerMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+        <SelectionRadius value="0.714000"/>
+        <ShadowRadius value="0.714000"/>
+    </CModel>
+    <CModel id="LavaCritterStatueDefenderWeaponModel" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\StalkerMissile\StalkerMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+        <SelectionRadius value="0.714000"/>
+        <ShadowRadius value="0.714000"/>
+    </CModel>
+    <CModel id="ThunderGreen" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Thunder Lizard\thunderlizardgreen.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="RaptorGreen" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Raptor\Adult\raptordarkgreen.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="ThunderBlue" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Thunder Lizard\thunderlizardblue.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="WhiteTurtle" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Turtle\Adult\seaturtlewhite.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="RedTurtle" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Turtle\Adult\seaturtlered.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="GreyTurtle" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Turtle\Adult\seaturtlegrey.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="GreenTurtle" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Turtle\Adult\seaturtlegreen.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="BlueTurtle" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Turtle\Adult\seaturtleblue.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="Nozdomu" parent="Unit">
+        <Model value="Dragon Aspects\Nozdormu\nozdormu.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Alexstraza" parent="Unit">
+        <Model value="Dragon Aspects\Alexstrasza\Dragon Form\alexstrasza.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="BlackRex" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Devilsaur\trexblack.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="GreenRex" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Devilsaur\trexgren.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="RedRex" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Devilsaur\trexred.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="WhiteRex" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Devilsaur\trexwhite.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="Diemetraga" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Diemetradon\diemetradongreen.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="ThunderBlack" parent="Unit">
+        <Model value="Vampire Achievements\Reptiles\Thunder Lizard\thunderlizardblack.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+    </CModel>
+    <CModel id="Malygos" parent="Unit">
+        <Model value="Dragon Aspects\Malygos\Dragon Form\malygos.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Ysera" parent="Unit">
+        <Model value="Dragon Aspects\Ysera\ysera.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Disorient"/>
+    <CModel id="DominionKillTeam">
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+    </CModel>
+    <CModel id="DrakkenLaserDrill">
+        <ScaleMax value="0.250000,0.250000,0.250000"/>
+        <ScaleMin value="0.250000,0.250000,0.250000"/>
+    </CModel>
+    <CModel id="Forge">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="ForgeBirth">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="ForgePlacement">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="Gateway">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="GatewayBirth">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="GatewayPlacement">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="Ghost">
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="HailstormMissilesWeapon">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="HybridReaver">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Hydralisk">
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+    </CModel>
+    <CModel id="HyperionYamatoSpecialWeapon">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="ImmortalAttackImpact">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="InfestedCivilian">
+        <ScaleMax value="2.300000,2.300000,2.300000"/>
+        <ScaleMin value="2.300000,2.300000,2.300000"/>
+        <SelectionRadius value="0.350000"/>
+    </CModel>
+    <CModel id="InfestedTerran">
+        <ScaleMax value="2.100000,2.100000,2.100000"/>
+        <ScaleMin value="2.100000,2.100000,2.100000"/>
+        <SelectionRadius value="0.350000"/>
+    </CModel>
+    <CModel id="Invisible2">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Invisible3">
+        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="LaserDrill">
+        <ScaleMax value="0.200000,0.200000,0.200000"/>
+        <ScaleMin value="0.200000,0.200000,0.200000"/>
+    </CModel>
+    <CModel id="Marauder">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <!--CModel id="MarineFootprint" parent="OneShotSpellFX">-->
+    <!--        <Occlusion value="Show"/>-->
+    <!--        <Model value="Assets\Effects\Terran\ThorFootPrint\ThorFootPrint.m3"/>-->
+    <!--        <VariationCount value="4"/>-->
+    <!--        <EditorCategories value="Race:Terran"/>-->
+    <!--    </CModel-->
+    <CModel id="Marine">
+        <ScaleMax value="1.750000,1.750000,1.750000"/>
+        <ScaleMin value="1.750000,1.750000,1.750000"/>
+    </CModel>
+    <CModel id="Marine2" parent="Marine">
+        <Model value="Assets\Axethrower.m3"/>
+    </CModel>
+    <CModel id="MerlinHat">
+        <Model value="Models\helm_cloth_a_02_wom.m3"/>
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="MindSiphonWeapon">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="MinerMale">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="Nexus">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="NexusBirth">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="NexusPlacement">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="PenguinBlack" parent="Unit">
+        <Model value="penguinpet.m3"/>
+        <EditorCategories value=""/>
+        <ScaleMax value="3.500000,3.500000,3.500000"/>
+        <ScaleMin value="3.500000,3.500000,3.500000"/>
+    </CModel>
+    <CModel id="PenguinWhite" parent="Unit">
+        <Model value="penguinpetwhite.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <ScaleMax value="3.000000,3.000000,3.000000"/>
+        <ScaleMin value="3.000000,3.000000,3.000000"/>
+    </CModel>
+    <CModel id="PhoenixDark" parent="Unit">
+        <Model value="Dark\Adult\darkphoenix.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value="PhoenixPortrait"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="DeathwingAir" parent="Unit">
+        <Model value="Deathwing\Dragon\Air\deathwingair.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="DeathwingGround" parent="Unit">
+        <Model value="Deathwing\Dragon\Ground\deathwingground.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <Lighting value=""/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="PredatorSkin" parent="Unit">
+        <Model value="Assets\Units\Terran\Predator\Predator.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <Lighting value="Predator"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid04"/>
+        <Radius value="0.650000"/>
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+        <TechPurchaseCamera value="Star2CameraMid04"/>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="PrisonZealot">
+        <ScaleMax value="2.100000,2.100000,2.100000"/>
+        <ScaleMin value="2.100000,2.100000,2.100000"/>
+    </CModel>
+    <CModel id="PrisonerSpectre">
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow2" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="RaynorCommando">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+        <SelectionRadius value="0.300000"/>
+    </CModel>
+    <CModel id="Reaper">
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+        <SelectionOffset value="0.000000,0.000000,0.000000"/>
+    </CModel>
+    <CModel id="Roach">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="RoboticsBay">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="RoboticsFacility">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="RoboticsFacilityBirth">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="RoboticsFacilityDeath">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="RoboticsFacilityPlacement">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBay">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBayBirth">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBayDeath">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBayPlacement">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBaySplat">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="ShapeTreasureChestClosed2" parent="Unit">
+        <Model value="Assets\Doodads\Shapes\ShapeTreasureChestClosed\ShapeTreasureChestClosed.m3"/>
+    </CModel>
+    <CModel id="ShapeTreasureChestClosed3" parent="Unit">
+        <Model value="Assets\Doodads\Shapes\ShapeTreasureChestClosed\ShapeTreasureChestClosed.m3"/>
+    </CModel>
+    <CModel id="SiegeBreaker">
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModel id="SplitterBeam">
+        <Model value="Assets\Effects\Protoss\WarpRayMissile\WarpRayMissile.m3"/>
+    </CModel>
+    <CModel id="StaffofTeleportationOriginModel">
+        <Model value="Assets\Effects\Terran\ToshTeleportIn\ToshTeleportIn.m3"/>
+    </CModel>
+    <CModel id="StaffofTeleportationOriginModel2">
+        <Model value="Assets\Effects\Terran\ToshTeleportIn\ToshTeleportIn.m3"/>
+    </CModel>
+    <CModel id="StalkerWeapon">
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="CommandoRifle" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\ArcadeWraithMissile\ArcadeWraithMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+        <SelectionRadius value="0.714000"/>
+        <ShadowRadius value="0.714000"/>
+    </CModel>
+    <CModel id="StaticPortrait2" parent="Portrait">
+        <Model value="Assets\Portraits\Terran\TerranPortraitTransition\TerranPortraitTransition.m3"/>
+        <Image value="Assets\Textures\TerranPortraitTransition_Static.dds"/>
+    </CModel>
+    <CModel id="StaticPortrait3" parent="Portrait">
+        <Model value="Assets\Portraits\Terran\TerranPortraitTransition\TerranPortraitTransition.m3"/>
+        <Flags index="Download" value="1"/>
+        <Image value="Assets\Textures\TerranPortraitTransition_Static.dds"/>
+    </CModel>
+    <CModel id="StoneZealot">
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="1.350000"/>
+    </CModel>
+    <CModel id="SwannWeapon">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="Thor">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="Tosh">
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="TychusChaingun">
+        <ScaleMax value="1.750000,1.750000,1.750000"/>
+        <ScaleMin value="1.750000,1.750000,1.750000"/>
+        <SelectionRadius value="0.350000"/>
+    </CModel>
+    <CModel id="UtilityBot">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="WarPig">
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="WraithGroundWeapon">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="Zealot">
+        <ScaleMax value="2.100000,2.100000,2.100000"/>
+        <ScaleMin value="2.100000,2.100000,2.100000"/>
+    </CModel>
+    <CModel id="Footman" parent="Zealot">
+        <Model value="Models\Footman.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <ScaleMax value="2.500000,2.500000,2.500000"/>
+        <ScaleMin value="2.500000,2.500000,2.500000"/>
+    </CModel>
+    <CModel id="RangerW3PvZ2Skin" parent="Zealot">
+        <Model value="Assets\Units\Undead\War3HD_UndeadDarkRanger\War3HD_UndeadDarkRanger.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <ScaleMax value="2.500000,2.500000,2.500000"/>
+        <ScaleMin value="2.500000,2.500000,2.500000"/>
+    </CModel>
+    <CModel id="RangerW3PvZ2SkinSmall" parent="Zealot">
+        <Model value="Assets\Units\Undead\War3HD_UndeadDarkRanger\War3HD_UndeadDarkRanger.m3"/>
+        <EditorCategories value="Race:Critter"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="Zeratul">
+        <ScaleMax value="2.500000,2.500000,2.500000"/>
+        <ScaleMin value="2.500000,2.500000,2.500000"/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow2" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="Zergling">
+        <ScaleMax value="3.000000,3.000000,3.000000"/>
+        <ScaleMin value="3.000000,3.000000,3.000000"/>
+    </CModel>
+</Catalog>

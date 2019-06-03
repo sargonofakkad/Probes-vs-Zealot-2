@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CEffectDamage id="AcidSalivaU">
+        <Amount value="1"/>
+    </CEffectDamage>
+    <CEffectDamage id="ArtanisBeamDamage">
+        <Amount value="200000"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="AuraofArmorApplyBuff">
+        <ValidatorArray index="0" removed="1"/>
+        <EditorCategories value=""/>
+        <Behavior value="9995DamageReductionBuff"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="AuraofArmor">
+        <EditorCategories value=""/>
+        <EffectArray value="AuraofArmorApplyBuff"/>
+    </CEffectSet>
+    <CEffectTeleport id="BlinkMercenaries">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementAround Value="CasterUnit"/>
+        <PlacementRange value="8"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestFog" value="0"/>
+    </CEffectTeleport>
+    <CEffectDamage id="Claws">
+        <AttributeBonus index="Heroic" value="25"/>
+        <Amount value="65535"/>
+        <VitalFractionMax index="Life" value="0.1"/>
+        <SearchFlags index="SameCliff" value="0"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="Claws2" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <ArmorReduction value="0"/>
+        <VitalFractionMax index="Life" value="0.5"/>
+        <SearchFlags index="SameCliff" value="0"/>
+        <Amount value="260000"/>
+    </CEffectDamage>
+    <CEffectDamage id="CommandoRifle">
+        <ArmorReduction value="0"/>
+        <Amount value="262135"/>
+        <DisplayFlags index="CollapseBuffed" value="1"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="CommandoRifleLaunchMissile">
+        <EditorCategories value=""/>
+        <ImpactEffect value="CommandoRifle"/>
+        <AmmoUnit value="CommandoRifle"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="DominionKillTeamDamage">
+        <AttributeBonus index="Armored" value="0"/>
+        <Amount value="8"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="DominionKillTeamLM">
+        <ImpactEffect value="DominionKillTeamDamage"/>
+    </CEffectLaunchMissile>
+    <CEffectCreatePersistent id="EyeBeamsGroundForwardPersistent">
+        <PeriodCount value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="EyeBeamsGroundLineDamage">
+        <ArmorReduction value="0"/>
+        <Kind value="Ranged"/>
+        <Amount value="700"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="EyeBeamsGroundReversePersistent">
+        <PeriodCount value="0"/>
+    </CEffectCreatePersistent>
+    <CEffectSet id="EyeBeamsGroundSet">
+        <EffectArray index="1" removed="1"/>
+    </CEffectSet>
+    <CEffectDamage id="GoliathG">
+        <ArmorReduction value="0"/>
+        <Amount value="16"/>
+    </CEffectDamage>
+    <CEffectModifyPlayer id="SpiritCordon">
+        <EditorCategories value=""/>
+        <Resources index="Vespene" value="2"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="SpiritSiphon">
+        <EditorCategories value=""/>
+        <Resources index="Vespene" value="5"/>
+    </CEffectModifyPlayer>
+    <CEffectApplyBehavior id="VitalityBonus">
+        <EditorCategories value=""/>
+        <Behavior value="FasterEnergyAura"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="VitalityBonusSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Light,Psionic,Visible;Self,Enemy"/>
+        <AreaArray Radius="16" Effect="VitalityBonus"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="MercenaryEffectDetect12">
+        <EditorCategories value=""/>
+        <Behavior value="Detector12"/>
+    </CEffectApplyBehavior>
+    <CEffectCreateUnit id="MineralPalletLevel1">
+        <ValidatorArray value="IsGeneratorLevel2"/>
+        <EditorCategories value=""/>
+        <SpawnUnit value="MineralPalletLevel1"/>
+        <CreateFlags index="Placement" value="0"/>
+    </CEffectCreateUnit>
+    <CEffectCreateUnit id="MineralPalletLevel2">
+        <ValidatorArray value="IsGeneratorLevel3"/>
+        <EditorCategories value=""/>
+        <CreateFlags index="Placement" value="0"/>
+        <SpawnUnit value="MineralPalletLevel2"/>
+    </CEffectCreateUnit>
+    <CEffectCreateUnit id="MineralPalletLevel3">
+        <ValidatorArray value="IsGeneratorLevel4"/>
+        <EditorCategories value=""/>
+        <CreateFlags index="Placement" value="0"/>
+        <SpawnUnit value="MineralPalletLevel3"/>
+    </CEffectCreateUnit>
+    <CEffectCreateUnit id="MineralPalletLevel4">
+        <ValidatorArray value="IsGeneratorLevel5"/>
+        <EditorCategories value=""/>
+        <CreateFlags index="Placement" value="0"/>
+        <SpawnUnit value="MineralPalletLevel4"/>
+    </CEffectCreateUnit>
+    <CEffectCreateUnit id="MineralPalletLevel5">
+        <ValidatorArray value="IsGeneratorLevel6"/>
+        <EditorCategories value=""/>
+        <CreateFlags index="Placement" value="0"/>
+        <SpawnUnit value="MineralPalletLevel5"/>
+    </CEffectCreateUnit>
+    <CEffectCreateUnit id="MineralPalletLevel6">
+        <ValidatorArray value="IsGeneratorLevel7"/>
+        <EditorCategories value=""/>
+        <CreateFlags index="Placement" value="0"/>
+        <SpawnUnit value="MineralPalletLevel6"/>
+    </CEffectCreateUnit>
+    <CEffectCreateUnit id="MineralPalletLevel7">
+        <ValidatorArray value="IsGeneratorLevel8"/>
+        <EditorCategories value=""/>
+        <CreateFlags index="Placement" value="0"/>
+        <SpawnUnit value="MineralPalletLevel7"/>
+    </CEffectCreateUnit>
+    <CEffectCreateUnit id="MineralPalletLevel8">
+        <ValidatorArray value="IsGeneratorLevel9"/>
+        <EditorCategories value=""/>
+        <CreateFlags index="Placement" value="0"/>
+        <SpawnUnit value="MineralPalletLevel8"/>
+    </CEffectCreateUnit>
+    <CEffectCreateUnit id="MineralPalletLevel9">
+        <ValidatorArray value="IsGeneratorLevel10"/>
+        <EditorCategories value=""/>
+        <CreateFlags index="Placement" value="0"/>
+        <SpawnUnit value="MineralPalletLevel9"/>
+    </CEffectCreateUnit>
+    <CEffectDamage id="OracleWeaponDamage">
+        <VitalBonus index="Energy" value="0.4"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="ParticleDisruptors2">
+        <ValidatorArray index="0" value="StalkerTargetFilters"/>
+        <ValidatorArray value=""/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="StalkerPeriod2"/>
+        <AmmoUnit value="StalkerWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LavaCritterStatueDefenderEntropyLanceSet">
+        <ValidatorArray index="0" value="StalkerTargetFilters"/>
+        <ValidatorArray value=""/>
+        <EditorCategories value="Race:Protoss"/>
+        <ImpactEffect value="StalkerPeriod"/>
+        <AmmoUnit value="LavaCritterStatueDefenderWeaponUnit"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="ParticleDisruptorsU2" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Amount value="262135"/>
+        <DisplayFlags index="CollapseBuffed" value="1"/>
+    </CEffectDamage>
+    <CEffectModifyUnit id="LavaStatueDies">
+        <EditorCategories value=""/>
+    </CEffectModifyUnit>
+    <CEffectDamage id="LavaCritterStatueDefenderEntropyLanceDamage" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Protoss"/>
+        <ArmorReduction value="0"/>
+        <Amount value="262135"/>
+        <DisplayFlags index="CollapseBuffed" value="1"/>
+    </CEffectDamage>
+    <CEffectModifyPlayer id="PickupGas10">
+        <EditorCategories value=""/>
+        <Resources index="Vespene" value="10"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupTerrazine10">
+        <EditorCategories value=""/>
+        <Resources index="Terrazine" value="10"/>
+    </CEffectModifyPlayer>
+    <CEffectSet id="PickupGas10Set">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupGas10"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="SalvageTurretLevel132">
+        <EditorCategories value="Race:Terran"/>
+        <ModifyFlags index="Salvage" value="1"/>
+    </CEffectModifyUnit>
+    <CEffectCreatePersistent id="StalkerPeriod2">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/PsiBladesBurst"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <PeriodCount value="20"/>
+        <PeriodicEffectArray value="ParticleDisruptorsU2"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.01"/>
+    </CEffectCreatePersistent>
+    <CEffectApplyBehavior id="TurretEconbuff">
+        <EditorCategories value=""/>
+        <Behavior value=""/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="MultiProbesNerf">
+        <EditorCategories value=""/>
+        <Behavior value="MultiProbeNerf"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="MultiMercenariesNerf">
+        <EditorCategories value=""/>
+        <Behavior value="MultiProbeNerf"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="MultiGenNerf">
+        <EditorCategories value=""/>
+        <Behavior value=""/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="MultiProbesNerfSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Mechanical,Structure;Player,Neutral,Enemy"/>
+        <AreaArray Radius="6" Effect="MultiProbesNerf"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="AuraofLifeApplyBuff">
+        <ValidatorArray index="0" value="NotMaxHP"/>
+        <EditorCategories value=""/>
+        <Behavior value="AuraofLifeBuff"/>
+    </CEffectApplyBehavior>
+    <CEffectModifyUnit id="AuraofLifeModifyUnit">
+        <ValidatorArray value="NotMaxHP"/>
+        <EditorCategories value=""/>
+        <VitalArray index="Life" ChangeFraction="0.1"/>
+    </CEffectModifyUnit>
+    <CEffectEnumArea id="AuraofLifeSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Heroic;Structure,Item,Dead"/>
+        <AreaArray Radius="5" Effect="AuraofLifeSet"/>
+        <AreaArray Radius="5" Effect="AuraofArmor"/>
+    </CEffectEnumArea>
+    <CEffectSet id="AuraofLifeSet">
+        <ValidatorArray value="NotMaxHP"/>
+        <EditorCategories value=""/>
+        <EffectArray value="AuraofLifeApplyBuff"/>
+        <EffectArray value="AuraofLifeModifyUnit"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="AutoHarvestVespene">
+        <Resources value="-1"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel11" parent="AutoHarvestVespene">
+        <Resources value="-2048"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel12" parent="AutoHarvestVespene">
+        <Resources value="-8192"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel13" parent="AutoHarvestVespene">
+        <Resources value="-32768"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel2" parent="AutoHarvestVespene">
+        <Resources value="-2"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel3" parent="AutoHarvestVespene">
+        <Resources value="-4"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel23" parent="AutoHarvestVespene">
+        <Resources value="-8"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel232" parent="AutoHarvestVespene">
+        <Resources value="-16"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel233" parent="AutoHarvestVespene">
+        <Resources value="-32"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel234" parent="AutoHarvestVespene">
+        <Resources value="-64"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel235" parent="AutoHarvestVespene">
+        <Resources value="-128"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel236" parent="AutoHarvestVespene">
+        <Resources value="-256"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="AutoHarvestVespeneLevel10" parent="AutoHarvestVespene">
+        <Resources value="-512"/>
+    </CEffectModifyUnit>
+    <CEffectCreatePersistent id="BootsofSpeedLevel10">
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/BootsofSpeedLevel9"/>
+        <ExpireDelay value="12.2775"/>
+        <RevealRadius value="15"/>
+        <RevealFlags index="Unfog" value="1"/>
+        <RevealFlags index="Detect" value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="BootsofSpeedLevel11">
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/BootsofSpeedLevel9"/>
+        <ExpireDelay value="12.2775"/>
+        <RevealRadius value="16"/>
+        <RevealFlags index="Unfog" value="1"/>
+        <RevealFlags index="Detect" value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="BootsofSpeedLevel12">
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/BootsofSpeedLevel9"/>
+        <ExpireDelay value="12.2775"/>
+        <RevealRadius value="19"/>
+        <RevealFlags index="Unfog" value="1"/>
+        <RevealFlags index="Detect" value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="BootsofSpeedLevel13">
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/BootsofSpeedLevel9"/>
+        <ExpireDelay value="12.2775"/>
+        <RevealRadius value="22"/>
+        <RevealFlags index="Unfog" value="1"/>
+        <RevealFlags index="Detect" value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectCreatePersistent id="BootsofSpeedLevel14">
+        <EditorCategories value="Race:Terran"/>
+        <Marker Link="Effect/BootsofSpeedLevel9"/>
+        <ExpireDelay value="12.2775"/>
+        <RevealRadius value="25"/>
+        <RevealFlags index="Unfog" value="1"/>
+        <RevealFlags index="Detect" value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectCreateUnit id="CalldownMULECreateUnit">
+        <SpawnUnit value=""/>
+    </CEffectCreateUnit>
+    <CEffectApplyBehavior id="ChronoBoost">
+        <ValidatorArray index="0" value="NotDeadOrConstruction"/>
+        <ValidatorArray index="1" value="UnitisnotDominionTrain"/>
+        <ValidatorArray index="2" removed="1"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="ChronoBoostAlert">
+        <Alert value=""/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="CloakProbe">
+        <EditorCategories value=""/>
+    </CEffectApplyBehavior>
+    <CEffectModifyPlayer id="EvasionEffect">
+        <EditorCategories value=""/>
+    </CEffectModifyPlayer>
+    <CEffectEnumArea id="MultiMercenariesNerfSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Hover;Player,Neutral,Enemy"/>
+        <AreaArray Radius="6" Effect="MultiMercenariesNerf"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="TurretEconBuffSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Self,Armored,Mechanical,Structure;Player,Neutral,Enemy"/>
+        <AreaArray Radius="12" Effect="TurretEconbuff"/>
+        <MaxCount value="8"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectLaunchMissile id="ParticleDisruptors">
+        <ImpactEffect value="StalkerPeriod"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="ParticleDisruptorsU">
+        <AttributeBonus index="Armored" value="0"/>
+        <ArmorReduction value="0"/>
+        <Amount value="262135"/>
+        <DisplayFlags index="CollapseBuffed" value="1"/>
+    </CEffectDamage>
+    <CEffectModifyPlayer id="PickupGas100">
+        <Resources index="Vespene" value="10"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupMineralsLevel1">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="100"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupMineralsLevel2">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="150"/>
+    </CEffectModifyPlayer>
+    <CEffectSet id="PickupMineralsLevel1Set">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel1"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectModifyPlayer id="PickupMineralsLevel22">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="175"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupMineralsLevel222">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="200"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupMineralsLevel2222">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="400"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupMineralsLevel22222">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="800"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupMineralsLevel222222">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="1600"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupMineralsLevel2222222">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="3200"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="PickupMineralsLevel22222222">
+        <EditorCategories value=""/>
+        <Resources index="Minerals" value="9600"/>
+    </CEffectModifyPlayer>
+    <CEffectSet id="PickupMineralsLevel2Set">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel2"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectSet id="PickupMineralsLevel2Set2">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel22"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectSet id="PickupMineralsLevel2Set22">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel222"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectSet id="PickupMineralsLevel2Set222">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel2222"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectSet id="PickupMineralsLevel2Set2222">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel22222"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectSet id="PickupMineralsLevel2Set22222">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel222222"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectSet id="PickupMineralsLevel2Set222222">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel2222222"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectSet id="PickupMineralsLevel2Set2222222">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupMineralsLevel22222222"/>
+        <EffectArray value="PickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="ProbeDies">
+        <EditorCategories value=""/>
+    </CEffectModifyUnit>
+    <CEffectApplyBehavior id="Cloak">
+        <EditorCategories value=""/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="Cloakprobe">
+        <EditorCategories value=""/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="DisorientEffect">
+        <EditorCategories value=""/>
+        <WhichUnit Effect="DisorientEffect"/>
+        <Behavior value="Disorient"/>
+        <ValidatorArray index="0" value="MagicImmunity"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="DisorientEffectSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="-;Player,Ally,Neutral"/>
+        <AreaArray Radius="2" Effect="DisorientEffect"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="ElectricField">
+        <EditorCategories value=""/>
+        <Amount value="10"/>
+        <SearchFilters value="Mechanical,Worker;Ally,Neutral,Robotic,Heroic"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="AuraofDamage">
+        <EditorCategories value=""/>
+        <ValidatorArray index="0" value="IsNotTurretLevel13"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="ElectricFieldSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Mechanical,Worker;Ally,Neutral,Robotic"/>
+        <AreaArray Radius="3" Effect="ElectricField"/>
+    </CEffectEnumArea>
+    <CEffectEnumArea id="AuraofDamageSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Mechanical,Structure;Enemy"/>
+        <AreaArray Radius="3" Effect="AuraofDamage"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="HarvestBonus">
+        <EditorCategories value=""/>
+        <Behavior value="FasterHarvestAura"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="HarvestBonusSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Worker;Self,Enemy"/>
+        <AreaArray Radius="3" Effect="HarvestBonus"/>
+        <SearchFlags index="ExtendByUnitRadius" value="1"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="MagicImmune">
+        <EditorCategories value=""/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="Predator">
+        <ArmorReduction value="0"/>
+        <Amount value="4"/>
+    </CEffectDamage>
+    <CEffectModifyUnit id="ProbeSpiritDies">
+        <EditorCategories value=""/>
+    </CEffectModifyUnit>
+    <CEffectDamage id="PsiBlades">
+        <Amount value="0"/>
+        <ArmorReduction value="0"/>
+        <DisplayFlags index="CollapseBuffed" value="1"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="BootsofSpeedLevel9">
+        <EditorCategories value="Race:Terran"/>
+        <ExpireDelay value="12.2775"/>
+        <RevealRadius value="14"/>
+        <RevealFlags index="Unfog" value="1"/>
+        <RevealFlags index="Detect" value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="PsionicShockwaveDamage">
+        <AttributeBonus index="Biological" value="0"/>
+        <ArmorReduction value="0"/>
+        <KindSplash value="Spell"/>
+        <Amount value="128"/>
+        <AreaArray index="0" removed="1"/>
+        <AreaArray index="1" removed="1"/>
+        <AreaArray index="2" removed="1"/>
+        <SearchFilters value="-;-"/>
+        <SearchFlags index="CallForHelp" value="0"/>
+        <SearchFlags index="OffsetAreaByAngle" value="0"/>
+    </CEffectDamage>
+    <CEffectSet id="SalvageGeneratorSet">
+        <EditorCategories value=""/>
+        <EffectArray value="SalvageGenerator"/>
+        <EffectArray value="MineralPalletLevel1"/>
+        <EffectArray value="MineralPalletLevel2"/>
+        <EffectArray value="MineralPalletLevel3"/>
+        <EffectArray value="MineralPalletLevel4"/>
+        <EffectArray value="MineralPalletLevel5"/>
+        <EffectArray value="MineralPalletLevel6"/>
+        <EffectArray value="SalvageGeneratorSet2"/>
+    </CEffectSet>
+    <CEffectSet id="SalvageGeneratorSet2">
+        <EditorCategories value=""/>
+        <EffectArray value="MineralPalletLevel7"/>
+        <EffectArray value="MineralPalletLevel8"/>
+        <EffectArray value="MineralPalletLevel9"/>
+    </CEffectSet>
+    <CEffectModifyUnit id="SalvageShared">
+        <SalvageFactor>
+            <Resource index="Minerals" value="-1"/>
+            <Resource index="Vespene" value="-1"/>
+            <Resource index="Terrazine" value="-1"/>
+            <Resource index="Custom" value="-1"/>
+        </SalvageFactor>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="SalvageShared2">
+        <EditorCategories value="Race:Terran"/>
+        <ModifyFlags index="Salvage" value="1"/>
+        <SalvageFactor>
+            <Resource index="Minerals" value="-1"/>
+            <Resource index="Vespene" value="-1"/>
+            <Resource index="Terrazine" value="-1"/>
+            <Resource index="Custom" value="-1"/>
+        </SalvageFactor>
+    </CEffectModifyUnit>
+    <CEffectSet id="ScrollofTP">
+        <EditorCategories value=""/>
+        <EffectArray value="ScrollofTPSearch"/>
+        <EffectArray value="ScrollofTPOriginApplyBuff"/>
+        <TargetLocationType value="UnitOrPoint"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="ScrollofTPOriginApplyBuff">
+        <EditorCategories value=""/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ScrollofTPOrigin"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="ScrollofTPSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Massive;Self,Neutral,Enemy,Light,Item,Dead,Hidden"/>
+        <AreaArray MaxCount="1" Radius="500" Effect="ScrollofTPTargetApplyBuff"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="ScrollofTPTargetApplyBuff">
+        <ValidatorArray index="0" value="ScrollofTPFilter"/>
+        <EditorCategories value=""/>
+        <Behavior value="ScrollofTPTarget"/>
+    </CEffectApplyBehavior>
+    <CEffectTeleport id="ScrollofTPTeleport">
+        <EditorCategories value=""/>
+        <WhichUnit Value="Caster"/>
+        <PlacementRange value="2"/>
+        <Range value="350"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestCliff" value="1"/>
+    </CEffectTeleport>
+    <CEffectDamage id="SiegeBreakerDamage">
+        <AttributeBonus index="Armored" value="0"/>
+        <ArmorReduction value="0"/>
+        <Amount value="64"/>
+    </CEffectDamage>
+    <CEffectSet id="StaffofTeleportation">
+        <EditorCategories value=""/>
+        <EffectArray value="StaffofTeleportationTargetApplyBuff"/>
+        <EffectArray value="StaffofTeleportationOriginApplyBuff"/>
+    </CEffectSet>
+    <CEffectSet id="StaffofTeleportation2">
+        <EditorCategories value=""/>
+        <EffectArray value="StaffofTeleportationTargetApplyBuff2"/>
+        <EffectArray value="StaffofTeleportationOriginApplyBuff2"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="StaffofTeleportationOriginApplyBuff">
+        <EditorCategories value=""/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="Teleport"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="StaffofTeleportationOriginApplyBuff2">
+        <EditorCategories value=""/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="Teleport2"/>
+    </CEffectApplyBehavior>
+    <CEffectEnumArea id="StaffofTeleportationSearch">
+        <EditorCategories value=""/>
+        <SearchFilters value="Structure;Neutral,Enemy,Item,Dead"/>
+        <AreaArray MaxCount="1" Radius="500" Effect="StaffofTeleportationTargetApplyBuff"/>
+        <MaxCount value="1"/>
+    </CEffectEnumArea>
+    <CEffectApplyBehavior id="StaffofTeleportationTargetApplyBuff">
+        <EditorCategories value=""/>
+        <Behavior value="StaffofTeleportationTarget"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="StaffofTeleportationTargetApplyBuff2">
+        <EditorCategories value=""/>
+        <Behavior value="StaffofTeleportationTarget2"/>
+    </CEffectApplyBehavior>
+    <CEffectTeleport id="StaffofTeleportationTeleport">
+        <EditorCategories value=""/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementArc value="360"/>
+        <PlacementRange value="15"/>
+        <TargetLocation Value="TargetPoint"/>
+    </CEffectTeleport>
+    <CEffectTeleport id="StaffofTeleportationTeleport2">
+        <EditorCategories value=""/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementArc value="360"/>
+        <PlacementRange value="15"/>
+        <TargetLocation Value="TargetPoint"/>
+    </CEffectTeleport>
+    <CEffectCreatePersistent id="StalkerPeriod">
+        <EditorCategories value="Race:Protoss"/>
+        <Marker Link="Effect/PsiBladesBurst"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <PeriodCount value="3"/>
+        <PeriodicEffectArray value="ParticleDisruptorsU"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.28"/>
+        <PeriodicPeriodArray value="0.28"/>
+    </CEffectCreatePersistent>
+    <CEffectRemoveBehavior id="RemoveCloak">
+        <EditorCategories value=""/>
+        <WhichUnit Value="Caster"/>
+        <BehaviorLink value="Cloak"/>
+        <Count value="1"/>
+    </CEffectRemoveBehavior>
+    <CEffectDamage id="RetributionFieldDamage">
+        <Amount value="0"/>
+    </CEffectDamage>
+    <CEffectEnumArea id="RetributionFieldSearch">
+        <AreaArray index="0" removed="1"/>
+    </CEffectEnumArea>
+    <CEffectModifyUnit id="SalvageTurretLevel13">
+        <EditorCategories value="Race:Terran"/>
+        <ModifyFlags index="Salvage" value="1"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="SalvageFinalWall">
+        <EditorCategories value="Race:Terran"/>
+        <ModifyFlags index="Salvage" value="1"/>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="SalvageGenerator">
+        <EditorCategories value="Race:Terran"/>
+        <ModifyFlags index="Salvage" value="1"/>
+        <SalvageFactor>
+            <Resource index="Minerals" value="-1"/>
+            <Resource index="Vespene" value="-1"/>
+            <Resource index="Terrazine" value="-1"/>
+            <Resource index="Custom" value="-1"/>
+        </SalvageFactor>
+    </CEffectModifyUnit>
+    <CEffectModifyUnit id="SelfDestruct">
+        <EditorCategories value=""/>
+        <ModifyFlags index="Salvage" value="1"/>
+    </CEffectModifyUnit>
+    <CEffectApplyBehavior id="StealthyStrikes">
+        <EditorCategories value=""/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="SurfaceForSpellcast">
+        <ValidatorArray index="0" removed="1"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="ThermalLances">
+        <EffectArray index="1" removed="1"/>
+        <EffectArray index="2" removed="1"/>
+    </CEffectSet>
+    <CEffectCreatePersistent id="ThermalLancesForward">
+        <PeriodCount value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="ThermalLancesMU">
+        <ArmorReduction value="0"/>
+        <Amount value="400"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="ThermalLancesReverse">
+        <PeriodCount value="0"/>
+    </CEffectCreatePersistent>
+    <CEffectApplyBehavior id="TimeWarpprobe">
+        <EditorCategories value=""/>
+    </CEffectApplyBehavior>
+    <CEffectLaunchMissile id="LongboltMissile1">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel1"/>
+        <AmmoUnit value="LongboltMissileWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM11">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel11"/>
+        <AmmoUnit value="WeaponHybridD"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM12">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel12"/>
+        <AmmoUnit value="ATSLaserBatteryLMWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM13">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel13"/>
+        <AmmoUnit value="HyperionYamatoSpecialWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM2">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel2"/>
+        <AmmoUnit value="PhotonCannonWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM3">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel3"/>
+        <AmmoUnit value="PunisherGrenadesLMWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM4">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel4"/>
+        <AmmoUnit value="OdinAAWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM5">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel5"/>
+        <AmmoUnit value="MindSiphonWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM6">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel6"/>
+        <AmmoUnit value="IonCannonsWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM7">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel7"/>
+        <AmmoUnit value="KarassWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM8">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel8"/>
+        <AmmoUnit value="WraithGroundWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissile9">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel92"/>
+        <AmmoUnit value="StalkerWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectLaunchMissile id="LongboltMissileLM10">
+        <EditorCategories value="Race:Terran"/>
+        <ImpactEffect value="TurretDamageLevel10"/>
+        <AmmoUnit value="SwannWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectDamage id="ToshU">
+        <ArmorReduction value="0"/>
+        <Amount value="160000"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel1" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <ArmorReduction value="0"/>
+        <Amount value="1"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel11" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="40960"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel12" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="160000"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel13" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="262135"/>
+        <ArmorReduction value="0"/>
+        <DisplayFlags index="CollapseBuffed" value="1"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel2" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <ArmorReduction value="0"/>
+        <Amount value="2"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel3" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="4"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel4" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="8"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel5" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="16"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel6" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="32"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel7" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="64"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel8" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="128"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel92" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="400"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="TurretDamageLevel10" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Terran"/>
+        <Amount value="700"/>
+        <ArmorReduction value="0"/>
+    </CEffectDamage>
+    <CEffectDamage id="PhotonCannonU">
+        <Amount value="1"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="PsiBladesBurst">
+        <PeriodCount value="1"/>
+    </CEffectCreatePersistent>
+    <CEffectCreateHealer id="Repair">
+        <DrainResourceCostFactor index="Minerals" value="0"/>
+        <DrainResourceCostFactor index="Vespene" value="0"/>
+        <DrainResourceCostFactor index="Terrazine" value="0"/>
+        <DrainResourceCostFactor index="Custom" value="0"/>
+    </CEffectCreateHealer>
+    <CEffectCreateHealer id="Repair4" parent="Repair">
+        <Marker Link="Effect/Repair4"/>
+        <DrainVital value="Shields"/>
+        <RechargeVital value="Shields"/>
+    </CEffectCreateHealer>
+    <CEffectDamage id="TychusChaingun">
+        <ArmorReduction value="0"/>
+        <Amount value="40296"/>
+    </CEffectDamage>
+    <CEffectSet id="VoidPickupGas10Set">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupGas10"/>
+        <EffectArray value="VoidPickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectSet id="VoidPickupTerrazine10Set">
+        <EditorCategories value=""/>
+        <EffectArray value="PickupTerrazine10"/>
+        <EffectArray value="VoidPickupRemoveDelay"/>
+    </CEffectSet>
+    <CEffectApplyBehavior id="VoidPrison">
+        <ValidatorArray index="0" value="MagicImmunity"/>
+        <EditorCategories value=""/>
+        <Behavior value="ZeratulStun"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="VoodooShieldApplyBehavior">
+        <ValidatorArray index="0" value="MagicImmunity"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="VoodooShieldSet">
+        <EffectArray index="1" value="VoodooShieldApplyBehavior"/>
+        <EffectArray index="2" value="VoodooShieldRemoveDummy"/>
+        <EffectArray index="3" removed="1"/>
+    </CEffectSet>
+    <CEffectDamage id="WreckingCrewAssault">
+        <ArmorReduction value="0"/>
+        <Amount value="32"/>
+    </CEffectDamage>
+    <CEffectModifyPlayer id="ZealotIncome">
+        <EditorCategories value=""/>
+        <WhichPlayer Value="Caster"/>
+        <Resources index="Minerals" value="1"/>
+        <ResourcesCollected index="Minerals" value="1"/>
+        <ValidatorArray value="NotHeroic"/>
+    </CEffectModifyPlayer>
+    <CEffectModifyPlayer id="ZealotPeriodicIncome">
+        <EditorCategories value=""/>
+        <WhichPlayer Value="Caster"/>
+        <Resources index="Minerals" value="1"/>
+        <ResourcesCollected index="Minerals" value="1"/>
+    </CEffectModifyPlayer>
+    <CEffectSet id="ZealotSet">
+        <EditorCategories value=""/>
+        <EffectArray value="PsiBlades"/>
+        <EffectArray value="ZealotIncome"/>
+    </CEffectSet>
+    <CEffectSet id="ZealotSet2">
+        <EditorCategories value=""/>
+        <EffectArray value="PsiBlades"/>
+        <EffectArray value="ZealotIncome"/>
+        <EffectArray value="Claws2"/>
+    </CEffectSet>
+    <CEffectTeleport id="ZeratulBlink">
+        <PlacementRange value="6"/>
+        <Range value="6"/>
+    </CEffectTeleport>
+    <CEffectTeleport id="AdvancedBlink">
+        <EditorCategories value="Race:Protoss"/>
+        <WhichUnit Value="Caster"/>
+        <ClearQueuedOrders value="0"/>
+        <PlacementRange value="8"/>
+        <Range value="8"/>
+        <TargetLocation Value="TargetPoint"/>
+        <TeleportFlags index="TestFog" value="0"/>
+    </CEffectTeleport>
+    <CEffectApplyBehavior id="ZeratulStunApplyBehavior">
+        <ValidatorArray index="0" value="MagicImmunity"/>
+    </CEffectApplyBehavior>
+</Catalog>

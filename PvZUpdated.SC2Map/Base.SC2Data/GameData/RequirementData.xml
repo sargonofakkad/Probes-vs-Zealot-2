@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CRequirement id="AutomatedMineConstructorRequirements">
+        <NodeArray index="Use" Link="LTE1334125930CountUnitAutomatedMineConstructorQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="DoesnothaveFlag">
+        <NodeArray index="Use" Link="Not457457480CountUnitDestructibleKorhalFlagQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HasFinalBlade">
+        <NodeArray index="Use" Link="CountUnitFinalBladeQueuedOrBetter3342490280"/>
+    </CRequirement>
+    <CRequirement id="HaveMinerLegendaryPerfectLudicrous">
+        <NodeArray index="Use" Link="OrCountUnitPerfectMinerQueuedOrBetterTechTreeCheatCountUnitLegendaryMinerQueuedOrBetterTechTreeCheatCountUnitLudicrousMinerQueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveMinerPerfectLudicrous">
+        <NodeArray index="Use" Link="OrCountUnitPerfectMinerQueuedOrBetterTechTreeCheatCountUnitLudicrousMinerQueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HunterAllowed">
+        <NodeArray index="Use" Link="CountUpgradeHuntersAllowedCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HunterRankS20">
+        <NodeArray index="Use" Link="CountUpgradeHunterRankS20CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="MaxXelNagaTowers">
+        <NodeArray index="Use" Link="LTCountUnitAncientTowerQueuedOrBetter91237221246"/>
+    </CRequirement>
+    <CRequirement id="NoAssimilator">
+        <NodeArray index="Use" Link="NotCountUnitSpiritAssimilatorQueuedOrBetter1097426814"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS10">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS10CompleteOnly1340945505TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS25">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS25CompleteOnly3449047754TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS50">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS50CompleteOnly4294885460TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS75">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS75CompleteOnly1084335746TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS1">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS1CompleteOnly1499766792TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS5">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS5CompleteOnly516711845TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS20">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS20CompleteOnly4042921723TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS30">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS30CompleteOnly1130823086TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS40">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS40CompleteOnly824949890TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS60">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS60CompleteOnly2750393654TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS70">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS70CompleteOnly3753323265TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS80">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS80CompleteOnly1193877044TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS90">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS90CompleteOnly2343254466TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeRankS100">
+        <NodeArray index="Use" Link="CountUpgradeProbeRankS100CompleteOnly2263143233TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="PvZ2HoldingFire">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+        <NodeArray index="Show" Link="CountBehaviorGhostHoldFireBCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="Have1Ludicrous">
+        <NodeArray index="Use" Link="NotCountUnitLudicrousMinerQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HaveFlag">
+        <NodeArray index="Use" Link="Or3876231080CountUnitMarketCompleteOnlyTechTreeCheatCountUnitUndergroundMarketCompleteOnlyTechTreeCheatCountUnitGlobalMarketCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveNoHouse6">
+        <NodeArray index="Use" Link="AndNot4017687628OrCountUnitGeneratorLevel00CompleteOnlyTechTreeCheatCountUnitGeneratorLevel01CompleteOnlyTechTreeCheatCountUnitGeneratorLevel02CompleteOnlyTechTreeCheatCountUnitGeneratorLevel03CompleteOnlyTechTreeCheatCountUnitGeneratorLevel04CompleteOnlyTechTreeCheatCountUnitGeneratorLevel05CompleteOnlyTechTreeCheatCountUnitGeneratorLevel06CompleteOnlyTechTreeCheatCountUnitGeneratorLevel07CompleteOnlyTechTreeCheatCountUnitGeneratorLevel08CompleteOnlyTechTreeCheatCountUnitGeneratorLevel09CompleteOnlyTechTreeCheatCountUnitGeneratorLevel00QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel01QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel02QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel03QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel04QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel05QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel06QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel07QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel07QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel08QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel09QueuedOrBetterTechTreeCheatOrCountUnitUndergroundMarketCompleteOnlyCountUnitGlobalMarketCompleteOnlyCountUnitWall9CompleteOnlyCountUnitWall10CompleteOnlyCountUnitWall11CompleteOnlyCountUnitWall12CompleteOnlyCountUnitWall13CompleteOnlyCountUnitWall14CompleteOnlyCountUnitWall15CompleteOnlyCountUnitWall16CompleteOnlyCountUnitWall17CompleteOnlyCountUnitwall18CompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveNoHouseMax">
+        <NodeArray index="Use" Link="AndNot4017687628OrCountUnitGeneratorLevel00CompleteOnlyTechTreeCheatCountUnitGeneratorLevel01CompleteOnlyTechTreeCheatCountUnitGeneratorLevel02CompleteOnlyTechTreeCheatCountUnitGeneratorLevel03CompleteOnlyTechTreeCheatCountUnitGeneratorLevel04CompleteOnlyTechTreeCheatCountUnitGeneratorLevel05CompleteOnlyTechTreeCheatCountUnitGeneratorLevel06CompleteOnlyTechTreeCheatCountUnitGeneratorLevel07CompleteOnlyTechTreeCheatCountUnitGeneratorLevel08CompleteOnlyTechTreeCheatCountUnitGeneratorLevel09CompleteOnlyTechTreeCheatCountUnitGeneratorLevel00QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel01QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel02QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel03QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel04QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel05QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel06QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel07QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel07QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel08QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel09QueuedOrBetterTechTreeCheatOrCountUnitWall13CompleteOnlyCountUnitWall14CompleteOnlyCountUnitWall15CompleteOnlyCountUnitWall16CompleteOnlyCountUnitWall17CompleteOnlyCountUnitwall18CompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveWall17">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="CountUnitWall17CompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="LearnDetect">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Show" Link="NotCountUpgradeBlinkQueuedOrBetter2"/>
+    </CRequirement>
+    <CRequirement id="MercenaryDectector12Upgrade"/>
+    <CRequirement id="NoMegaGen">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+    </CRequirement>
+    <CRequirement id="NotHaveMercCenter">
+        <NodeArray index="Use" Link="NotCountUnitFleetBeaconQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkinP">
+        <NodeArray index="Use" Link="OrCountUnitPenguinWhiteInProgressOrBetterAtUnitCountUnitPenguinBlackInProgressOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="RepositoryLimit">
+        <NodeArray index="Use" Link="LTE2961150167CountUnitRoboticsBayQueuedOrBetter2"/>
+    </CRequirement>
+    <CRequirement id="MercenariesLimit">
+        <NodeArray index="Use" Link="LTE2991136902SumCountUnitDominionKillTeamQueuedOrBetterCountUnitGoliathQueuedOrBetterCountUnitHelsAngelAssaultQueuedOrBetterCountUnitSiegeBreakerQueuedOrBetterCountUnitArchonQueuedOrBetterCountUnitColossusQueuedOrBetterCountUnitStoneZealotQueuedOrBetterCountUnitTychusChaingunQueuedOrBetterCountUnitToshQueuedOrBetterCountUnitRaynorCommandoQueuedOrBetterCountUnitStalkerQueuedOrBetter39"/>
+    </CRequirement>
+    <CRequirement id="DoesnothaveMarket">
+        <NodeArray index="Use" Link="Not1735136332OrCountUnitMarketQueuedOrBetterCountUnitUndergroundMarketQueuedOrBetterCountUnitGlobalMarketQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DoesnothaveCollectionDepot">
+        <NodeArray index="Use" Link="Not1642036727CountUnitGatewayQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DoesnothavePassengerCar">
+        <NodeArray index="Use" Link="Not1522068183CountUnitCargoTruckUnitTrailerQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DoesnothaveTransportTruck">
+        <NodeArray index="Use" Link="Not1781478907CountUnitTransportTruckQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DoesnothaveDominionTrain">
+        <NodeArray index="Use" Link="Not1874414472CountUnitFreightCarQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnBlinkMercenaries">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Show" Link="NotCountUpgradeBlinkQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="SkillLevel1IsKnown">
+        <NodeArray index="Show" Link="CountBehaviorPvZ2LearnSkill1CompleteOnlyAtUnit3664532530"/>
+    </CRequirement>
+    <CRequirement id="SpiritRankS15">
+        <NodeArray index="Use" Link="CountUpgradeSpiritRankS15CompleteOnly3915334783TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="SpiritRankS25">
+        <NodeArray index="Use" Link="CountUpgradeSpiritRankS25CompleteOnly1960585477TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="SpiritRankS100">
+        <NodeArray index="Use" Link="CountUpgradeSpiritRankS100CompleteOnly3038100381TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="SpiritRankS50">
+        <NodeArray index="Use" Link="CountUpgradeSpiritRankS50CompleteOnly4199330179TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="StasisWardLimit">
+        <NodeArray index="Use" Link="LTE412486688CountUnitOracleStasisTrapQueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="TwlightCouncil">
+        <NodeArray index="Use" Link="LTCountUnitAncestorsCouncilQueuedOrBetter62820208380"/>
+    </CRequirement>
+    <CRequirement id="Stargate">
+        <NodeArray index="Use" Link="LTCountUnitGateQueuedOrBetter379101545743791015457"/>
+    </CRequirement>
+    <CRequirement id="UseBlinkMercenaries">
+        <EditorCategories value="Race:Protoss,TechType:Ability"/>
+        <NodeArray index="Use" Link="CountUpgradeBlinkCompleteOnly277640705TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="LearnMovementSpeedLevel1">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="EqCountUpgradeMovementSpeedLevel1QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="LearnMovementSpeedLevel2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="AndEq2655195251CountUpgradeMovementSpeedLevel1CompleteOnly1"/>
+        <NodeArray index="Show" Link="EqCountUpgradeMovementSpeedLevel2QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS1">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS1CompleteOnly2720333764TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS15">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS15CompleteOnly1385495826TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS25">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS25CompleteOnly282192069TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS30">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS30CompleteOnly2667033677TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS35">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS35CompleteOnly1338569589TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS50">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS50CompleteOnly766353285TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS45">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS45CompleteOnly3907094937TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS5">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS5CompleteOnly955829216TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS10">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS10CompleteOnly2131034184TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS20">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS20CompleteOnly3041141364TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkinS40">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkinRankS40CompleteOnly695797718TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="SpiritRankS1">
+        <NodeArray index="Use" Link="CountUpgradeSpiritRankS1CompleteOnly2502385417TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ZealotDetector">
+        <NodeArray index="Use" Link="AndNot82830229CountUnitDarkShrineQueuedOrBetterCountUnitForgeCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="LearnAdvancedBlinkLevel">
+        <NodeArray index="Show" Link="LTCountAbilAdvancedBlinkCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnChronoBoostLevel">
+        <NodeArray index="Show" Link="LTCountAbilTimeWarpCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnForceFieldLevel">
+        <NodeArray index="Show" Link="LTCountAbilForceFieldCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnPsiShieldLevel">
+        <NodeArray index="Show" Link="LTCountAbilPsiShield2CompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnTeleport">
+        <NodeArray index="Show" Link="LTCountAbilTeleportCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnVoidPrisonLevel">
+        <NodeArray index="Show" Link="LTCountAbilZeratulStunCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnHighSpeed">
+        <NodeArray index="Use" Link="EqCountAbilHighSpeedCompleteOnlyAtUnit1"/>
+        <NodeArray index="Show" Link="EqCountAbilHighSpeedCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnHighSpeedLevel">
+        <NodeArray index="Show" Link="LTCountAbilHighSpeedCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnCloakLevel">
+        <NodeArray index="Use" Link="GTCountAbilProbeLearnCompleteOnlyAtUnit0"/>
+        <NodeArray index="Show" Link="LTCountAbilCloakProbeCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="LearnBlinkLevel">
+        <NodeArray index="Show" Link="LTCountAbilZeratulBlinkCompleteOnlyAtUnit1"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin11">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin11CompleteOnly939305210TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin12">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin12CompleteOnly2209402130TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin13">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin13CompleteOnly186127829TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin14">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin14CompleteOnly3993173780TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin16">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin16CompleteOnly3595055966TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin17">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin17CompleteOnly667673337TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="UnderDevelopment">
+        <NodeArray index="Use" Link="CountUpgradeUnderDevelopmentCompleteOnly3010809146TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin15">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin15CompleteOnly2768125912TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin14">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin14CompleteOnly2782241503TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin15">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin15CompleteOnly293066910TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin3">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin3CompleteOnly4209361433"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin4">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin4CompleteOnly1274003575TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="FireSuppressionSystemsResearched">
+        <NodeArray index="Use" Link=""/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin1">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin1CompleteOnly3230942700TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveAncientLibrary">
+        <NodeArray index="Use" Link="CountUnitForgeCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveMarket">
+        <NodeArray index="Use" Link="Or3876231080CountUnitMarketCompleteOnlyTechTreeCheatCountUnitUndergroundMarketCompleteOnlyTechTreeCheatCountUnitGlobalMarketCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveOrbitalRelay">
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="HaveUndergroundMarket">
+        <NodeArray index="Use" Link="Or1785119127CountUnitUndergroundMarketCompleteOnlyTechTreeCheatCountUnitGlobalMarketCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveNoHouse">
+        <NodeArray index="Use" Link="Not4017687628OrCountUnitGeneratorLevel00CompleteOnlyTechTreeCheatCountUnitGeneratorLevel01CompleteOnlyTechTreeCheatCountUnitGeneratorLevel02CompleteOnlyTechTreeCheatCountUnitGeneratorLevel03CompleteOnlyTechTreeCheatCountUnitGeneratorLevel04CompleteOnlyTechTreeCheatCountUnitGeneratorLevel05CompleteOnlyTechTreeCheatCountUnitGeneratorLevel06CompleteOnlyTechTreeCheatCountUnitGeneratorLevel07CompleteOnlyTechTreeCheatCountUnitGeneratorLevel08CompleteOnlyTechTreeCheatCountUnitGeneratorLevel09CompleteOnlyTechTreeCheatCountUnitGeneratorLevel00QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel01QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel02QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel03QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel04QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel05QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel06QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel07QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel07QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel08QueuedOrBetterTechTreeCheatCountUnitGeneratorLevel09QueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveGlobalMarket">
+        <NodeArray index="Use" Link="CountUnitGlobalMarketCompleteOnly884301940"/>
+    </CRequirement>
+    <CRequirement id="HaveWall1">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="Or266685007CountUnitwall1CompleteOnlyTechTreeCheatCountUnitWall2CompleteOnlyTechTreeCheatCountUnitWall3CompleteOnlyTechTreeCheatCountUnitWall4CompleteOnlyTechTreeCheatCountUnitWall5CompleteOnlyTechTreeCheatCountUnitWall6CompleteOnlyTechTreeCheatCountUnitWall7CompleteOnlyTechTreeCheatCountUnitWall8CompleteOnlyTechTreeCheatCountUnitWall9CompleteOnlyTechTreeCheatCountUnitWall10CompleteOnlyTechTreeCheatCountUnitWall11CompleteOnlyTechTreeCheatCountUnitWall12CompleteOnlyTechTreeCheatCountUnitWall13CompleteOnlyTechTreeCheatCountUnitWall14CompleteOnlyTechTreeCheatCountUnitWall15CompleteOnlyTechTreeCheatCountUnitWall16CompleteOnlyTechTreeCheatCountUnitWall17CompleteOnlyTechTreeCheatCountUnitwall18CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveWall4">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="Or2400552940TechTreeCheatCountUnitWall4CompleteOnlyTechTreeCheatCountUnitWall5CompleteOnlyTechTreeCheatCountUnitWall6CompleteOnlyTechTreeCheatCountUnitWall7CompleteOnlyTechTreeCheatCountUnitWall8CompleteOnlyTechTreeCheatCountUnitWall9CompleteOnlyTechTreeCheatCountUnitWall10CompleteOnlyTechTreeCheatCountUnitWall11CompleteOnlyTechTreeCheatCountUnitWall12CompleteOnlyTechTreeCheatCountUnitWall13CompleteOnlyTechTreeCheatCountUnitWall14CompleteOnlyTechTreeCheatCountUnitWall15CompleteOnlyTechTreeCheatCountUnitWall16CompleteOnlyTechTreeCheatCountUnitWall17CompleteOnlyTechTreeCheatCountUnitwall18CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveWall6">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="Or604155457TechTreeCheatCountUnitWall6CompleteOnlyTechTreeCheatCountUnitWall7CompleteOnlyTechTreeCheatCountUnitWall8CompleteOnlyTechTreeCheatCountUnitWall9CompleteOnlyTechTreeCheatCountUnitWall10CompleteOnlyTechTreeCheatCountUnitWall11CompleteOnlyTechTreeCheatCountUnitWall12CompleteOnlyTechTreeCheatCountUnitWall13CompleteOnlyTechTreeCheatCountUnitWall14CompleteOnlyTechTreeCheatCountUnitWall15CompleteOnlyTechTreeCheatCountUnitWall16CompleteOnlyTechTreeCheatCountUnitWall17CompleteOnlyTechTreeCheatCountUnitwall18CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveWall9">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="Or2863674084TechTreeCheatCountUnitWall9CompleteOnlyTechTreeCheatCountUnitWall10CompleteOnlyTechTreeCheatCountUnitWall11CompleteOnlyTechTreeCheatCountUnitWall12CompleteOnlyTechTreeCheatCountUnitWall13CompleteOnlyTechTreeCheatCountUnitWall14CompleteOnlyTechTreeCheatCountUnitWall15CompleteOnlyTechTreeCheatCountUnitWall16CompleteOnlyTechTreeCheatCountUnitWall17CompleteOnlyTechTreeCheatCountUnitwall18CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveWall11">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="Or1388310189TechTreeCheatCountUnitWall11CompleteOnlyTechTreeCheatCountUnitWall12CompleteOnlyTechTreeCheatCountUnitWall13CompleteOnlyTechTreeCheatCountUnitWall14CompleteOnlyTechTreeCheatCountUnitWall15CompleteOnlyTechTreeCheatCountUnitWall16CompleteOnlyTechTreeCheatCountUnitWall17CompleteOnlyTechTreeCheatCountUnitwall18CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveWall12">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="Or4127451030CountUnitWall12CompleteOnlyTechTreeCheatCountUnitWall13CompleteOnlyTechTreeCheatCountUnitWall14CompleteOnlyTechTreeCheatCountUnitWall15CompleteOnlyTechTreeCheatCountUnitWall16CompleteOnlyTechTreeCheatCountUnitWall17CompleteOnlyTechTreeCheatCountUnitwall18CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveWall13">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="Or3874286599CountUnitWall13CompleteOnlyTechTreeCheatCountUnitWall14CompleteOnlyTechTreeCheatCountUnitWall15CompleteOnlyTechTreeCheatCountUnitWall16CompleteOnlyTechTreeCheatCountUnitWall17CompleteOnlyTechTreeCheatCountUnitwall18CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin7">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin7CompleteOnly3825440179TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin5">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin5CompleteOnly2525320899TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin8">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin8CompleteOnly2563259473TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin2">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin2CompleteOnly1649383230TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="NoBigHP">
+        <NodeArray index="Use" Link="EqSumCountUnitAmulet11CompleteOnlyAtUnitTechTreeCheatCountUnitAmulet10CompleteOnlyAtUnitTechTreeCheatCountUnitAmulet9CompleteOnlyAtUnitTechTreeCheat0"/>
+    </CRequirement>
+    <CRequirement id="NoBigHP2">
+        <NodeArray index="Use" Link="LTESumCountUnitAmulet11CompleteOnlyAtUnitTechTreeCheatCountUnitAmulet10CompleteOnlyAtUnitTechTreeCheatCountUnitAmulet9CompleteOnlyAtUnitTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="NoGloves">
+        <NodeArray index="Use" Link="LTESumCountUnitGloves1CompleteOnlyAtUnitTechTreeCheatCountUnitGloves2CompleteOnlyAtUnitTechTreeCheatCountUnitGloves5CompleteOnlyAtUnitTechTreeCheatCountUnitGloves6CompleteOnlyAtUnitTechTreeCheatCountU2039823875"/>
+    </CRequirement>
+    <CRequirement id="NoArmor">
+        <NodeArray index="Show" Link="LTESumCountUnitArmor9CompleteOnlyAtUnitTechTreeCheatCountUnitArmor6CompleteOnlyAtUnitTechTreeCheatCountUnitArmor3CompleteOnlyAtUnitTechTreeCheatCountUnitArmor12CompleteOnlyAtUnitTechTreeCheatCountUnit2282785528"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin10">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin10CompleteOnly872723311TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin6">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin6CompleteOnly3781370190TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ProbeSkin9">
+        <NodeArray index="Use" Link="CountUpgradeBuilderSkin9CompleteOnly2250841623TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin1">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin1CompleteOnly1596673207TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin12">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin12CompleteOnly349000653TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin13">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin13CompleteOnly1328128682TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin9">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin9CompleteOnly292826235TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin10">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin10CompleteOnly560015233TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin11">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin11CompleteOnly462102879TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin2">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin2CompleteOnly1003532743TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin3">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin3CompleteOnly2056944667TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin4">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin4CompleteOnly3229849996TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin5">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin5CompleteOnly2968085114TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin6">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin6CompleteOnly3345301231TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin7">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin7CompleteOnly3895351667TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="VampireSkin8">
+        <NodeArray index="Use" Link="CountUpgradeVampireSkin8CompleteOnly4018489052TechTreeCheat"/>
+    </CRequirement>
+</Catalog>

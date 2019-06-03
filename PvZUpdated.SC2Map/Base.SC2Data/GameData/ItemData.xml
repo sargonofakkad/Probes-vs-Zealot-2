@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CItem id="Amulet11">
+        <Face value="DiamondAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet13">
+        <Face value="XAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet2">
+        <Face value="AmethystAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Armor1">
+        <Face value="WoodenArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="09DamageReduction"/>
+    </CItem>
+    <CItem id="Amulet3">
+        <Face value="TopazAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet4">
+        <Face value="SpinelAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet5">
+        <Face value="SapphireAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet6">
+        <Face value="EmeraldAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet7">
+        <Face value="RubyAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet8">
+        <Face value="CorundumAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet9">
+        <Face value="TitaniumAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Amulet10">
+        <Face value="ObsidianAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Armor11">
+        <Face value="TungstenArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="98DamageReduction"/>
+    </CItem>
+    <CItem id="Armor12">
+        <Face value="NanocrystallineDiamondArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="99DamageReduction"/>
+    </CItem>
+    <CItem id="Armor13">
+        <Face value="UraniumArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="995DamageReduction"/>
+    </CItem>
+    <CItem id="Armor14">
+        <Face value="RubidiumArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="9975DamageReduction"/>
+    </CItem>
+    <CItemAbil id="BootsofSpeedLevel11">
+        <Face value="MagicBootsofSpeedLevel4"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel11"/>
+        <CarryBehaviorArray value="Detection5"/>
+    </CItemAbil>
+    <CItemAbil id="BootsofSpeedLevel12">
+        <Face value="LegendaryBootsofSpeedLevel1"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel12"/>
+        <CarryBehaviorArray value="Detection5"/>
+    </CItemAbil>
+    <CItemAbil id="BootsofSpeedLevel13">
+        <Face value="LegendaryBootsofSpeedLevel2"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel13"/>
+        <CarryBehaviorArray value="Detection5"/>
+    </CItemAbil>
+    <CItemAbil id="BootsofSpeedLevel14">
+        <Face value="LegendaryBootsofSpeedLevel3"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel14"/>
+        <CarryBehaviorArray value="Detection5"/>
+    </CItemAbil>
+    <CItem id="CloakofImmunity">
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="CloakofImmunity"/>
+    </CItem>
+    <CItem id="Regen12">
+        <Face value="FinalRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen12"/>
+    </CItem>
+    <CItem id="RingofSight">
+        <Class value="Feet"/>
+        <Face value="RingofSight1"/>
+        <CarryBehaviorArray value="SpyGlasses1"/>
+    </CItem>
+    <CItem id="BootsofSpeedLevel4">
+        <Face value="BasicBootsofSpeedLevel4"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel4"/>
+    </CItem>
+    <CItem id="BootsofSpeedLevel5">
+        <Face value="AdvancedBootsofSpeedLevel1"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel5"/>
+    </CItem>
+    <CItem id="BootsofSpeedLevel6">
+        <Face value="AdvancedBootsofSpeedLevel2"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel6"/>
+    </CItem>
+    <CItem id="BootsofSpeedLevel7">
+        <Face value="AdvancedBootsofSpeedLevel3"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel7"/>
+    </CItem>
+    <CItemAbil id="BootsofSpeedLevel8">
+        <Face value="MagicBootsofSpeedLevel1"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel8"/>
+        <CarryBehaviorArray value="Detection5"/>
+    </CItemAbil>
+    <CItemAbil id="BootsofSpeedLevel9">
+        <Face value="MagicBootsofSpeedLevel2"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel9"/>
+        <CarryBehaviorArray value="Detection5"/>
+    </CItemAbil>
+    <CItemAbil id="BootsofSpeedLevel10">
+        <Face value="MagicBootsofSpeedLevel3"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel10"/>
+        <CarryBehaviorArray value="Detection5"/>
+    </CItemAbil>
+    <CItem id="Gloves1">
+        <Face value="ClothGloves"/>
+        <Class value="Hands"/>
+        <CarryBehaviorArray value="Gloves1"/>
+    </CItem>
+    <CItem id="Gloves2">
+        <Face value="LeatherGloves"/>
+        <Class value="Hands"/>
+        <CarryBehaviorArray value="Gloves2"/>
+    </CItem>
+    <CItem id="Gloves3">
+        <Face value="ReinforcedHideGlove"/>
+        <Class value="Hands"/>
+        <CarryBehaviorArray value="Gloves3"/>
+    </CItem>
+    <CItem id="Gloves4">
+        <Face value="ScaleGloves"/>
+        <Class value="Hands"/>
+        <CarryBehaviorArray value="Gloves4"/>
+    </CItem>
+    <CItem id="Gloves5">
+        <Face value="BoneGloves"/>
+        <Class value="Hands"/>
+        <CarryBehaviorArray value="Gloves5"/>
+    </CItem>
+    <CItem id="Gloves6">
+        <Face value="ElectronicGloves"/>
+        <Class value="Hands"/>
+        <CarryBehaviorArray value="Gloves6"/>
+    </CItem>
+    <CItem id="Gloves7">
+        <Face value="MegaGloves"/>
+        <Class value="Hands"/>
+        <CarryBehaviorArray value="Gloves7"/>
+    </CItem>
+    <CItem id="Gloves8">
+        <Face value="SuperGloves"/>
+        <Class value="Hands"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+    <CItem id="Regen1">
+        <Face value="MinorRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen1"/>
+    </CItem>
+    <CItem id="Armor2">
+        <Face value="ReinforcedWoodenArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="18DamageReduction"/>
+    </CItem>
+    <CItem id="Armor3">
+        <Face value="IronArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="27DamageReduction"/>
+    </CItem>
+    <CItem id="Armor4">
+        <Face value="SteelArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="36DamageReduction"/>
+    </CItem>
+    <CItem id="Armor5">
+        <Face value="SilverArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="45DamageReduction"/>
+    </CItem>
+    <CItem id="Armor6">
+        <Face value="GoldArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="54DamageReduction"/>
+    </CItem>
+    <CItem id="Armor7">
+        <Face value="PlatinumArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="63DamageReduction"/>
+    </CItem>
+    <CItem id="Armor8">
+        <Face value="TitaniumArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="72DamageReduction"/>
+    </CItem>
+    <CItem id="Armor9">
+        <Face value="ChromiteArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="92DamageReduction"/>
+    </CItem>
+    <CItem id="Armor10">
+        <Face value="PyriteArmor"/>
+        <Class value="Shield"/>
+        <CarryBehaviorArray value="96DamageReduction"/>
+    </CItem>
+    <CItem id="Sword1">
+        <Face value="CopperBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword1"/>
+    </CItem>
+    <CItem id="Regen11">
+        <Face value="UltimateRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen11"/>
+        <Requirements value="DoesnothaveDominionTrain"/>
+    </CItem>
+    <CItem id="Regen2">
+        <Face value="LesserRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen2"/>
+    </CItem>
+    <CItem id="Regen3">
+        <Face value="CommonRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen3"/>
+    </CItem>
+    <CItem id="RingofSight2">
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="SpyGlasses12"/>
+    </CItem>
+    <CItem id="RingofSight3">
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="SpyGlasses13"/>
+    </CItem>
+    <CItem id="RingofSight4">
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="SpyGlasses14"/>
+    </CItem>
+    <CItem id="RingofSight5">
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="SpyGlasses15"/>
+    </CItem>
+    <CItem id="RingofSight6">
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="SpyGlasses16"/>
+    </CItem>
+    <CItemAbil id="RingofSight7">
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="SpyGlasses17"/>
+        <Abil value="BootsofSpeedLevel8"/>
+    </CItemAbil>
+    <CItem id="SpyGlasses1">
+        <Face value="RingofSight1"/>
+        <Class value="Feet"/>
+    </CItem>
+    <CItem id="Sword122">
+        <Face value="ElucidatorBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword122"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+    <CItem id="Sword1222">
+        <Face value="FinalBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword1222"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+    <CItem id="Sword13">
+        <Face value="PlutoniumBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Gloves8"/>
+        <CarryBehaviorArray value="Sword13"/>
+    </CItem>
+    <CItem id="Sword14">
+        <Face value="RadiantBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword14"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+    <CItem id="BootsofSpeedLevel1">
+        <Face value="BasicBootsofSpeedLevel1"/>
+        <Class value="Feet"/>
+        <CarryBehaviorArray value="BootsofSpeedLevel1"/>
+    </CItem>
+    <CItem id="Regen4">
+        <Face value="GreaterRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen4"/>
+    </CItem>
+    <CItem id="Regen5">
+        <Face value="SuperiorRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen5"/>
+    </CItem>
+    <CItem id="Regen6">
+        <Face value="MajorRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen6"/>
+    </CItem>
+    <CItem id="Regen7">
+        <Face value="UltraRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen7"/>
+    </CItem>
+    <CItem id="Regen8">
+        <Face value="ExtremeRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen8"/>
+    </CItem>
+    <CItem id="Regen9">
+        <Face value="MegaRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen9"/>
+    </CItem>
+    <CItem id="Regen10">
+        <Face value="EternalRegenerationPotion"/>
+        <Class value="Potion"/>
+        <CarryBehaviorArray value="Regen10"/>
+    </CItem>
+    <CItem id="Sword11">
+        <Face value="AtomizerBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword11"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+    <CItem id="Sword12">
+        <Face value="UltimateBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword12"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+    <CItem id="Amulet1">
+        <Face value="ZirconAmulet"/>
+        <Class value="Neck"/>
+    </CItem>
+    <CItem id="Sword2">
+        <Face value="IronBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword2"/>
+    </CItem>
+    <CItem id="Sword3">
+        <Face value="SteelBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword3"/>
+    </CItem>
+    <CItem id="Sword4">
+        <Face value="SilverBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword4"/>
+    </CItem>
+    <CItem id="Sword5">
+        <Face value="GoldenBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword5"/>
+    </CItem>
+    <CItem id="Sword6">
+        <Face value="PlatinumBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword6"/>
+    </CItem>
+    <CItem id="Sword7">
+        <Face value="MithrilBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword7"/>
+    </CItem>
+    <CItem id="Sword8">
+        <Face value="DiamondBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword8"/>
+    </CItem>
+    <CItem id="Sword17ZI">
+        <Face value="ProBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword17Z"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+    <CItem id="Sword9">
+        <Face value="EnergizerBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword9"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+    <CItem id="Sword10">
+        <Face value="PulverizerBlade"/>
+        <Class value="Sword"/>
+        <CarryBehaviorArray value="Sword10"/>
+        <CarryBehaviorArray value="Gloves8"/>
+    </CItem>
+</Catalog>

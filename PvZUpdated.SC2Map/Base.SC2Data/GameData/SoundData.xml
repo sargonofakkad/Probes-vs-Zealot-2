@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CSound id="AutomatedMineConstructorDeath" parent="Death">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="WoW Builder\Sounds\PeasantDeath.wav"/>
+    </CSound>
+    <CSound id="AutomatedMineConstructorReady" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="WoW Builder\Sounds\PeasantReady1.wav" FacialAnim="SCV_Ready00"/>
+    </CSound>
+    <CSound id="PvZAudioGold5minute" parent="Alert" Portrait="PvZAudio" Subtitle="Gold base 5 minutes" Speaker="AWS Polly Julia" Actor="" Line="1">
+        <AssetArray File="gold base 5 mins audio.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <PanLevel value="0.750000"/>
+        <ReverbBalance Room="-1000"/>
+        <ReverbRolloffBlend value="Linear"/>
+        <ReverbRolloffPoints Direct="1.000000" Room="0.250000"/>
+        <ReverbRolloffPoints Distance="15.000000" Direct="1.000000" Room="0.250000"/>
+        <SpeakerMix index="FrontLeft" value="0.700000"/>
+        <SpeakerMix index="FrontRight" value="0.700000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="PvZAudioBeholdShakurastemple" parent="Alert" Portrait="PvZAudio" Subtitle="Behold Shakuras Temple" Speaker="AWS Polly" Actor="" Line="1">
+        <AssetArray File="behold shakuras temple audio.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <PanLevel value="0.750000"/>
+        <ReverbBalance Room="-1000"/>
+        <ReverbRolloffBlend value="Linear"/>
+        <ReverbRolloffPoints Direct="1.000000" Room="0.250000"/>
+        <ReverbRolloffPoints Distance="15.000000" Direct="1.000000" Room="0.250000"/>
+        <SpeakerMix index="FrontLeft" value="0.700000"/>
+        <SpeakerMix index="FrontRight" value="0.700000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="PvZAudioMegabase2" parent="Alert" Portrait="PvZAudio" Subtitle="Mega Base 2" Speaker="AWS Polly Julia" Actor="" Line="1">
+        <AssetArray File="megabase2 audio.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <PanLevel value="0.750000"/>
+        <ReverbBalance Room="-1000"/>
+        <ReverbRolloffBlend value="Linear"/>
+        <ReverbRolloffPoints Direct="1.000000" Room="0.250000"/>
+        <ReverbRolloffPoints Distance="15.000000" Direct="1.000000" Room="0.250000"/>
+        <SpeakerMix index="FrontLeft" value="0.700000"/>
+        <SpeakerMix index="FrontRight" value="0.700000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="PvZAudioMegabase3" parent="Alert" Portrait="PvZAudio" Subtitle="Mega Base 3" Speaker="AWS Polly Julia" Actor="" Line="1">
+        <AssetArray File="megabase3 audio.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <PanLevel value="0.750000"/>
+        <ReverbBalance Room="-1000"/>
+        <ReverbRolloffBlend value="Linear"/>
+        <ReverbRolloffPoints Direct="1.000000" Room="0.250000"/>
+        <ReverbRolloffPoints Distance="15.000000" Direct="1.000000" Room="0.250000"/>
+        <SpeakerMix index="FrontLeft" value="0.700000"/>
+        <SpeakerMix index="FrontRight" value="0.700000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="PvZAudioMegabase4" parent="Alert" Portrait="PvZAudio" Subtitle="Mega Base 4" Speaker="AWS Polly Julia" Actor="" Line="1">
+        <AssetArray File="megabase4 audio.ogg" FacialGroup=""/>
+        <Flags index="AutoUnload" value="1"/>
+        <Flags index="Ignorable" value="0"/>
+        <Flags index="Wait" value="1"/>
+        <Category value="Mission"/>
+        <PanLevel value="0.750000"/>
+        <ReverbBalance Room="-1000"/>
+        <ReverbRolloffBlend value="Linear"/>
+        <ReverbRolloffPoints Direct="1.000000" Room="0.250000"/>
+        <ReverbRolloffPoints Distance="15.000000" Direct="1.000000" Room="0.250000"/>
+        <SpeakerMix index="FrontLeft" value="0.700000"/>
+        <SpeakerMix index="FrontRight" value="0.700000"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+</Catalog>
